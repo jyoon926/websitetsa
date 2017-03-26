@@ -84,7 +84,7 @@ nav ul li a {
 }
 
 .top1 {
-	background-image: url("https://images8.alphacoders.com/374/374852.jpg");
+	background-image: url("http://media-channel.nationalgeographic.com/media/uploads/photos/content/video/2016/09/30/776629827588_Digimedia_Mars_Big%20Thinker_09_HTSOM_04_Building%20Shelter_SEQ_v9a_DELIVERY_TXTD.00_00_13_08.Still001.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	height: = 100%;
@@ -150,6 +150,7 @@ nav ul li a {
 	height: 100%;
 	top: 100% - 30px;
 	overflow-x: hidden;
+	opacity: 0.9;
 }
 
 .heading1 {
