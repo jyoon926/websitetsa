@@ -152,7 +152,7 @@ nav ul li a {
 }
 
 .firstsection {
-	background-image: url("https://images.unsplash.com/photo-1438978280647-f359d95ebda4?dpr=1&auto=format&fit=crop&w=767&h=511&q=80&cs=tinysrgb&crop=");
+	background-image: url("/city.jpeg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -350,7 +350,7 @@ nav ul li a {
 .vehiclesandspacecrafts {
 	background-image: url("/saturnv.jpeg");
 	background-size: cover;
-	background-position: center+5vh;
+	background-position: center+3vh;
 	filter: brightness(100%);
 	background-attachment: fixed;
 	width: 100vw;
