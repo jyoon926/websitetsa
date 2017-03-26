@@ -242,7 +242,10 @@ nav ul li a {
 }
 
 .careertitle {
-	background: linear-gradient(to bottom right, blue, indigo);
+	background: linear-gradient(to bottom right, indigo, purple);
+	background: -webkit-linear-gradient(left top, indigo, purple); /* For Safari 5.1 to 6.0 */
+    	background: -o-linear-gradient(bottom right, indigo, purple); /* For Opera 11.1 to 12.0 */
+    	background: -moz-linear-gradient(bottom right, indigo, purple);
 	color: #E4F1FE; 
 	overflow-x: hidden;
 }
@@ -274,20 +277,29 @@ nav ul li a {
 	word-spacing: 8px;
 	text-transform: uppercase;
 	font-style: normal;
-	background: linear-gradient(to bottom right, blue, indigo);
+	background: linear-gradient(to bottom right, indigo, purple);
+	background: -webkit-linear-gradient(left top, indigo, purple); /* For Safari 5.1 to 6.0 */
+    	background: -o-linear-gradient(bottom right, indigo, purple); /* For Opera 11.1 to 12.0 */
+    	background: -moz-linear-gradient(bottom right, indigo, purple);
 	padding: 30px;
 	float: center;
 	overflow-x: hidden;
 }
 
 .picture1 {
-	background: linear-gradient(to bottom right, blue, indigo);
+	background: linear-gradient(to bottom right, indigo, purple);
+	background: -webkit-linear-gradient(left top, indigo, purple); /* For Safari 5.1 to 6.0 */
+    	background: -o-linear-gradient(bottom right, indigo, purple); /* For Opera 11.1 to 12.0 */
+    	background: -moz-linear-gradient(bottom right, indigo, purple);
 	padding: 20px;
 	overflow-x: hidden;
 }
 
 .careersection {
-	background: linear-gradient(to bottom right, blue, indigo);
+	background: linear-gradient(to bottom right, indigo, purple);
+	background: -webkit-linear-gradient(left top, indigo, purple); /* For Safari 5.1 to 6.0 */
+    	background: -o-linear-gradient(bottom right, indigo, purple); /* For Opera 11.1 to 12.0 */
+    	background: -moz-linear-gradient(bottom right, indigo, purple);
 	padding: 0 0 200px 0;
 	background-size: cover;
 	overflow-x: hidden;
