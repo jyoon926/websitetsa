@@ -31,14 +31,14 @@ body {
 }
 
 .header {
-	width: 100%;
+	width: 100vw;
 	position: fixed;
 	background-color: #01010a;
 	top: 0%;
 	font-color: white;
 	padding: 15px 15px 15px 15px;
 	margin: 0 0 0px 0;
-	z-index: 1000;
+	z-index: 999;
 	overflow-x: hidden;
 }
 
@@ -205,8 +205,9 @@ nav ul li a {
 
 .extraspace {
 	color: none;
-	margin: 17% 0 0 0;
+	top: 100vh;
 	background-size: 0% 0%;
+	font-size: 1px;
 }
 
 .heading2 {
@@ -249,8 +250,14 @@ nav ul li a {
 }
 
 .heading3 {
-	padding: 50px 30px 30px 30px;
+	padding: 200px;
 	overflow-x: hidden;
+	color: white;
+}
+
+.heading5 {
+	padding: 100px;
+	background-color: #E4F1FE;
 }
 
 .subtitle {
@@ -288,10 +295,10 @@ nav ul li a {
 }
 
 .careersection {
-	background: linear-gradient(to bottom right, indigo, #1f005e);
-	background: -webkit-linear-gradient(left top, indigo, #1f005e); /* For Safari 5.1 to 6.0 */
-    	background: -o-linear-gradient(bottom right, indigo, #1f005e); /* For Opera 11.1 to 12.0 */
-    	background: -moz-linear-gradient(bottom right, indigo, #1f005e);
+	background: linear-gradient(to bottom right, #3b61a5, #59ABE3);
+	background: -webkit-linear-gradient(left top, #3b61a5, #59ABE3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #3b61a5, #59ABE3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #3b61a5, #59ABE3);
 	padding: 0 0 200px 0;
 	background-size: cover;
 	overflow-x: hidden;
@@ -299,7 +306,7 @@ nav ul li a {
 
 .topthing {
 	top: 0;
-	font-size: 0.1px;
+	font-size: 10px;
 	overflow-x: hidden;
 }
 
@@ -313,3 +320,43 @@ nav ul li a {
 	overflow-x: scroll;
 }
 
+.subtitle3 {
+	font-family: Raleway, sans-serif;
+	font-size: 30px;
+	color: white;
+	letter-spacing: 8px;
+	word-spacing: 8px;
+	text-transform: uppercase;
+	font-style: normal;
+	padding: 0 0 50px 0;
+	float: center;
+	overflow-x: hidden;
+}
+
+.paragraph3 {
+	font-family: Raleway, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding: 50px 20% 93px 20%;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	line-height: 30px;
+	overflow-x: hidden;
+}
+
+
+.vehiclesandspacecrafts {
+	width: 100vw;
+	height: auto;
+}
+
+.vahimage {
+	size: cover;
+	position: absolute;
+	z-index: -100;
+	filter: brightness(80%);
+	width: 100vw;
+	height: auto;
+}
