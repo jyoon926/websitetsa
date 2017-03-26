@@ -150,7 +150,7 @@ nav ul li a {
 	height: 100%;
 	top: 100% - 30px;
 	overflow-x: hidden;
-	opacity: 0.9;
+	opacity: 1;
 }
 
 .heading1 {
