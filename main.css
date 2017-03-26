@@ -20,6 +20,16 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+::-moz-selection { /* Code for Firefox */
+    color: black;
+    background: white;
+}
+
+::selection {
+    color: black; 
+    background: white;
+}
+
 .header {
 	width: 100%;
 	position: fixed;
