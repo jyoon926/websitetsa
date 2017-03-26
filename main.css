@@ -288,10 +288,10 @@ nav ul li a {
 }
 
 .careersection {
-	background: linear-gradient(to bottom right, indigo, purple);
-	background: -webkit-linear-gradient(left top, indigo, purple); /* For Safari 5.1 to 6.0 */
-    	background: -o-linear-gradient(bottom right, indigo, purple); /* For Opera 11.1 to 12.0 */
-    	background: -moz-linear-gradient(bottom right, indigo, purple);
+	background: linear-gradient(to bottom right, indigo, #1f005e);
+	background: -webkit-linear-gradient(left top, indigo, #1f005e); /* For Safari 5.1 to 6.0 */
+    	background: -o-linear-gradient(bottom right, indigo, #1f005e); /* For Opera 11.1 to 12.0 */
+    	background: -moz-linear-gradient(bottom right, indigo, #1f005e);
 	padding: 0 0 200px 0;
 	background-size: cover;
 	overflow-x: hidden;
