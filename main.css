@@ -283,7 +283,6 @@ nav ul li a {
 	overflow-x: hidden;
 }
 
-
 .topthing {
 	top: 0;
 	font-size: 0.1px;
@@ -291,9 +290,8 @@ nav ul li a {
 }
 
 .timeline {
-	height: 20px;
+	height: 70vh;
 }
-
 
 .date {
 	background-color: #DCC6E0;
