@@ -348,15 +348,23 @@ nav ul li a {
 
 
 .vehiclesandspacecrafts {
+	background-image: url("/saturnv.jpg");
+	background-size: cover;
+	background-position: center;
+	filter: brightness(100%);
+	background-attachment: fixed;
 	width: 100vw;
-	height: auto;
 }
 
-.vahimage {
-	size: cover;
-	position: absolute;
-	z-index: -100;
-	filter: brightness(80%);
-	width: 100vw;
-	height: auto;
+.paragraph4 {
+	font-family: Raleway, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	text-align: left;
+	padding: 50px 22.5% 93px 22.5%;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	line-height: 30px;
+	overflow-x: hidden;
 }
