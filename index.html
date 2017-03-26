@@ -139,6 +139,9 @@
 				  <div class="overlay">
 					 <div class="text">Avionic engineers design and program electronic systems on satellites and spaceships. They also provide computer support to all communication, navigation, and guidance systems.</div>
 				  </div>
+				  <div class="hoveroverme">
+				  	<div class="hoverover"><center>Hover for more info.</center></div>
+				  </div>
 				</div>
 
 				</body>
@@ -210,6 +213,9 @@
 				  <div class="overlay">
 					 <div class="text">Payload specialists organize and fly a payload into space and to its destination. Payload specialists can be trained to be mission specialists.</div>
 				  </div>
+				  <div class="hoveroverme">
+				  	<div class="hoverover"><center>Hover for more info.</center></div>
+				  </div>
 				</div>
 
 				</body>
@@ -278,6 +284,9 @@
 				  <div class="overlay">
 					 <div class="text">Together with the commander and pilot, they plan out crew activities, missions, use of rations, and manage the space equipment. Mission specialists sometimes start off as payload specialist. 
 					</div>
+				  </div>
+				  <div class="hoveroverme">
+				  	<div class="hoverover"><center>Hover for more info.</center></div>
 				  </div>
 				</div>
 
@@ -350,6 +359,9 @@
 				  <div class="overlay">
 					 <div class="text">Aerospace engineers are vital to the functioning of a ship.  They design the control panel, guidance system, computer system, and propulsion system. They also conduct experiments, looking at the structural stability, and test the flight of a ship.</div>
 				  </div>
+				  <div class="hoveroverme">
+				  	<div class="hoverover"><center>Hover for more info.</center></div>
+				  </div>
 				</div>
 
 				</body>
@@ -392,14 +404,18 @@
 				  opacity: 1;
 				}
 
+				.container:hover .hoveroverme {
+				  opacity: 0;
+				}
+
 				.text {
 				  color: #34495e;
 				  font-family: Raleway, sans-serif;
 				  font-weight: bold;
 				  font-size: 20px;
 				  text-align: center;
-				  letter-spacing: 3px;
-				  word-spacing: 4px;
+				  letter-spacing: 2px;
+				  word-spacing: 3px;
 				  line-height: 30px;
 				  position: absolute;
 				  top: 50%;
@@ -413,6 +429,38 @@
 				  border-radius: 20px;
 				  width: 30vw;
 				}
+
+				.hoveroverme {
+				  position: absolute;
+				  top: 0;
+				  bottom: 0;
+				  left: 0;
+				  right: 0;
+				  height: 100%;
+				  width: 100%;
+				  opacity: 1;
+				  transition: .5s ease;
+				  background: none;
+				}
+
+				.hoverover {
+				  color: white;
+				  font-family: Raleway, sans-serif;
+				  font-weight: bold;
+				  font-size: 20px;
+				  text-align: center;
+				  letter-spacing: 2px;
+				  word-spacing: 3px;
+				  line-height: 30px;
+				  position: absolute;
+				  top: 50%;
+				  left: 50%;
+				  transform: translate(-50%, -50%);
+				  -ms-transform: translate(-50%, -50%);
+				  font-style: italic;
+				  opacity: 1;
+				}
+
 				</style>
 				</head>
 				<body>
@@ -421,6 +469,9 @@
 				  <img src="https://images.unsplash.com/photo-1446776709462-d6b525c57bd3?dpr=1&amp;auto=format&amp;fit=crop&amp;w=767&amp;h=511&amp;q=80&amp;cs=tinysrgb&amp;crop=" alt="Avatar" class="image">
 				  <div class="overlay" id="parent">
 					 <div class="text" id="child">CAD operators provide the guidelines and technical details of the product or structure being built. They draw blueprints and drawings on design programs for their employer.</div>
+				  </div>
+				  <div class="hoveroverme">
+				  	<div class="hoverover"><center>Hover for more info.</center></div>
 				  </div>
 				
 				</div>
