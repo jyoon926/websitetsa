@@ -242,7 +242,7 @@ nav ul li a {
 }
 
 .careertitle {
-	background: linear-gradient(to right, #22313F, #3d4c5b, #22313F);
+	background: linear-gradient(to bottom right, blue, indigo);
 	color: #E4F1FE; 
 	overflow-x: hidden;
 }
@@ -274,20 +274,20 @@ nav ul li a {
 	word-spacing: 8px;
 	text-transform: uppercase;
 	font-style: normal;
-	background: linear-gradient(to right, #22313F, #3d4c5b, #22313F);
+	background: linear-gradient(to bottom right, blue, indigo);
 	padding: 30px;
 	float: center;
 	overflow-x: hidden;
 }
 
 .picture1 {
-	background: linear-gradient(to right, #22313F, #3d4c5b, #22313F);
+	background: linear-gradient(to bottom right, blue, indigo);
 	padding: 20px;
 	overflow-x: hidden;
 }
 
 .careersection {
-	background: linear-gradient(to right, #22313F, #3d4c5b, #22313F);
+	background: linear-gradient(to bottom right, blue, indigo);
 	padding: 0 0 200px 0;
 	background-size: cover;
 	overflow-x: hidden;
