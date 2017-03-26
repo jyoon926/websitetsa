@@ -277,7 +277,7 @@ nav ul li a {
 }
 
 .careersection {
-	background-color: #22313F;
+	background: linear-gradient(to right, #22313F, #293e51, #22313F);
 	
 	padding: 0 0 200px 0;
 	background-size: cover;
