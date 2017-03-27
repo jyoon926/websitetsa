@@ -1,5 +1,9 @@
 # websitetsa
 
-This is for the 2017 National TSA Conference. Level I Website Design.
+For the 2017 National TSA Conference. 
 
-Ithaca, NY
+Level I Website Design.
+
+www.websitedesigntsa.cf
+
+DMSTSA
