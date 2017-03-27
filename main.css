@@ -113,7 +113,7 @@ nav ul li a {
 .missiontomars {
 	background-color: none;
 	font-family: Roboto Slab, serif;
-	font-size: 85px;
+	font-size: 6rem;
 	font-weight: normal;
 	margin: 40vh 0 0 0;
 	letter-spacing: 6.5px;
@@ -131,7 +131,7 @@ nav ul li a {
 
 .subtitle1{
 	font-family: Roboto Slab, serif;
-	font-size: 40px;
+	font-size: 3rem;
 	color: white;
 	-webkit-animation-duration: 1.5s;
 	-webkit-animation-delay: 0.5s;
