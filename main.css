@@ -36,7 +36,7 @@ body {
 	background-color: #01010a;
 	top: 0%;
 	font-color: white;
-	padding: 15px 15px 15px 15px;
+	padding: 1vw 1vw 1vw 1vw;
 	margin: 0 0 0px 0;
 	z-index: 999;
 	overflow-x: hidden;
@@ -105,9 +105,9 @@ nav ul li a {
 }
 
 .tsaemblem {
-	height: 40px;
-	width: 70px;
-	top: 0;
+	height: 2vw;
+	width: 5vw;
+	top: .5vw;
 	bottom: 0;
 	margin: 0px;
 	background-color: none;
@@ -123,7 +123,7 @@ nav ul li a {
 .missiontomars {
 	background-color: none;
 	font-family: Roboto Slab, serif;
-	font-size: 5rem;
+	font-size: 5vw;
 	font-weight: normal;
 	margin: 42vh 0 0 0;
 	letter-spacing: 6.5px;
@@ -141,7 +141,7 @@ nav ul li a {
 
 .subtitle1{
 	font-family: Roboto Slab, serif;
-	font-size: 2rem;
+	font-size: 2vw;
 	color: white;
 	-webkit-animation-duration: 1.5s;
 	-webkit-animation-delay: 0.5s;
@@ -165,9 +165,9 @@ nav ul li a {
 
 .heading1 {
 	font-family: Raleway, sans-serif;
-	font-size: 60px;
+	font-size: 3vw;
 	color: white;
-	margin: 100px 0 50px 0;
+	margin: 5vw 0 2.5vw 0;
 	letter-spacing: 8px;
 	word-spacing: 8px;
 	text-transform: uppercase;
@@ -179,13 +179,13 @@ nav ul li a {
 .paragraph {
 	font-family: Raleway, sans-serif;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 1vw;
 	color: white;
 	text-align: center;
-	padding: 93px 20% 120px 20%;
+	padding: 5vw 20% 6vw 20%;
 	letter-spacing: 2px;
 	word-spacing: 3px;
-	line-height: 30px;
+	line-height: 2vw;
 	overflow-x: hidden;
 }
 
@@ -213,7 +213,7 @@ nav ul li a {
 .heading2 {
 	z-index: -10;
 	font-family: Raleway, sans-serif;
-	font-size: 60px;
+	font-size: 3vw;
 	color: #34495e;
 	margin: 0px 0 0 0;
 	letter-spacing: 8px;
@@ -221,7 +221,7 @@ nav ul li a {
 	text-transform: uppercase;
 	font-style: italic;
 	background-color: #E4F1FE;
-	padding: 200px;
+	padding: 10vw;
 	overflow-x: hidden;
 	background: none;
 }
@@ -229,7 +229,7 @@ nav ul li a {
 .heading4 {
 	z-index: -10;
 	font-family: Raleway, sans-serif;
-	font-size: 60px;
+	font-size: 3vw;
 	color: white;
 	margin: 0px 0 0 0;
 	letter-spacing: 8px;
@@ -239,7 +239,7 @@ nav ul li a {
 	background-image: url('https://images.unsplash.com/photo-1484903079635-f63c02f8b149?dpr=1&amp;auto=format&amp;fit=crop&amp;w=767&amp;h=511&amp;q=80&amp;cs=tinysrgb&amp;crop=');
 	background-attachment: fixed;
 	background-position: center;
-	padding: 200px;
+	padding: 10vw;
 	overflow-x: hidden;
 }
 
@@ -250,7 +250,7 @@ nav ul li a {
 }
 
 .heading3 {
-	padding: 200px;
+	padding: 10vw;
 	overflow-x: hidden;
 	color: white;
 }
@@ -276,13 +276,13 @@ nav ul li a {
 
 .subtitles {
 	font-family: Raleway, sans-serif;
-	font-size: 30px;
+	font-size: 2vw;
 	color: #E4F1FE;
 	letter-spacing: 8px;
 	word-spacing: 8px;
 	text-transform: uppercase;
 	font-style: normal;
-	padding: 30px;
+	padding: 2vw;
 	float: center;
 	overflow-x: hidden;
 	background: none;
@@ -311,7 +311,7 @@ nav ul li a {
 }
 
 .timeline {
-	height: 70vh;
+	height: 40vw;
 }
 
 .date {
@@ -322,27 +322,27 @@ nav ul li a {
 
 .subtitle3 {
 	font-family: Raleway, sans-serif;
-	font-size: 30px;
+	font-size: 2vw;
 	color: white;
 	letter-spacing: 8px;
 	word-spacing: 8px;
 	text-transform: uppercase;
 	font-style: normal;
-	padding: 0 0 50px 0;
+	padding: 0 0 3vw 0;
 	float: center;
 	overflow-x: hidden;
 }
 
 .paragraph3 {
 	font-family: Raleway, sans-serif;
-	font-weight: bold;
-	font-size: 20px;
+	font-weight: normal;
+	font-size: 1vw;
 	color: white;
 	text-align: center;
-	padding: 50px 20% 93px 20%;
+	padding: 3vw 20% 3vw 20%;
 	letter-spacing: 2px;
 	word-spacing: 3px;
-	line-height: 30px;
+	line-height: 2vw;
 	overflow-x: hidden;
 }
 
@@ -358,13 +358,26 @@ nav ul li a {
 
 .paragraph4 {
 	font-family: Raleway, sans-serif;
-	font-weight: bold;
-	font-size: 20px;
+	font-weight: normal;
+	font-size: 1vw;
 	color: white;
 	text-align: left;
-	padding: 50px 22.5% 93px 22.5%;
+	padding: 3vw 22.5% 3vw 22.5%;
 	letter-spacing: 2px;
 	word-spacing: 3px;
-	line-height: 30px;
+	line-height: 2vw;
+	overflow-x: hidden;
+}
+
+.paragraph5 {
+	font-family: Raleway, sans-serif;
+	font-weight: normal;
+	font-size: 1vw;
+	color: white;
+	text-align: left;
+	padding: 3vw 22.5% 10vw 22.5%;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+	line-height: 2vw;
 	overflow-x: hidden;
 }
