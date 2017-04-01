@@ -97,7 +97,7 @@ nav ul li a {
 }
 
 .top1 {
-	background-image: url("/mars.jpg");
+	background-image: url("http://www.lnsaon.com/i/2017/03/mars-wallpaper-hd.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	height: = 100%;
@@ -174,9 +174,10 @@ nav ul li a {
 	letter-spacing: 8px;
 	word-spacing: 8px;
 	text-transform: uppercase;
-	font-style: italic;
+	font-style: normal;
 	padding: 100px 0 0 0;
 	overflow-x: hidden;
+
 }
 
 .paragraph {
@@ -217,16 +218,17 @@ nav ul li a {
 	z-index: -10;
 	font-family: Raleway, sans-serif;
 	font-size: 3vw;
-	color: #34495e;
+	color: white;
 	margin: 0px 0 0 0;
 	letter-spacing: 8px;
 	word-spacing: 8px;
 	text-transform: uppercase;
-	font-style: italic;
+	font-style: normal;
 	background-color: #E4F1FE;
 	padding: 10vw;
 	overflow-x: hidden;
 	background: none;
+	text-transform: capitalize;
 }
 
 .heading4 {
@@ -238,18 +240,20 @@ nav ul li a {
 	letter-spacing: 8px;
 	word-spacing: 8px;
 	text-transform: uppercase;
-	font-style: italic;
+	font-style: normal;
 	background-image: url('https://images.unsplash.com/photo-1484903079635-f63c02f8b149?dpr=1&amp;auto=format&amp;fit=crop&amp;w=767&amp;h=511&amp;q=80&amp;cs=tinysrgb&amp;crop=');
 	background-attachment: fixed;
 	background-position: center;
 	padding: 10vw;
 	overflow-x: hidden;
+	text-transform: capitalize;
 }
 
 .careertitle {
 	color: #E4F1FE; 
 	overflow-x: hidden;
 	background: none;
+	text-transform: capitalize;
 }
 
 .heading3 {
@@ -260,7 +264,6 @@ nav ul li a {
 
 .heading5 {
 	padding: 200px;
-	background-color: #E4F1FE;
 }
 
 .subtitle {
@@ -289,6 +292,7 @@ nav ul li a {
 	float: center;
 	overflow-x: hidden;
 	background: none;
+	text-transform: capitalize;
 }
 
 .picture1 {
@@ -334,6 +338,7 @@ nav ul li a {
 	padding: 0 0 3vw 0;
 	float: center;
 	overflow-x: hidden;
+	text-transform: capitalize;
 }
 
 .paragraph3 {
@@ -385,86 +390,5 @@ nav ul li a {
 	overflow-x: hidden;
 }
 
-.paci {
-	display: flex;
-}
-
-.pacp {
-	display: flex;
-}
-
-.pacc {
-	display: flex;
-}
-
-.paciconclusion {
-	display: flex;
-}
-
-.pacsubtitle1 {
-	float:left;
-	font-family: 'Raleway', sans-serif;
-	font-size: 2vw;
-	color: white;
-	letter-spacing: 8px;
-	word-spacing: 8px;
-	text-transform: uppercase;
-	font-style: normal;
-	background-color: #59ABE3;
-	width: 50%;
-	overflow-x: hidden;
-	flex: 1;
-	text-align: center;
-	vertical-align: middle;
-	padding: 7vw 0;
-}
-
-.pacparagraph1 {
-	float: right;
-	font-family: 'Raleway', sans-serif;
-	font-size: 0.8vw;
-	color: white;
-	letter-spacing: 1px;
-	word-spacing: 1px;
-	text-transform: uppercase;
-	font-style: normal;
-	background-color: #89C4F4;
-	padding: 5vw 5vw;
-	text-align: center;
-	line-height: 2vw;
-	width: 50%;
-}
-
-.pacsubtitle {
-	float:right;
-	font-family: 'Raleway', sans-serif;
-	font-size: 2vw;
-	color: white;
-	letter-spacing: 8px;
-	word-spacing: 8px;
-	text-transform: uppercase;
-	font-style: normal;
-	background-color: #59ABE3;
-	width: 50%;
-	overflow-x: hidden;
-	flex: 1;
-	text-align: center;
-	vertical-align: middle;
-	padding: 7vw 0;
-}
-
-.pacparagraph {
-	float: left;
-	font-family: 'Raleway', sans-serif;
-	font-size: 0.8vw;
-	color: white;
-	letter-spacing: 1px;
-	word-spacing: 1px;
-	text-transform: uppercase;
-	font-style: normal;
-	background-color: #89C4F4;
-	padding: 5vw 5vw;
-	text-align: center;
-	line-height: 2vw;
-	width: 50%;
+.prosandcons {
 }
