@@ -20,29 +20,29 @@ body {
     font-family: 'Roboto', sans-serif;
     font-family: 'Raleway', sans-serif;
     font-family: 'Quicksand', sans-serif;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Cinzel', serif;
 
 }
 
 ::-moz-selection { /* Code for Firefox */
-    color: black;
-    background: white;
+    color: #999;
+    background: black;
 }
 
 ::selection {
-    color: black; 
-    background: white;
+    color: #999; 
+    background: black;
 }
 
 .header {
 	width: 100vw;
 	position: fixed;
-	background: black;
-	background: -webkit-linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3),rgba(0,0,0,0));
-	background: -o-linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3),rgba(0,0,0,0)); 
-	background: -moz-linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3),rgba(0,0,0,0));
-	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3),rgba(0,0,0,0));
 	top: 0%;
+	background-color:transparent;
+	background: -webkit-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0));
+	background: -o-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)); 
+	background: -moz-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0));
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0));
 	font-color: white;
 	padding: 1vw 1vw 1vw 1vw;
 	margin: 0 0 0px 0;
@@ -115,7 +115,7 @@ nav ul li a {
 .tsaemblem {
 	height: 2vw;
 	width: 5vw;
-	top: .2vw;
+	top: 0vw;
 	bottom: 0;
 	margin: 0px;
 	background-color: none;
@@ -130,10 +130,10 @@ nav ul li a {
 
 .missiontomars {
 	background-color: none;
-	font-family: 'Libre Baskerville', serif;
-	font-size: 4vw;
+	font-family: 'Cinzel', serif;
+	font-size: 5vw;
 	font-weight: normal;
-	margin: 46vh 0 48vh 0;
+	margin: 43vh 0 48vh 0;
 	letter-spacing: 6.5px;
 	word-spacing: 5px;
 	-webkit-animation-duration: 1.5s;
@@ -147,21 +147,20 @@ nav ul li a {
 }
 
 .firstsection {
-	background-color: white;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
 	height: 100%;
 	top: 100% - 30px;
 	overflow-x: hidden;
+	text-shadow: 0px 0px 1px rgba(0,0,0,0.1);
+	background-image: url(http://www.allmacwallpaper.com/get/iMac-27-inch-wallpapers/Starry-sky-2560x1440/5153-10.jpg);
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .heading1 {
-	font-family: 'Raleway', sans-serif;
-	font-size: 2.5vw;
-	color: black;
-	margin: 5vw 0 5vw 0;
+	font-family: 'Cinzel', serif;
+	font-size: 2vw;
+	color: white;
+	margin: 3vw 0 3vw 0;
 	letter-spacing: 8px;
 	word-spacing: 8px;
 	text-transform: uppercase;
@@ -175,9 +174,9 @@ nav ul li a {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	font-size: 1vw;
-	color: black;
+	color: white;
 	text-align: center;
-	padding: 4vw 20% 10vw 20%;
+	padding: 3vw 20% 6vw 20%;
 	letter-spacing: 2px;
 	word-spacing: 3px;
 	line-height: 2vw;
@@ -208,7 +207,7 @@ nav ul li a {
 
 .heading2 {
 	z-index: -10;
-	font-family: Raleway, sans-serif;
+	font-family: 'Cinzel', serif;
 	font-size: 3vw;
 	color: white;
 	margin: 0px 0 0 0;
@@ -225,7 +224,7 @@ nav ul li a {
 
 .heading4 {
 	z-index: -10;
-	font-family: Raleway, sans-serif;
+	font-family: 'Cinzel', serif;
 	font-size: 3vw;
 	color: white;
 	margin: 0px 0 0 0;
@@ -242,7 +241,7 @@ nav ul li a {
 }
 
 .careertitle {
-	color: #E4F1FE; 
+	color: black; 
 	overflow-x: hidden;
 	background: none;
 	text-transform: capitalize;
@@ -272,21 +271,6 @@ nav ul li a {
 	overflow-x: hidden;
 }
 
-.subtitles {
-	font-family: Raleway, sans-serif;
-	font-size: 2vw;
-	color: #E4F1FE;
-	letter-spacing: 8px;
-	word-spacing: 8px;
-	text-transform: uppercase;
-	font-style: normal;
-	padding: 2vw;
-	float: center;
-	overflow-x: hidden;
-	background: none;
-	text-transform: capitalize;
-}
-
 .picture1 {
 	padding: 20px;
 	overflow-x: hidden;
@@ -294,10 +278,7 @@ nav ul li a {
 }
 
 .careersection {
-	background: linear-gradient(to bottom right, #3b61a5, #59ABE3, #3b61a5);
-	background: -webkit-linear-gradient(left top, #3b61a5, #59ABE3, #3b61a5); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(bottom right, #3b61a5, #59ABE3, #3b61a5); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right, #3b61a5, #59ABE3, #3b61a5);
+	background-color: white;
 	padding: 0 0 200px 0;
 	background-size: cover;
 	overflow-x: hidden;
@@ -320,7 +301,7 @@ nav ul li a {
 }
 
 .subtitle3 {
-	font-family: Raleway, sans-serif;
+	font-family: 'Cinzel', serif;
 	font-size: 2vw;
 	color: white;
 	letter-spacing: 8px;
@@ -335,7 +316,7 @@ nav ul li a {
 
 .paragraph3 {
 	font-family: Raleway, sans-serif;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 1vw;
 	color: white;
 	text-align: center;
@@ -358,7 +339,7 @@ nav ul li a {
 
 .paragraph4 {
 	font-family: Raleway, sans-serif;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 1vw;
 	color: white;
 	text-align: left;
@@ -371,7 +352,7 @@ nav ul li a {
 
 .paragraph5 {
 	font-family: Raleway, sans-serif;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 1vw;
 	color: white;
 	text-align: left;
@@ -383,4 +364,174 @@ nav ul li a {
 }
 
 .prosandcons {
+}
+
+.a {
+	display: inline-block;
+}
+
+.image1 {
+	width: 33%;
+	float: left;
+}
+
+.image2 {
+	width: 33%;
+	float: left;
+}
+
+.image3 {
+	width: 33%;
+	float: left;
+}
+
+.image4 {
+	width: 33%;
+	float: left;
+	margin: 0 0 0 17%;
+}
+
+.image5 {
+	width: 33%;
+	float: left;
+}
+
+.text1 {
+	margin: 0 3% 0 3%;
+	width: 27%;
+	float: left;
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 0.8vw;
+	color: black;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 1.5vw;
+}
+
+.text2 {
+	margin: 0 3% 0 3%;
+	width: 27%;
+	float: left;
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 0.8vw;
+	color: black;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 1.5vw;
+}
+
+.text3 {
+	margin: 0 3% 9% 3%;
+	width: 27%;
+	float: left;
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 0.8vw;
+	color: black;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 1.5vw;
+}
+
+.text4 {
+	width: 27%;
+	float: left;
+	margin: 0 3% 0 20%;
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 0.8vw;
+	color: black;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 1.5vw;
+}
+
+.text5 {
+	margin: 0 3% 0 3%;
+	width: 27%;
+	float: left;
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 0.8vw;
+	color: black;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 1.5vw;
+}
+
+.ctitle1 {
+	margin: 3% 3% 0.5% 3%;
+	width: 27%;
+	float: left;
+	text-align: left;
+	font-family: 'Cinzel', serif;
+	font-size: 1.5vw;
+	color: black;
+	letter-spacing: 4px;
+	word-spacing: 4px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.ctitle2 {
+	margin: 3% 3% 0.5% 3%;
+	width: 27%;
+	float: left;
+	text-align: left;
+	font-family: 'Cinzel', serif;
+	font-size: 1.5vw;
+	color: black;
+	letter-spacing: 4px;
+	word-spacing: 4px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.ctitle3 {
+	margin: 3% 3% 0.5% 3%;
+	width: 27%;
+	float: left;
+	text-align: left;
+	font-family: 'Cinzel', serif;
+	font-size: 1.5vw;
+	color: black;
+	letter-spacing: 4px;
+	word-spacing: 4px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.ctitle4 {
+	width: 27%;
+	float: left;
+	margin: 3% 3% 0.5% 20%;
+	text-align: left;
+	font-family: 'Cinzel', serif;
+	font-size: 1.5vw;
+	color: black;
+	letter-spacing: 4px;
+	word-spacing: 4px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.ctitle5 {
+	width: 27%;
+	float: left;
+	margin: 3% 3% 0.5% 3%;
+	text-align: left;
+	font-family: 'Cinzel', serif;
+	font-size: 1.5vw;
+	color: black;
+	letter-spacing: 4px;
+	word-spacing: 4px;
+	font-style: normal;
+	font-weight: bold;
 }
