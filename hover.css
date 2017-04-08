@@ -1588,6 +1588,7 @@
   text-decoration: none;
   padding: 5px 10px;
   font-size: 0.9vw;
+  font-weight: bold;
 }
 .hvr-radial-out:before {
   content: "";
@@ -1609,7 +1610,7 @@
   transition-timing-function: ease-out;
   color: black;
   font-size: 0.9vw;
-
+  font-weight: bold;
 }
 .hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
   color:  black;
