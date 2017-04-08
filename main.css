@@ -294,6 +294,17 @@ nav ul li a {
 	height: 40vw;
 }
 
+
+.vehiclesandspacecrafts {
+	background-image: url("/saturnv.jpeg");
+	background-size: cover;
+	background-position: center+3vh;
+	filter: brightness(100%);
+	background-attachment: fixed;
+	width: 100vw;
+	filter:blur(2px);
+}
+
 .date {
 	background-color: #DCC6E0;
 	background-size: cover;
@@ -312,6 +323,7 @@ nav ul li a {
 	float: center;
 	overflow-x: hidden;
 	text-transform: capitalize;
+	filter:blur(0px);
 }
 
 .paragraph3 {
@@ -325,16 +337,7 @@ nav ul li a {
 	word-spacing: 3px;
 	line-height: 2vw;
 	overflow-x: hidden;
-}
-
-
-.vehiclesandspacecrafts {
-	background-image: url("/saturnv.jpeg");
-	background-size: cover;
-	background-position: center+3vh;
-	filter: brightness(100%);
-	background-attachment: fixed;
-	width: 100vw;
+	filter:blur(0px);
 }
 
 .paragraph4 {
@@ -348,6 +351,7 @@ nav ul li a {
 	word-spacing: 3px;
 	line-height: 2vw;
 	overflow-x: hidden;
+	filter:blur(0px);
 }
 
 .paragraph5 {
@@ -361,6 +365,7 @@ nav ul li a {
 	word-spacing: 3px;
 	line-height: 2vw;
 	overflow-x: hidden;
+	filter:blur(0px);
 }
 
 .prosandcons {
