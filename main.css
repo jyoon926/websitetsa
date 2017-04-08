@@ -302,7 +302,6 @@ nav ul li a {
 	filter: brightness(100%);
 	background-attachment: fixed;
 	width: 100vw;
-	filter:blur(2px);
 }
 
 .date {
@@ -323,7 +322,6 @@ nav ul li a {
 	float: center;
 	overflow-x: hidden;
 	text-transform: capitalize;
-	filter:blur(0);
 }
 
 .paragraph3 {
@@ -337,7 +335,6 @@ nav ul li a {
 	word-spacing: 3px;
 	line-height: 2vw;
 	overflow-x: hidden;
-	filter:blur(0);
 }
 
 .paragraph4 {
@@ -351,7 +348,6 @@ nav ul li a {
 	word-spacing: 3px;
 	line-height: 2vw;
 	overflow-x: hidden;
-	filter:blur(0);
 }
 
 .paragraph5 {
@@ -365,7 +361,6 @@ nav ul li a {
 	word-spacing: 3px;
 	line-height: 2vw;
 	overflow-x: hidden;
-	filter:blur(0);
 }
 
 .prosandcons {
