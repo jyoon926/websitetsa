@@ -361,6 +361,8 @@
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
+  display: block;
+  margin: auto;
 }
 .hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
   -webkit-animation-name: hvr-bob-float, hvr-bob;
@@ -377,6 +379,8 @@
   animation-fill-mode: forwards;
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
+  display: block;
+  margin: auto;
 }
 
 /* Hang */
@@ -384,28 +388,40 @@
   0% {
     -webkit-transform: translateY(8px);
     transform: translateY(8px);
+    display: block;
+    margin: auto;
   }
   50% {
     -webkit-transform: translateY(4px);
     transform: translateY(4px);
+    display: block;
+    margin: auto;
   }
   100% {
     -webkit-transform: translateY(8px);
     transform: translateY(8px);
+    display: block;
+    margin: auto;
   }
 }
 @keyframes hvr-hang {
   0% {
     -webkit-transform: translateY(8px);
     transform: translateY(8px);
+    display: block;
+    margin: auto;
   }
   50% {
     -webkit-transform: translateY(4px);
     transform: translateY(4px);
+    display: block;
+    margin: auto;
   }
   100% {
     -webkit-transform: translateY(8px);
     transform: translateY(8px);
+    display: block;
+    margin: auto;
   }
 }
 @-webkit-keyframes hvr-hang-sink {
@@ -426,6 +442,8 @@
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
+  display: block;
+  margin: auto;
 }
 .hvr-hang:hover, .hvr-hang:focus, .hvr-hang:active {
   -webkit-animation-name: hvr-hang-sink, hvr-hang;
@@ -442,6 +460,8 @@
   animation-fill-mode: forwards;
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
+  display: block;
+  margin: auto;
 }
 
 /* Skew */
@@ -1588,7 +1608,7 @@
   text-decoration: none;
   padding: 5px 10px;
   font-size: 0.9vw;
-  font-weight: bold;
+  font-weight: bolder;
 }
 .hvr-radial-out:before {
   content: "";
@@ -1610,7 +1630,7 @@
   transition-timing-function: ease-out;
   color: black;
   font-size: 0.9vw;
-  font-weight: bold;
+  font-weight: bolder;
 }
 .hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
   color:  black;
