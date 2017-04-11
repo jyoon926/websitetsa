@@ -102,14 +102,16 @@ nav ul li a {
 }
 
 .top1 {
-	background-image: url("http://www.lnsaon.com/i/2017/03/mars-wallpaper-hd.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-color: #2C3E50;
 	height: = 100%;
 	width: = 100%;
 	background-size: cover;
 	background-position: top;
 	overflow-x: hidden;
+}
+
+.top {
+	attachment: fixed;
 }
 
 .tsaemblem {
@@ -130,20 +132,60 @@ nav ul li a {
 
 .missiontomars {
 	background-color: none;
-	font-family: 'Cinzel', serif;
-	font-size: 5vw;
-	font-weight: normal;
-	margin: 43vh 0 48vh 0;
-	letter-spacing: 6.5px;
-	word-spacing: 5px;
-	-webkit-animation-duration: 1.5s;
-	-webkit-animation-delay: 0.25s;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 6vh;
+	font-weight: bold;
+	margin: 42vh 0 2vh 15vh;
+	letter-spacing: 4px;
+	word-spacing: 3px;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 0.05s;
 	perspective: 1px;
 	-webkit-perspective: 1px;
 	color: white;
-	position: center center;
 	top: 50%;
 	overflow-x: hidden;
+	text-align: left;
+}
+
+.willweachievethisgoal{
+	margin: 0 40vw 23vh 15vh;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 4vh;
+	font-weight: bolder;
+	letter-spacing: 3px;
+	word-spacing: 2px;
+	color: white;
+	border-bottom: 3px solid white;
+	padding-bottom: 3vh;
+	-webkit-animation-duration: 2.05s;
+}
+
+.scrollarrow {
+	display: block;
+    margin: auto;
+	width: 5vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+}
+
+.scrollarrow:hover {
+	background-color: #22313F;
+	border-radius: 5vw;
+	width: 5vw;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+}
+
+.scrollarrow2 {
+	display: block;
+    margin: auto;
+	height: 3.1vw;
+	color: #2C3E50;
 }
 
 .firstsection {
@@ -151,14 +193,14 @@ nav ul li a {
 	top: 100% - 30px;
 	overflow-x: hidden;
 	text-shadow: 0px 0px 1px rgba(0,0,0,0.1);
-	background-image: url(http://www.allmacwallpaper.com/get/iMac-27-inch-wallpapers/Starry-sky-2560x1440/5153-10.jpg);
+	background-color: #67809F;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 .heading1 {
-	font-family: 'Cinzel', serif;
-	font-size: 2vw;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 3vw;
 	color: white;
 	margin: 3vw 0 3vw 0;
 	letter-spacing: 8px;
@@ -207,7 +249,7 @@ nav ul li a {
 
 .heading2 {
 	z-index: -10;
-	font-family: 'Cinzel', serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 3vw;
 	color: white;
 	margin: 0px 0 0 0;
@@ -241,10 +283,10 @@ nav ul li a {
 }
 
 .careertitle {
-	color: black; 
+	color: white; 
 	overflow-x: hidden;
 	background: none;
-	text-transform: capitalize;
+	text-transform: uppercase;
 }
 
 .heading3 {
@@ -278,7 +320,11 @@ nav ul li a {
 }
 
 .careersection {
-	background-color: white;
+	background: #22313F; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left top, #22313F, #445e77); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right, #22313F, #445e77); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right, #22313F, #445e77); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right, #22313F, #445e77); /* Standard syntax */
 	padding: 0 0 200px 0;
 	background-size: cover;
 	overflow-x: hidden;
@@ -373,33 +419,58 @@ nav ul li a {
 .image1 {
 	width: 33%;
 	float: left;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 0px 25px 0 rgba(0, 0, 0, 0.3), 0 0px 50px 0 rgba(0, 0, 0, 0.19);
+	transition-duration: .5s;
 }
 
 .image2 {
 	width: 33%;
 	float: left;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 0px 25px 0 rgba(0, 0, 0, 0.3), 0 0px 50px 0 rgba(0, 0, 0, 0.19);
+	transition-duration: .5s;
 }
 
 .image3 {
 	width: 33%;
 	float: left;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 0px 25px 0 rgba(0, 0, 0, 0.3), 0 0px 50px 0 rgba(0, 0, 0, 0.19);
+	transition-duration: .5s;
 }
 
 .image4 {
 	width: 33%;
 	float: left;
 	margin: 0 0 0 17%;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 0px 25px 0 rgba(0, 0, 0, 0.3), 0 0px 50px 0 rgba(0, 0, 0, 0.19);
+	transition-duration: .5s;
 }
 
 .image5 {
 	width: 33%;
 	float: left;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 0px 25px 0 rgba(0, 0, 0, 0.3), 0 0px 50px 0 rgba(0, 0, 0, 0.19);
+	transition-duration: .5s;
 }
+
+.image1:hover{
+	filter: blur(2px);
+}
+
+.image2:hover{
+	filter: blur(2px);
+}
+.image3:hover{
+	filter: blur(2px);
+}
+
+.image4:hover{
+	filter: blur(2px);
+}
+
+.image5:hover{
+	filter: blur(2px);
+}
+
 
 .text1 {
 	margin: 0 3% 0 3%;
@@ -409,7 +480,7 @@ nav ul li a {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	font-size: 0.8vw;
-	color: black;
+	color: white;
 	letter-spacing: 1px;
 	word-spacing: 2px;
 	line-height: 1.5vw;
@@ -423,7 +494,7 @@ nav ul li a {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	font-size: 0.8vw;
-	color: black;
+	color: white;
 	letter-spacing: 1px;
 	word-spacing: 2px;
 	line-height: 1.5vw;
@@ -437,7 +508,7 @@ nav ul li a {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	font-size: 0.8vw;
-	color: black;
+	color: white;
 	letter-spacing: 1px;
 	word-spacing: 2px;
 	line-height: 1.5vw;
@@ -451,7 +522,7 @@ nav ul li a {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	font-size: 0.8vw;
-	color: black;
+	color: white;
 	letter-spacing: 1px;
 	word-spacing: 2px;
 	line-height: 1.5vw;
@@ -465,7 +536,7 @@ nav ul li a {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	font-size: 0.8vw;
-	color: black;
+	color: white;
 	letter-spacing: 1px;
 	word-spacing: 2px;
 	line-height: 1.5vw;
@@ -476,13 +547,14 @@ nav ul li a {
 	width: 27%;
 	float: left;
 	text-align: left;
-	font-family: 'Cinzel', serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 1.5vw;
-	color: black;
+	color: white;
 	letter-spacing: 4px;
 	word-spacing: 4px;
 	font-style: normal;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .ctitle2 {
@@ -490,13 +562,14 @@ nav ul li a {
 	width: 27%;
 	float: left;
 	text-align: left;
-	font-family: 'Cinzel', serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 1.5vw;
-	color: black;
+	color: white;
 	letter-spacing: 4px;
 	word-spacing: 4px;
 	font-style: normal;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .ctitle3 {
@@ -504,13 +577,14 @@ nav ul li a {
 	width: 27%;
 	float: left;
 	text-align: left;
-	font-family: 'Cinzel', serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 1.5vw;
-	color: black;
+	color: white;
 	letter-spacing: 4px;
 	word-spacing: 4px;
 	font-style: normal;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .ctitle4 {
@@ -518,13 +592,14 @@ nav ul li a {
 	float: left;
 	margin: 3% 3% 0.5% 20%;
 	text-align: left;
-	font-family: 'Cinzel', serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 1.5vw;
-	color: black;
+	color: white;
 	letter-spacing: 4px;
 	word-spacing: 4px;
 	font-style: normal;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .ctitle5 {
@@ -532,11 +607,12 @@ nav ul li a {
 	float: left;
 	margin: 3% 3% 0.5% 3%;
 	text-align: left;
-	font-family: 'Cinzel', serif;
+	font-family: 'Quicksand', sans-serif;
 	font-size: 1.5vw;
-	color: black;
+	color: white;
 	letter-spacing: 4px;
 	word-spacing: 4px;
 	font-style: normal;
 	font-weight: bold;
+	text-transform: uppercase;
 }
