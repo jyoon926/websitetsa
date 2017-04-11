@@ -420,21 +420,18 @@ nav ul li a {
 	width: 33%;
 	float: left;
 	box-shadow: 0 0px 25px 0 rgba(0, 0, 0, 0.3), 0 0px 50px 0 rgba(0, 0, 0, 0.19);
-	transition-duration: .5s;
 }
 
 .image2 {
 	width: 33%;
 	float: left;
 	box-shadow: 0 0px 25px 0 rgba(0, 0, 0, 0.3), 0 0px 50px 0 rgba(0, 0, 0, 0.19);
-	transition-duration: .5s;
 }
 
 .image3 {
 	width: 33%;
 	float: left;
 	box-shadow: 0 0px 25px 0 rgba(0, 0, 0, 0.3), 0 0px 50px 0 rgba(0, 0, 0, 0.19);
-	transition-duration: .5s;
 }
 
 .image4 {
@@ -442,35 +439,13 @@ nav ul li a {
 	float: left;
 	margin: 0 0 0 17%;
 	box-shadow: 0 0px 25px 0 rgba(0, 0, 0, 0.3), 0 0px 50px 0 rgba(0, 0, 0, 0.19);
-	transition-duration: .5s;
 }
 
 .image5 {
 	width: 33%;
 	float: left;
 	box-shadow: 0 0px 25px 0 rgba(0, 0, 0, 0.3), 0 0px 50px 0 rgba(0, 0, 0, 0.19);
-	transition-duration: .5s;
 }
-
-.image1:hover{
-	filter: blur(2px);
-}
-
-.image2:hover{
-	filter: blur(2px);
-}
-.image3:hover{
-	filter: blur(2px);
-}
-
-.image4:hover{
-	filter: blur(2px);
-}
-
-.image5:hover{
-	filter: blur(2px);
-}
-
 
 .text1 {
 	margin: 0 3% 0 3%;
