@@ -1338,6 +1338,8 @@
 .fadeInLeft {
   -webkit-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
+  letter-spacing: 3px;
+  word-spacing: 2px;
 }
 
 @-webkit-keyframes fadeInLeftBig {
