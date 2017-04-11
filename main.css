@@ -134,7 +134,7 @@ nav ul li a {
 	background-color: none;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 6vh;
-	font-weight: bold;
+	font-weight: normal;
 	margin: 42vh 0 2vh 15vh;
 	letter-spacing: 4px;
 	word-spacing: 3px;
@@ -152,7 +152,7 @@ nav ul li a {
 	margin: 0 50vw 23vh 15vh;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 4vh;
-	font-weight: bolder;
+	font-weight: normal;
 	letter-spacing: 3px;
 	word-spacing: 2px;
 	color: white;
@@ -200,7 +200,7 @@ nav ul li a {
 
 .heading1 {
 	font-family: 'Quicksand', sans-serif;
-	font-size: 3vw;
+	font-size: 2vw;
 	color: white;
 	margin: 3vw 0 3vw 0;
 	letter-spacing: 8px;
@@ -209,7 +209,7 @@ nav ul li a {
 	font-style: normal;
 	padding: 100px 0 0 0;
 	overflow-x: hidden;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 .paragraph {
@@ -250,7 +250,7 @@ nav ul li a {
 .heading2 {
 	z-index: -10;
 	font-family: 'Quicksand', sans-serif;
-	font-size: 3vw;
+	font-size: 2vw;
 	color: white;
 	margin: 0px 0 0 0;
 	letter-spacing: 8px;
@@ -262,12 +262,13 @@ nav ul li a {
 	overflow-x: hidden;
 	background: none;
 	text-transform: capitalize;
+	font-weight: normal;
 }
 
 .heading4 {
 	z-index: -10;
 	font-family: 'Quicksand', sans-serif;
-	font-size: 3vw;
+	font-size: 2vw;
 	color: white;
 	margin: 0px 0 0 0;
 	letter-spacing: 8px;
@@ -280,6 +281,7 @@ nav ul li a {
 	padding: 10vw;
 	overflow-x: hidden;
 	text-transform: capitalize;
+	font-weight: normal;
 }
 
 .careertitle {
@@ -293,10 +295,12 @@ nav ul li a {
 	padding: 10vw;
 	overflow-x: hidden;
 	color: white;
+	font-weight: normal;
 }
 
 .heading5 {
 	padding: 200px;
+	font-weight: normal;
 }
 
 .subtitle {
@@ -368,6 +372,7 @@ nav ul li a {
 	float: center;
 	overflow-x: hidden;
 	text-transform: capitalize;
+	font-weight: normal;
 }
 
 .paragraph3 {
