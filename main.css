@@ -127,6 +127,11 @@ nav ul li a {
 	overflow-x: hidden;
 }
 
+.lander {
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 0.3s;
+}
+
 .landerbg {
 	position: fixed;
 	z-index: -99999;
@@ -142,16 +147,16 @@ nav ul li a {
 	font-family: 'Raleway', sans-serif;
 	font-size: 10vh;
 	font-weight: 900;
-	margin: 30vh 0 2vh 0;
+	margin: 29vh 0 2vh 0;
 	letter-spacing: 4px;
 	word-spacing: 3px;
-	-webkit-animation-duration: 2s;
 	perspective: 1px;
-	-webkit-animation-delay: 0.3s;
 	color: #CDB380;
 	top: 50%;
 	overflow-x: hidden;
 	text-align: left;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 0.3s;
 }
 
 .missiontomars {
@@ -162,27 +167,27 @@ nav ul li a {
 	margin: 0 0 2vh 0;
 	letter-spacing: 4px;
 	word-spacing: 3px;
-	-webkit-animation-duration: 2s;
-	-webkit-animation-delay: 0.5s;
 	perspective: 1px;
 	-webkit-perspective: 1px;
 	color: #E8DDCB;
 	top: 50%;
 	overflow-x: hidden;
 	text-align: left;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 0.3s;
 }
 
 .willweachievethisgoal{
-	margin: 0 0 16vh 0;
+	margin: 0 0 13vh 0;
 	font-family: 'Raleway', sans-serif;
-	-webkit-animation-delay: 0.5s;
 	font-size: 6vh;
 	font-weight: 500;
 	letter-spacing: 3px;
 	word-spacing: 2px;
 	color: #E8DDCB;
 	padding-bottom: 3vh;
-	-webkit-animation-duration: 2.05s;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 0.3s;
 }
 
 .scrollarrow {
@@ -195,7 +200,7 @@ nav ul li a {
 	padding-top: 1vw;
 	padding-bottom: 1vw;
 	-webkit-animation-duration: 3s;
-	-webkit-animation-delay: 1s;
+	-webkit-animation-delay: 1.5s;
 	transition-duration: 1s;
 }
 
