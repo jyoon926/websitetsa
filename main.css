@@ -391,7 +391,7 @@ nav ul li a {
 .vehiclesandspacecrafts {
 	background-image: url("/saturnv.jpeg");
 	background-size: cover;
-	background-position: center+3vh;
+	background-position: center;
 	filter: brightness(100%);
 	background-attachment: fixed;
 	width: 100vw;
