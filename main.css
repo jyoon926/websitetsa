@@ -42,12 +42,13 @@ body {
 	background: -webkit-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0));
 	background: -o-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)); 
 	background: -moz-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0));
-	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0));
+	background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0));
 	font-color: white;
 	padding: 1vw 1vw 1vw 1vw;
 	margin: 0 0 0px 0;
 	z-index: 999;
 	overflow-x: hidden;
+	-webkit-animation-delay: 0.3s;
 }
 
 .header1 {
@@ -88,7 +89,7 @@ nav ul li {
 	padding: 5px 10px;
 	float: right;
 	margin: 0 5px;
-	font-family: Raleway, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: normal;
 	letter-spacing: 2px;
 	text-decoration: none;
@@ -102,20 +103,16 @@ nav ul li a {
 }
 
 .top1 {
-	background-color: #2C3E50;
 	height: = 100%;
 	width: = 100%;
+	background-color: black;
 	background-size: cover;
 	background-position: top;
 	overflow-x: hidden;
 }
 
-.top {
-	attachment: fixed;
-}
-
 .tsaemblem {
-	height: 2vw;
+	height: 2.5vw;
 	width: 5vw;
 	top: 0vw;
 	bottom: 0;
@@ -130,37 +127,66 @@ nav ul li a {
 	overflow-x: hidden;
 }
 
-.missiontomars {
+.landerbg {
+	position: fixed;
+	z-index: -99999;
+	width: 110%;
+	top: 0;
+	filter: blur(5px);
+	opacity: 0.7;
+	left: -5vw;
+}
+
+.landeryear {
 	background-color: none;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 6vh;
-	font-weight: normal;
-	margin: 42vh 0 2vh 15vh;
+	font-family: 'Raleway', sans-serif;
+	font-size: 10vh;
+	font-weight: 900;
+	margin: 30vh 0 2vh 0;
 	letter-spacing: 4px;
 	word-spacing: 3px;
 	-webkit-animation-duration: 2s;
-	-webkit-animation-delay: 0s;
+	perspective: 1px;
+	-webkit-animation-delay: 0.3s;
+	color: #CDB380;
+	top: 50%;
+	overflow-x: hidden;
+	text-align: left;
+}
+
+.missiontomars {
+	background-color: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 8vh;
+	font-weight: 500;
+	margin: 0 0 2vh 0;
+	letter-spacing: 4px;
+	word-spacing: 3px;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-delay: 0.5s;
 	perspective: 1px;
 	-webkit-perspective: 1px;
-	color: white;
+	color: #E8DDCB;
 	top: 50%;
 	overflow-x: hidden;
 	text-align: left;
 }
 
 .willweachievethisgoal{
-	margin: 0 50vw 23vh 15vh;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 4vh;
-	font-weight: normal;
+	margin: 0 0 16vh 0;
+	font-family: 'Raleway', sans-serif;
+	-webkit-animation-delay: 0.5s;
+	font-size: 6vh;
+	font-weight: 500;
 	letter-spacing: 3px;
 	word-spacing: 2px;
-	color: white;
+	color: #E8DDCB;
 	padding-bottom: 3vh;
 	-webkit-animation-duration: 2.05s;
 }
 
 .scrollarrow {
+	border-radius: 5vw;
 	display: block;
     margin: auto;
 	width: 5vw;
@@ -168,10 +194,13 @@ nav ul li a {
 	padding-right: 1vw;
 	padding-top: 1vw;
 	padding-bottom: 1vw;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 1s;
+	transition-duration: 1s;
 }
 
 .scrollarrow:hover {
-	background-color: #22313F;
+	background-color: #af9167;
 	border-radius: 5vw;
 	width: 5vw;
 	padding-left: 1vw;
@@ -183,8 +212,8 @@ nav ul li a {
 .scrollarrow2 {
 	display: block;
     margin: auto;
-	height: 3.1vw;
-	color: #2C3E50;
+	height: 4vw;
+	font-size: 1px;
 }
 
 .firstsection {
@@ -192,15 +221,15 @@ nav ul li a {
 	top: 100% - 30px;
 	overflow-x: hidden;
 	text-shadow: 0px 0px 1px rgba(0,0,0,0.1);
-	background-color: white;
+	background-color: #E8DDCB;
 	background-size: cover;
 	background-attachment: fixed;
 }
 
 .heading1 {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 2vw;
-	color: #22313F;
+	color: #031634;
 	margin: 3vw 0 3vw 0;
 	letter-spacing: 8px;
 	word-spacing: 8px;
@@ -208,7 +237,7 @@ nav ul li a {
 	font-style: normal;
 	padding: 100px 0 0 0;
 	overflow-x: hidden;
-	font-weight: normal;
+	font-weight: 700;
 }
 
 .paragraph {
@@ -242,26 +271,26 @@ nav ul li a {
 	color: none;
 	top: 120vh;
 	background-size: 0% 0%;
-	font-size: 8px;
+	font-size: 1px;
 	margin: 0;
 }
 
 .heading2 {
 	z-index: -10;
-	font-family: 'Quicksand', sans-serif;
+	font-family: Raleway, sans-serif;
 	font-size: 2vw;
-	color: white;
+	color: #033649;
 	margin: 0px 0 0 0;
 	letter-spacing: 8px;
 	word-spacing: 8px;
 	text-transform: uppercase;
 	font-style: normal;
 	background-color: #E4F1FE;
-	padding: 10vw;
+	padding: 6vw;
 	overflow-x: hidden;
 	background: none;
 	text-transform: capitalize;
-	font-weight: normal;
+	font-weight: 700;
 }
 
 .heading4 {
@@ -284,13 +313,14 @@ nav ul li a {
 }
 
 .careertitle {
-	color: white; 
+	color: #CDB380; 
 	overflow-x: hidden;
 	background: none;
 	text-transform: uppercase;
 }
 
 .heading3 {
+	font-family: 'Raleway', sans-serif;
 	padding: 10vw;
 	overflow-x: hidden;
 	color: white;
@@ -323,11 +353,7 @@ nav ul li a {
 }
 
 .careersection {
-	background: #22313F; /* For browsers that do not support gradients */
-	background: -webkit-linear-gradient(left top, #22313F, #445e77); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(bottom right, #22313F, #445e77); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(bottom right, #22313F, #445e77); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to bottom right, #22313F, #445e77); /* Standard syntax */
+	background: #031634;
 	padding: 0 0 200px 0;
 	background-size: cover;
 	overflow-x: hidden;
@@ -360,7 +386,7 @@ nav ul li a {
 }
 
 .subtitle3 {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 2vw;
 	color: white;
 	letter-spacing: 8px;
@@ -375,7 +401,7 @@ nav ul li a {
 }
 
 .paragraph3 {
-	font-family: Raleway, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	font-size: 1vw;
 	color: white;
@@ -388,7 +414,7 @@ nav ul li a {
 }
 
 .paragraph4 {
-	font-family: Raleway, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	font-size: 1vw;
 	color: white;
@@ -401,7 +427,7 @@ nav ul li a {
 }
 
 .paragraph5 {
-	font-family: Raleway, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	font-size: 1vw;
 	color: white;
@@ -459,7 +485,7 @@ nav ul li a {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	font-size: 0.8vw;
-	color: white;
+	color: #E8DDCB;
 	letter-spacing: 1px;
 	word-spacing: 2px;
 	line-height: 1.5vw;
@@ -473,7 +499,7 @@ nav ul li a {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	font-size: 0.8vw;
-	color: white;
+	color: #E8DDCB;
 	letter-spacing: 1px;
 	word-spacing: 2px;
 	line-height: 1.5vw;
@@ -487,7 +513,7 @@ nav ul li a {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	font-size: 0.8vw;
-	color: white;
+	color: #E8DDCB;
 	letter-spacing: 1px;
 	word-spacing: 2px;
 	line-height: 1.5vw;
@@ -501,7 +527,7 @@ nav ul li a {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	font-size: 0.8vw;
-	color: white;
+	color: #E8DDCB;
 	letter-spacing: 1px;
 	word-spacing: 2px;
 	line-height: 1.5vw;
@@ -515,7 +541,7 @@ nav ul li a {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	font-size: 0.8vw;
-	color: white;
+	color: #E8DDCB;
 	letter-spacing: 1px;
 	word-spacing: 2px;
 	line-height: 1.5vw;
@@ -526,9 +552,9 @@ nav ul li a {
 	width: 27%;
 	float: left;
 	text-align: left;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1.5vw;
-	color: white;
+	color: #CDB380;
 	letter-spacing: 4px;
 	word-spacing: 4px;
 	font-style: normal;
@@ -541,9 +567,9 @@ nav ul li a {
 	width: 27%;
 	float: left;
 	text-align: left;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1.5vw;
-	color: white;
+	color: #CDB380;
 	letter-spacing: 4px;
 	word-spacing: 4px;
 	font-style: normal;
@@ -556,9 +582,9 @@ nav ul li a {
 	width: 27%;
 	float: left;
 	text-align: left;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1.5vw;
-	color: white;
+	color: #CDB380;
 	letter-spacing: 4px;
 	word-spacing: 4px;
 	font-style: normal;
@@ -571,9 +597,9 @@ nav ul li a {
 	float: left;
 	margin: 3% 3% 0.5% 20%;
 	text-align: left;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1.5vw;
-	color: white;
+	color: #CDB380;
 	letter-spacing: 4px;
 	word-spacing: 4px;
 	font-style: normal;
@@ -586,9 +612,9 @@ nav ul li a {
 	float: left;
 	margin: 3% 3% 0.5% 3%;
 	text-align: left;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 1.5vw;
-	color: white;
+	color: #CDB380;
 	letter-spacing: 4px;
 	word-spacing: 4px;
 	font-style: normal;
