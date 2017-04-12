@@ -49,6 +49,9 @@ body {
 	z-index: 999;
 	overflow-x: hidden;
 	-webkit-animation-delay: 0.3s;
+	-webkit-animation-duration: 2s;
+	animation-delay: 0.3s;
+	animation-duration: 2s;
 }
 
 .header1 {
@@ -130,6 +133,8 @@ nav ul li a {
 .lander {
 	-webkit-animation-duration: 2s;
 	-webkit-animation-delay: 0.3s;
+	animation-duration: 2s;
+	animation-delay: 0.3s;
 }
 
 .landerbg {
@@ -157,6 +162,8 @@ nav ul li a {
 	text-align: left;
 	-webkit-animation-duration: 2s;
 	-webkit-animation-delay: 0.3s;
+	animation-duration: 2s;
+	animation-delay: 0.3s;
 }
 
 .missiontomars {
@@ -175,6 +182,8 @@ nav ul li a {
 	text-align: left;
 	-webkit-animation-duration: 2s;
 	-webkit-animation-delay: 0.3s;
+	animation-duration: 2s;
+	animation-delay: 0.3s;
 }
 
 .willweachievethisgoal{
@@ -188,6 +197,8 @@ nav ul li a {
 	padding-bottom: 3vh;
 	-webkit-animation-duration: 2s;
 	-webkit-animation-delay: 0.3s;
+	animation-duration: 2s;
+	animation-delay: 0.3s;
 }
 
 .scrollarrow {
@@ -201,6 +212,8 @@ nav ul li a {
 	padding-bottom: 1vw;
 	-webkit-animation-duration: 3s;
 	-webkit-animation-delay: 1.5s;
+	animation-duration: 3s;
+	animation-delay: 1.5s;
 	transition-duration: 1s;
 }
 
