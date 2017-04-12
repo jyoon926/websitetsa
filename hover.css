@@ -1604,10 +1604,10 @@
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  color: white;
+  color: #efe9da;
   text-decoration: none;
   padding: 5px 10px;
-  font-size: 1.2vw;
+  font-size: 1vw;
   font-weight: bolder;
 }
 .hvr-radial-out:before {
@@ -1618,7 +1618,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: white;
+  background: #efe9da;
   border-radius: 100%;
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -1628,8 +1628,8 @@
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
-  color: black;
-  font-size: 1.2vw;
+  color: #031634;
+  font-size: 1vw;
   font-weight: bolder;
 }
 .hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
