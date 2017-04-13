@@ -25,13 +25,13 @@ body {
 }
 
 ::-moz-selection { /* Code for Firefox */
-    color: #999;
-    background: black;
+    color: white;
+    background: #E8DDCB;
 }
 
 ::selection {
-    color: #999; 
-    background: black;
+    color: white; 
+    background: #E8DDCB;
 }
 
 .header {
