@@ -42,7 +42,7 @@ body {
 	background: -webkit-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0));
 	background: -o-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)); 
 	background: -moz-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0));
-	background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.2) rgba(0,0,0,0));
 	font-color: white;
 	padding: 1vw 1vw 1vw 1vw;
 	margin: 0 0 0px 0;
