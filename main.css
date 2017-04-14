@@ -150,7 +150,7 @@ nav ul li a {
 .landeryear {
 	background-color: none;
 	font-family: 'Raleway', sans-serif;
-	font-size: 10vh;
+	font-size: 6vw;
 	font-weight: 900;
 	margin: 29vh 0 2vh 0;
 	letter-spacing: 4px;
@@ -169,7 +169,7 @@ nav ul li a {
 .missiontomars {
 	background-color: none;
 	font-family: 'Raleway', sans-serif;
-	font-size: 8vh;
+	font-size: 4vw;
 	font-weight: 500;
 	margin: 0 0 2vh 0;
 	letter-spacing: 4px;
@@ -189,7 +189,7 @@ nav ul li a {
 .willweachievethisgoal{
 	margin: 0 0 13.5vh 0;
 	font-family: 'Raleway', sans-serif;
-	font-size: 6vh;
+	font-size: 2vw;
 	font-weight: 500;
 	letter-spacing: 3px;
 	word-spacing: 2px;
@@ -464,10 +464,12 @@ nav ul li a {
 	display: inline-block;
 }
 
+
 .image1 {
 	width: 33%;
 	float: left;
 	box-shadow: 0 0px 25px 0 rgba(0, 0, 0, 0.3), 0 0px 50px 0 rgba(0, 0, 0, 0.19);
+	 -webkit-transition: all 400ms ease; transition: all 400ms ease;
 }
 
 .image2 {
@@ -639,3 +641,4 @@ nav ul li a {
 	font-weight: bold;
 	text-transform: uppercase;
 }
+
