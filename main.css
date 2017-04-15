@@ -38,11 +38,7 @@ body {
 	width: 100vw;
 	position: fixed;
 	top: 0%;
-	background-color:transparent;
-	background: -webkit-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0));
-	background: -o-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0)); 
-	background: -moz-linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0));
-	background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.2) rgba(0,0,0,0));
+	background-color: black;
 	font-color: white;
 	padding: 1vw 1vw 1vw 1vw;
 	margin: 0 0 0px 0;
@@ -52,6 +48,17 @@ body {
 	-webkit-animation-duration: 2s;
 	animation-delay: 0.3s;
 	animation-duration: 2s;
+	height: 75px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+85&0.65+0,0+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.1) 85%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.1) 85%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.1) 85%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+.verytop{
+	top: 0;
+	font-size: 1px;
 }
 
 .header1 {
@@ -66,30 +73,17 @@ body {
 
 nav ul {
 	margin: 0;
-	padding: 0 0 0 15px;
+	padding: 0 0 0 0;
 	display: inline;
 	overflow-x: hidden;
 }
 
-/*
-a:link { color: white; text-decoration: none;}
-a:visited { color: white; text-decoration: none;}
-a:hover {  
-	color: white;
-	text-decoration: none;
-	border-bottom: solid white;
-}
 
-
-a:active { color: white; text-decoration: none; border-bottom: none;}
-*/
-
-nav ul li {
+div nav ul li {
 	background-color: none;
 	color: white;
 	display:inline-block;
 	list-style-type: none;
-	padding: 5px 10px;
 	float: right;
 	margin: 0 5px;
 	font-family: 'Raleway', sans-serif;
@@ -99,7 +93,7 @@ nav ul li {
 	overflow-x: hidden;
 }
 
-nav ul li a {
+div nav ul li a {
 	font-color: white;
 	background-color: none;
 	overflow-x: hidden;
@@ -143,7 +137,7 @@ nav ul li a {
 	z-index: -99999;
 	width: 100%;
 	top: 0;
-	filter: blur(7px);
+	filter: blur(10px);
 	opacity: 0.7;
 }
 
@@ -152,7 +146,7 @@ nav ul li a {
 	font-family: 'Raleway', sans-serif;
 	font-size: 70px;
 	font-weight: 900;
-	margin: 200px 0 8px 0;
+	margin: 300px 0 8px 0;
 	letter-spacing: 4px;
 	word-spacing: 3px;
 	perspective: 1px;
@@ -187,7 +181,7 @@ nav ul li a {
 }
 
 .willweachievethisgoal{
-	margin: 0 0 100px 0;
+	margin: 0 0 180px 0;
 	font-family: 'Raleway', sans-serif;
 	font-size: 30px;
 	font-weight: 500;
@@ -228,8 +222,8 @@ nav ul li a {
 }
 
 .landerbot {
-	margin: 50px;
-
+	margin: 20px;
+	font-size: 1px;
 }
 
 .firstsection {
@@ -237,15 +231,16 @@ nav ul li a {
 	top: 100% - 30px;
 	overflow-x: hidden;
 	text-shadow: 0px 0px 1px rgba(0,0,0,0.1);
-	background-color: #E8DDCB;
+	background-image: url('https://s24.postimg.org/5y1el6phh/photo-1446144525544-808f420174ec.png');
 	background-size: cover;
 	background-attachment: fixed;
+	background-position: bottom center;
 }
 
 .heading1 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 30px;
-	color: #031634;
+	color: white;
 	margin: 100px 20% 50px 20%;
 	letter-spacing: 8px;
 	word-spacing: 8px;
@@ -260,7 +255,7 @@ nav ul li a {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	font-size: 15px;
-	color: #22313F;
+	color: white;
 	text-align: center;
 	padding: 50px 20% 100px 20%;
 	letter-spacing: 2px;
