@@ -297,7 +297,7 @@ ul {
 	line-height: 70px;
 	-webkit-animation-duration: 2s;
 	animation-duration: 2s;
-	text-shadow: 1px 1px 5px black;
+	text-shadow: 1px 1px 10px black;
 }
 
 .subtitle2{
