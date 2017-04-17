@@ -329,6 +329,7 @@ ul {
 
 .panel1 {
 	background-image: url(https://s15.postimg.org/xnj3sa0wr/image1.png);
+	background-position: center;
 	background-size: cover;
 	height: 50vh;
 	width: 50%;
@@ -337,6 +338,7 @@ ul {
 .panel2 {
 	background-image: url(https://s15.postimg.org/6ecbrip7f/image2.png);
 	background-size: cover;
+	background-position: center;
 	height: 50vh;
 	width: 50%;
 }
@@ -345,6 +347,7 @@ ul {
 	height: 50vh;
 	width: 50%;
 	background-image: url(https://s15.postimg.org/uw4fferrv/image3.png);
+	background-position: center;
 	background-size: cover;
 }
 
@@ -352,6 +355,7 @@ ul {
 	height: 50vh;
 	width: 50%;
 	background-image: url(https://s15.postimg.org/x1yq9wv8b/image4.png);
+	background-position: center;
 	background-size: cover;
 }
 
@@ -359,6 +363,7 @@ ul {
 	height: 50vh;
 	width: 50%;
 	background-image: url(https://s15.postimg.org/6uxjdycyj/image5.png);
+	background-position: center;
 	background-size: cover;
 }
 
@@ -366,5 +371,6 @@ ul {
 	height: 50vh;
 	width: 50%;
 	background-image: url(https://s15.postimg.org/7yhnpwxln/image6.png);
+	background-position: center;
 	background-size: cover;
 }
