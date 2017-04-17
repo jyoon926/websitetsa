@@ -48,10 +48,20 @@ ul {
 	left: 0;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	
+	display: -webkit-box;
+	
+	display: -ms-flexbox;
+	
 	display: flex;
-  flex-direction: row-reverse;
-	justify-content: center;
-	flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	z-index: 9999;
 }
 
@@ -64,6 +74,7 @@ ul {
 	font-size: 15px;
 	padding: 10px 1vw;
 	background-color: none;
+	-webkit-transition: 1s;
 	transition: 1s;
 	line-height: 30px;
 }
@@ -79,10 +90,21 @@ ul {
 	background-size: cover;
 	background-attachment: fixed;
 	
+	display: -webkit-box;
+	
+	display: -ms-flexbox;
+	
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 
 .landertext {
@@ -92,7 +114,8 @@ ul {
 	font-size: 80px;
 	margin-bottom: 20px;
 	text-align: center;
-	animation-duration: 2s;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
 }
 
 .lander h2 {
@@ -106,9 +129,15 @@ ul {
 }
 
 .lander div {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	
 	height: 35vh;
 }
@@ -116,8 +145,10 @@ ul {
 .scrollarrow {
 	height: 60px;
 	padding: 10px;
-	animation-duration: 1.5s;
-	transition-duration: 0.5s;
+	-webkit-animation-duration: 1.5s;
+	        animation-duration: 1.5s;
+	-webkit-transition-duration: 0.5s;
+	        transition-duration: 0.5s;
 }
 
 .scrollarrow:hover {
@@ -129,8 +160,14 @@ ul {
 	height: 35vh;
 	font-size: 1px;
 	
+	display: -webkit-box;
+	
+	display: -ms-flexbox;
+	
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 
 .body1 {
@@ -138,10 +175,21 @@ ul {
 	height: 100vh;
 	background-size: cover;
 	
+	display: -webkit-box;
+	
+	display: -ms-flexbox;
+	
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 
 .body1 h3, p {
@@ -156,7 +204,8 @@ ul {
 	font-size: 50px;
 	font-weight: 500;
 	margin: 30px;
-	animation-duration: 3s;
+	-webkit-animation-duration: 3s;
+	        animation-duration: 3s;
 }
 
 .body1 p {
@@ -165,14 +214,24 @@ ul {
 	font-weight: 400;
 	margin: 60px 5vw;
 	line-height: 30px;
-	animation-duration: 3s;
+	-webkit-animation-duration: 3s;
+	        animation-duration: 3s;
 }
 
 .careers {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 
 	background-color: #111;
 }
@@ -184,22 +243,40 @@ ul {
 	color: white;
 	font-size: 50px;
 	font-weight: 500;
-	animation-duration: 2s;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
 	margin-bottom: 30px;
 }
 
 .careers div {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	flex-wrap: wrap;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 }
 
 .careerspanels div{
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 
 .subtitle1{
@@ -210,7 +287,8 @@ ul {
 	font-size: 25px;
 	font-weight: 500;
 	line-height: 70px;
-	animation-duration: 2s;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
 }
 
 .careerspanels div h1 {
@@ -219,7 +297,8 @@ ul {
 	color: white;
 	font-size: 20px;
 	font-weight: 400;
-	animation-duration: 2s;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
 	text-align: center;
 }
 
