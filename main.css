@@ -43,7 +43,7 @@ ul {
 	padding: 10px 0;
 	list-style-type: none;
 	position: fixed;
-	background-color: white;
+	background-color: #07070a;
 	width: 100%;
 	left: 0;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -53,20 +53,20 @@ ul {
 	display: -ms-flexbox;
 	
 	display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
+	flex-wrap: wrap;
 	z-index: 9999;
 }
 
 .nav li a {
-	color: black;
+	color: white;
 	letter-spacing: 2px;
 	text-decoration: none;
 	font-family: 'Quicksand', sans-serif;
@@ -80,8 +80,8 @@ ul {
 }
 
 .nav li a:hover {
-	background-color: #222;
-	color: white;
+	background-color: #ccc;
+	color: black;
 }
 
 .lander {
@@ -210,7 +210,7 @@ ul {
 
 .body1 p {
 	color: #ccc;
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: 400;
 	margin: 100px 5vw;
 	line-height: 30px;
