@@ -12,7 +12,7 @@ html {
 */
 
 body {
-
+	background-color: white;
 }
 
 @font-face {
@@ -26,465 +26,241 @@ body {
 
 ::-moz-selection { /* Code for Firefox */
     color: white;
-    background: #E8DDCB;
+    background: black;
 }
 
 ::selection {
     color: white; 
-    background: #E8DDCB;
+    background: black;
 }
 
-.header {
-	width: 100vw;
-	position: fixed;
-	top: 0%;
-	background-color: black;
-	font-color: white;
-	padding: 1vw 1vw 1vw 1vw;
-	margin: 0 0 0px 0;
-	z-index: 999;
-	overflow-x: hidden;
-	-webkit-animation-delay: 0.3s;
-	-webkit-animation-duration: 2s;
-	animation-delay: 0.3s;
-	animation-duration: 2s;
-	height: 75px;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+85&0.65+0,0+100 */
-background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.1) 85%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.1) 85%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.1) 85%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
-}
-
-.verytop{
+.top {
 	top: 0;
 	font-size: 1px;
 }
 
-.header1 {
-	width: 100%;
-	position: fixed;
-	top: 0%;
-	font-color: white;
-	padding: 15px 15px 15px 15px;
-	margin: 0 0 0px 0;
-	overflow-x: hidden;
-}
-
-nav ul {
-	margin: 0;
-	padding: 0 0 0 0;
-	display: inline;
-	overflow-x: hidden;
-}
-
-
-div nav ul li {
-	background-color: none;
-	color: white;
-	display:inline-block;
+ul {
+	padding: 10px 0;
 	list-style-type: none;
-	float: right;
-	margin: 0 5px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: normal;
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	left: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	display: flex;
+  flex-direction: row-reverse;
+	justify-content: center;
+	flex-wrap: wrap;
+	z-index: 9999;
+}
+
+.nav li a {
+	color: black;
 	letter-spacing: 2px;
 	text-decoration: none;
-	overflow-x: hidden;
-}
-
-div nav ul li a {
-	font-color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	padding: 10px 1vw;
 	background-color: none;
-	overflow-x: hidden;
+	transition: 1s;
+	line-height: 30px;
 }
 
-.top1 {
-	height: = 100%;
-	width: = 100%;
+.nav li a:hover {
 	background-color: black;
-	background-size: cover;
-	background-position: top;
-	overflow-x: hidden;
-}
-
-.tsaemblem {
-	height: 100px;
-	width: 70px;
-	top: 0vw;
-	bottom: 0;
-	margin: 0;
-	margin-top: -30px;
-	background-color: none;
-	overflow-x: hidden;
-}
-
-.strongfont {
-	font-weight: bold;
-	font-size: 20px;
-	overflow-x: hidden;
+	color: white;
 }
 
 .lander {
-	-webkit-animation-duration: 2s;
-	-webkit-animation-delay: 0.3s;
-	animation-duration: 2s;
-	animation-delay: 0.3s;
+	background-image: url(https://s3.postimg.org/e5kh5dm9f/mars.png);
+	height: 100vh;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-.landerbg {
-	position: fixed;
-	z-index: -99999;
-	width: 100%;
-	top: 0;
-	filter: blur(10px);
-	opacity: 0.7;
-}
-
-.landeryear {
-	background-color: none;
+.landertext {
+	color: white;
 	font-family: 'Raleway', sans-serif;
-	font-size: 70px;
-	font-weight: 900;
-	margin: 300px 0 8px 0;
-	letter-spacing: 4px;
-	word-spacing: 3px;
-	perspective: 1px;
-	color: #CDB380;
-	top: 50%;
-	overflow-x: hidden;
-	text-align: left;
-	-webkit-animation-duration: 2s;
-	-webkit-animation-delay: 0.3s;
-	animation-duration: 2s;
-	animation-delay: 0.3s;
-}
-
-.missiontomars {
-	background-color: none;
-	font-family: 'Raleway', sans-serif;
-	font-size: 50px;
 	font-weight: 500;
-	margin: 0 0 8px 0;
-	letter-spacing: 4px;
-	word-spacing: 3px;
-	perspective: 1px;
-	-webkit-perspective: 1px;
-	color: #E8DDCB;
-	top: 50%;
-	overflow-x: hidden;
-	text-align: left;
-	-webkit-animation-duration: 2s;
-	-webkit-animation-delay: 0.3s;
+	font-size: 80px;
+	margin-bottom: 20px;
+	text-align: center;
 	animation-duration: 2s;
-	animation-delay: 0.3s;
 }
 
-.willweachievethisgoal{
-	margin: 0 0 180px 0;
-	font-family: 'Raleway', sans-serif;
-	font-size: 30px;
-	font-weight: 500;
-	letter-spacing: 3px;
-	word-spacing: 2px;
-	color: #E8DDCB;
-	-webkit-animation-duration: 2s;
-	-webkit-animation-delay: 0.3s;
-	animation-duration: 2s;
-	animation-delay: 0.3s;
+.lander h2 {
+	font-size: 60px;
+	font-weight: 200;
+}
+
+.lander h3 {
+	font-size: 40px;
+	font-weight: 200;
+}
+
+.lander div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	height: 35vh;
 }
 
 .scrollarrow {
-	border-radius: 40px;
-	display: block;
-    margin: auto;
-	width: 80px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	-webkit-animation-duration: 3s;
-	-webkit-animation-delay: 1.5s;
-	animation-duration: 3s;
-	animation-delay: 1.5s;
-	transition-duration: 1s;
+	height: 60px;
+	padding: 10px;
+	animation-duration: 1.5s;
+	transition-duration: 0.5s;
 }
 
 .scrollarrow:hover {
-	background-color: #af9167;
-	border-radius: 40px;
-	width: 80px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-    margin: auto;
+	background-color:black;
+	border-radius: 30px;
 }
 
-.landerbot {
-	margin: 20px;
+.scrollarrowspace {
+	height: 35vh;
 	font-size: 1px;
+	
+	display: flex;
+	align-items: center;
 }
 
-.firstsection {
-	height: 100%;
-	top: 100% - 30px;
-	overflow-x: hidden;
-	text-shadow: 0px 0px 1px rgba(0,0,0,0.1);
-	background-image: url('https://s24.postimg.org/5y1el6phh/photo-1446144525544-808f420174ec.png');
+.body1 {
+	background-image: url(https://s15.postimg.org/efqxmrm0b/IMG_57373.jpg);
+	height: 100vh;
 	background-size: cover;
-	background-attachment: fixed;
-	background-position: top center;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-.heading1 {
-	font-family: 'Raleway', sans-serif;
-	font-size: 30px;
-	color: white;
-	margin: 100px 20% 50px 20%;
-	letter-spacing: 8px;
-	word-spacing: 8px;
-	text-transform: uppercase;
-	font-style: normal;
-	padding: 0 0 0 0;
-	overflow-x: hidden;
-	font-weight: 700;
-}
-
-.paragraph {
-	font-family: 'Raleway', sans-serif;
-	font-weight: bold;
-	font-size: 15px;
-	color: white;
+.body1 h3, p {
 	text-align: center;
-	padding: 50px 20% 100px 20%;
+	font-family: 'Raleway', sans-serif;
 	letter-spacing: 2px;
-	word-spacing: 3px;
-	line-height: 35px;
-	overflow-x: hidden;
+
 }
 
-.paragraph2 {
-	font-family: Raleway, sans-serif;
-	font-weight: bold;
+.body1 h3 {
+	color: white;
+	font-size: 50px;
+	font-weight: 500;
+	margin: 30px;
+	animation-duration: 3s;
+}
+
+.body1 p {
+	color: #ccc;
 	font-size: 20px;
-	color: #2c3e50;
-	text-align: center;
-	padding: 30px 20% 93px 20%;
-	letter-spacing: 2px;
-	word-spacing: 3px;
+	font-weight: 400;
+	margin: 60px 5vw;
 	line-height: 30px;
-	background-color: #E4F1FE;
-	overflow-x: hidden;
+	animation-duration: 3s;
 }
 
-.extraspace {
-	color: none;
-	top: 120vh;
-	background-size: 0% 0%;
-	font-size: 1px;
-	margin: 0;
+.careers {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #111;
 }
 
-.heading2 {
-	z-index: -10;
-	font-family: Raleway, sans-serif;
-	font-size: 30px;
-	color: #033649;
-	margin: 150px 0 150px 0;
-	letter-spacing: 8px;
-	word-spacing: 8px;
-	text-transform: uppercase;
-	font-style: normal;
-	background-color: #E4F1FE;
-	padding: 0;
-	overflow-x: hidden;
-	background: none;
-	text-transform: capitalize;
-	font-weight: 700;
-}
-
-.heading4 {
-	z-index: -10;
-	font-family: 'Quicksand', sans-serif;
-	font-size: 2vw;
-	color: white;
-	margin: 0px 0 0 0;
-	letter-spacing: 8px;
-	word-spacing: 8px;
-	text-transform: uppercase;
-	font-style: normal;
-	background-image: url('https://images.unsplash.com/photo-1484903079635-f63c02f8b149?dpr=1&amp;auto=format&amp;fit=crop&amp;w=767&amp;h=511&amp;q=80&amp;cs=tinysrgb&amp;crop=');
-	background-attachment: fixed;
-	background-position: center;
-	padding: 10vw;
-	overflow-x: hidden;
-	text-transform: capitalize;
-	font-weight: normal;
-}
-
-.careertitle {
-	color: #CDB380; 
-	overflow-x: hidden;
-	background: none;
-	text-transform: uppercase;
-}
-
-.heading3 {
-	font-family: 'Raleway', sans-serif;
-	padding: 10vw;
-	overflow-x: hidden;
-	color: white;
-	font-weight: normal;
-}
-
-.heading5 {
-	padding: 200px;
-	font-weight: normal;
-}
-
-.subtitle {
-	font-family: Raleway, sans-serif;
-	font-size: 30px;
-	color: #34495e;
-	letter-spacing: 8px;
-	word-spacing: 8px;
-	text-transform: uppercase;
-	font-style: normal;
-	background-color: #E4F1FE;
-	padding: 30px;
-	float: center;
-	overflow-x: hidden;
-}
-
-.picture1 {
-	padding: 20px;
-	overflow-x: hidden;
-	background: none;
-}
-
-.careersection {
-	background: #031634;
-	padding: 0 0 200px 0;
-	background-size: cover;
-	overflow-x: hidden;
-}
-
-.timeline {
-	height: 40vw;
-}
-
-
-.vehiclesandspacecrafts {
-	background-image: url("/saturnv.jpeg");
-	background-size: cover;
-	background-position: center;
-	filter: brightness(100%);
-	background-attachment: fixed;
-	width: 100vw;
-}
-
-.date {
-	background-color: #DCC6E0;
-	background-size: cover;
-	overflow-x: scroll;
-}
-
-.subtitle3 {
-	font-family: 'Raleway', sans-serif;
-	font-size: 2vw;
-	color: white;
-	letter-spacing: 8px;
-	word-spacing: 8px;
-	text-transform: uppercase;
-	font-style: normal;
-	padding: 0 0 3vw 0;
-	float: center;
-	overflow-x: hidden;
-	text-transform: capitalize;
-	font-weight: normal;
-}
-
-.paragraph3 {
-	font-family: 'Raleway', sans-serif;
-	font-weight: bold;
-	font-size: 1vw;
-	color: white;
+.careers h3 {
 	text-align: center;
-	padding: 3vw 20% 3vw 20%;
-	letter-spacing: 2px;
-	word-spacing: 3px;
-	line-height: 2vw;
-	overflow-x: hidden;
-}
-
-.paragraph4 {
 	font-family: 'Raleway', sans-serif;
-	font-weight: bold;
-	font-size: 1vw;
+	letter-spacing: 2px;
 	color: white;
-	text-align: left;
-	padding: 3vw 22.5% 3vw 22.5%;
-	letter-spacing: 2px;
-	word-spacing: 3px;
-	line-height: 2vw;
-	overflow-x: hidden;
+	font-size: 50px;
+	font-weight: 500;
+	animation-duration: 2s;
+	margin-bottom: 30px;
 }
 
-.paragraph5 {
+.careers div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.careerspanels div{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.subtitle1{
+	text-align: center;
 	font-family: 'Raleway', sans-serif;
-	font-weight: bold;
-	font-size: 1vw;
+	letter-spacing: 2px;
 	color: white;
-	text-align: left;
-	padding: 3vw 22.5% 10vw 22.5%;
-	letter-spacing: 2px;
-	word-spacing: 3px;
-	line-height: 2vw;
-	overflow-x: hidden;
-}
-
-.prosandcons {
-}
-
-.a {
-	display: inline-block;
-}
-
-
-.image {
-	width: 33.33333333333333333333333333333%;
-	float: left;
-	box-shadow: 0 0px 25px 0 rgba(0, 0, 0, 0.3), 0 0px 50px 0 rgba(0, 0, 0, 0.19);
-	 -webkit-transition: all 400ms ease; transition: all 400ms ease;
-	 margin: 0 0 0 0;
-}
-
-.text {
-	margin: 0 3% 30px 3%;
-	width: 27%;
-	float: left;
-	text-align: left;
-	font-family: 'Raleway', sans-serif;
-	font-weight: bold;
-	font-size: 15px;
-	color: #E8DDCB;
-	letter-spacing: 1px;
-	word-spacing: 1px;
-	line-height: 25px;
-}
-
-.ctitle {
-	margin: 30px 3% 10px 3%;
-	width: 27%;
-	float: left;
-	text-align: left;
-	font-family: 'Raleway', sans-serif;
 	font-size: 25px;
-	color: #CDB380;
-	letter-spacing: 4px;
-	word-spacing: 4px;
-	font-style: normal;
-	font-weight: bold;
-	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 70px;
+	animation-duration: 2s;
+}
+
+.careerspanels div h1 {
+	font-family: 'Raleway', sans-serif;
+	margin: 0 2vw;
+	color: white;
+	font-size: 20px;
+	font-weight: 400;
+	animation-duration: 2s;
+	text-align: center;
+}
+
+.panel1 {
+	height: 50vh;
+	width: 50%;
+	background-image: url(https://s15.postimg.org/xnj3sa0wr/image1.png);
+	background-size: cover;
+}
+
+.panel2 {
+	height: 50vh;
+	width: 50%;
+	background-image: url(https://s15.postimg.org/6ecbrip7f/image2.png);
+	background-size: cover;
+}
+
+.panel3 {
+	height: 50vh;
+	width: 50%;
+	background-image: url(https://s15.postimg.org/uw4fferrv/image3.png);
+	background-size: cover;
+}
+
+.panel4 {
+	height: 50vh;
+	width: 50%;
+	background-image: url(https://s15.postimg.org/x1yq9wv8b/image4.png);
+	background-size: cover;
+}
+
+.panel5 {
+	height: 50vh;
+	width: 50%;
+	background-image: url(https://s15.postimg.org/6uxjdycyj/image5.png);
+	background-size: cover;
+}
+
+.panel6 {
+	height: 50vh;
+	width: 50%;
+	background-image: url(https://s15.postimg.org/7yhnpwxln/image6.png);
+	background-size: cover;
 }
