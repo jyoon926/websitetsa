@@ -414,9 +414,14 @@ section#timeline article div.inner span.date {
   border: 2px solid rgba(255,255,255,0.8);
 }
 section#timeline article div.inner span.date span {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-content: center;
-  justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 section#timeline article div.inner span.date span.day {
   font-size: 0.1px;
