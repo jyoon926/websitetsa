@@ -32,23 +32,23 @@ body {
   font-family: 'Cinzel', serif;
 }
 
-::-moz-selection {
+::-webkit-selection {
   /* Code for Firefox */
   color: white;
   background: rgb(242,120,75, 0.7);
 }
 
+::-o-selection {
+  color: white;
+  background: rgb(242,120,75, 0.7);
+}
+
+::-moz-selection {
+  color: white;
+  background: rgb(242,120,75, 0.7);
+}
+
 ::selection {
-  color: white;
-  background: rgb(242,120,75, 0.7);
-}
-
-::-webkit-selection {
-  color: white;
-  background: rgb(242,120,75, 0.7);
-}
-
-::-ms-selection {
   color: white;
   background: rgb(242,120,75, 0.7);
 }
