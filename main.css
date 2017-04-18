@@ -1,8 +1,20 @@
+@import "compass/css3";
+
+$gray: #dddddd;
+
 html {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
 }
 
-* { margin:0; padding:0; box-sizing:border-box}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+
 
 /*
 @font-face {
@@ -12,26 +24,26 @@ html {
 */
 
 body {
-	background-color: white;
+	background-color: #262630;
 }
 
 @font-face {
-    font-family: 'Roboto Slab', serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Cinzel', serif;
-
+	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Cinzel', serif;
 }
 
-::-moz-selection { /* Code for Firefox */
-    color: white;
-    background: black;
+::-moz-selection {
+	/* Code for Firefox */
+	color: white;
+	background: black;
 }
 
 ::selection {
-    color: white; 
-    background: black;
+	color: white;
+	background: black;
 }
 
 .top {
@@ -47,11 +59,8 @@ ul {
 	width: 100%;
 	left: 0;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	
 	display: -webkit-box;
-	
 	display: -ms-flexbox;
-	
 	display: flex;
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: reverse;
@@ -89,22 +98,19 @@ ul {
 	height: 100vh;
 	background-size: cover;
 	background-attachment: fixed;
-	
 	display: -webkit-box;
-	
 	display: -ms-flexbox;
-	
 	display: flex;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 .landertext {
@@ -115,7 +121,7 @@ ul {
 	margin-bottom: 20px;
 	text-align: center;
 	-webkit-animation-duration: 2s;
-	        animation-duration: 2s;
+	animation-duration: 2s;
 }
 
 .lander h2 {
@@ -133,12 +139,11 @@ ul {
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
-	
+	-ms-flex-align: center;
+	align-items: center;
 	height: 35vh;
 }
 
@@ -146,38 +151,32 @@ ul {
 	height: 60px;
 	padding: 10px;
 	-webkit-animation-duration: 1.5s;
-	        animation-duration: 1.5s;
+	animation-duration: 1.5s;
 	-webkit-transition-duration: 0.5s;
-	        transition-duration: 0.5s;
+	transition-duration: 0.5s;
 }
 
 .scrollarrow:hover {
-	background-color:black;
+	background-color: black;
 	border-radius: 30px;
 }
 
 .scrollarrowspace {
 	height: 35vh;
 	font-size: 1px;
-	
 	display: -webkit-box;
-	
 	display: -ms-flexbox;
-	
 	display: flex;
 	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 .body1 {
 	background-color: #262630;
 	background-size: cover;
-	
 	display: -webkit-box;
-	
 	display: -ms-flexbox;
-	
 	display: flex;
 	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
@@ -191,11 +190,11 @@ ul {
 	align-items: center;
 }
 
-.body1 h3, p {
+.body1 h3,
+p {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 2px;
-
 }
 
 .body1 h3 {
@@ -233,11 +232,10 @@ ul {
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
-
 	background-color: #16161e;
 }
 
-.careers h3 {
+.sectiontitle {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 2px;
@@ -246,7 +244,7 @@ ul {
 	font-weight: 500;
 	-webkit-animation-duration: 2s;
 	animation-duration: 2s;
-	margin: 100px 0;
+	padding: 100px 0;
 }
 
 .careers div {
@@ -255,23 +253,23 @@ ul {
 	display: flex;
 	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
 	-webkit-box-pack: justify;
-	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
 	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .timeline-line {
-     position: absolute;
-     left: 49.5%;
-     border-left: 1vw solid #1d1d26;
-     height: 300%;    
+	position: absolute;
+	left: 49.5%;
+	border-left: 1vw solid #1d1d26;
+	height: 300%;
 }
 
-.careerspanels div{
+.careerspanels div {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -287,7 +285,7 @@ ul {
 	align-items: center;
 }
 
-.subtitle1{
+.subtitle1 {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 2px;
@@ -298,9 +296,10 @@ ul {
 	-webkit-animation-duration: 2s;
 	animation-duration: 2s;
 	text-shadow: 1px 1px 10px black;
+	overflow-x: hidden;
 }
 
-.subtitle2{
+.subtitle2 {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 2px;
@@ -311,16 +310,17 @@ ul {
 	-webkit-animation-duration: 2s;
 	animation-duration: 2s;
 	width: 30vw;
+	overflow-x: hidden;
 }
 
-.panel11 {
+.panel12 {
 	height: 50vh;
 	width: 50%;
 	background-image: url(https://s15.postimg.org/c8wzr95rf/careerbg.png);
 	background-size: cover;
 }
 
-.panel12 {
+.panel11 {
 	height: 50vh;
 	width: 50%;
 	background-image: url(https://s22.postimg.org/k9m0f4gyp/careerbglight.png);
@@ -373,4 +373,123 @@ ul {
 	background-image: url(https://s15.postimg.org/7yhnpwxln/image6.png);
 	background-position: center;
 	background-size: cover;
+}
+
+section#timeline {
+  width: 80%;
+  margin: 20px auto;
+  position: relative;
+  font-family: 'Quicksand', sans-serif;
+}
+section#timeline:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 300px;
+  margin: 0 0 -1px;
+  width: 2px;
+  bottom: 0;
+  background: rgba(255,255,255,0.2);
+	padding: 0 0 -50px 0;
+}
+section#timeline article {
+  width: 100%;
+  margin: 0 0 20px 0;
+  position: relative;
+}
+section#timeline article:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+section#timeline article div.inner {
+  width: 40%;
+  float: left;
+  margin: 5px 0 0 0;
+	box-shadow: 2px 2px 10px black;
+}
+section#timeline article div.inner span.date {
+  display: block;
+  width: 65px;
+  height: 65px;
+  padding: 5px 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -32px;
+  border-radius: 100%;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: #262630;
+  color: rgba(255,255,255,0.5);
+  border: 2px solid rgba(255,255,255,0.2);
+}
+section#timeline article div.inner span.date span {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+section#timeline article div.inner span.date span.day {
+  font-size: 0.1px;
+  line-height: 13px;
+}
+section#timeline article div.inner span.date span.month {
+	vertical-align: center;
+	margin: 15px 0;
+  font-size: 18px;
+}
+section#timeline article div.inner span.date span.year {
+  font-size: 1px;
+  line-height: 13px;
+}
+section#timeline article div.inner h2 {
+  padding: 15px;
+  margin: 0;
+  color: #16161e;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  position: relative;
+}
+section#timeline article div.inner h2:after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: -5px;
+  	width: 10px; 
+	  height: 10px;
+  -webkit-transform: rotate(-45deg);
+}
+section#timeline article div.inner h2 p {
+  color: black;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 20px;
+	-webkit-animation-duration: 3s;
+	animation-duration: 3s;
+	text-transform: none;
+	line-height: 25px;
+}
+
+section#timeline article div.inner h2 p b {
+	text-transform: uppercase;
+	font-weight: 900;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #262630;
+}
+
+section#timeline article:nth-child(2n+2) div.inner {
+  float: right;
+}
+section#timeline article:nth-child(2n+2) div.inner h2:after {
+  left: -5px;
+}
+section#timeline article div.inner h2 {
+  background: #d7d9e0;
+}
+section#timeline article div.inner h2:after {
+  background: #d7d9e0;
 }
