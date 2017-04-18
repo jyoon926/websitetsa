@@ -35,12 +35,22 @@ body {
 ::-moz-selection {
   /* Code for Firefox */
   color: white;
-  background: black;
+  background: rgb(242,120,75, 0.7);
 }
 
 ::selection {
   color: white;
-  background: black;
+  background: rgb(242,120,75, 0.7);
+}
+
+::-webkit-selection {
+  color: white;
+  background: rgb(242,120,75, 0.7);
+}
+
+::-ms-selection {
+  color: white;
+  background: rgb(242,120,75, 0.7);
 }
 
 .top {
