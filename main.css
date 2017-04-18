@@ -87,8 +87,8 @@ ul {
 }
 
 .nav li a:hover {
-	background-color: white;
-	color: black;
+	background-color: #F2784B;
+	color: white;
 }
 
 .lander {
@@ -112,9 +112,9 @@ ul {
 }
 
 .landertext {
-	color: white;
+	color: #F2784B;
 	font-family: 'Raleway', sans-serif;
-	font-weight: 500;
+	font-weight: 1100;
 	font-size: 80px;
 	margin-bottom: 20px;
 	text-align: center;
@@ -122,14 +122,10 @@ ul {
 	animation-duration: 2s;
 }
 
-.lander h2 {
-	font-size: 60px;
-	font-weight: 200;
-}
-
 .lander h3 {
+	color: white;
 	font-size: 40px;
-	font-weight: 200;
+	font-weight: 400;
 }
 
 .lander div {
@@ -258,13 +254,6 @@ p {
 	justify-content: space-between;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-}
-
-.timeline-line {
-	position: absolute;
-	left: 49.5%;
-	border-left: 1vw solid #1d1d26;
-	height: 300%;
 }
 
 .careerspanels div {
@@ -421,8 +410,8 @@ section#timeline article div.inner span.date {
   font-weight: 900;
   text-transform: uppercase;
   background: #262630;
-  color: rgba(255,255,255,0.5);
-  border: 2px solid rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.4);
+  border: 2px solid rgba(255,255,255,0.4);
 }
 section#timeline article div.inner span.date span {
   display: flex;
@@ -476,7 +465,7 @@ section#timeline article div.inner h2 p b {
 	font-weight: 900;
 	border-bottom-width: 2px;
 	border-bottom-style: solid;
-	border-bottom-color: #262630;
+	border-bottom-color: #F2784B;
 }
 
 section#timeline article:nth-child(2n+2) div.inner {
