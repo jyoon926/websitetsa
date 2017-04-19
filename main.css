@@ -21,7 +21,8 @@ html {
 */
 
 body {
-  background-color: #262630;
+  background-image: url(https://s28.postimg.org/dp1l6klot/stardust.png);
+  background-attachment: fixed;
 }
 
 @font-face {
@@ -35,22 +36,22 @@ body {
 ::-webkit-selection {
   /* Code for Firefox */
   color: white;
-  background: #f98a61;
+  background: #4d4d56;
 }
 
 ::-o-selection {
   color: white;
-  background: #f98a61;
+  background: #4d4d56;
 }
 
 ::-moz-selection {
   color: white;
-  background: #f98a61;
+  background: #4d4d56;
 }
 
 ::selection {
   color: white;
-  background: #f98a61;
+  background: rgba(242, 120, 75, 0.5);
 }
 
 .pace {
@@ -74,21 +75,28 @@ body {
   right: 100%;
   width: 100%;
   height: 2px;
-}
+	}
 
 .top {
   top: 0;
   font-size: 1px;
 }
 
+hr {
+	border: 2px solid rgba(255, 255, 255, 0.7);
+}
+
 ul {
   padding: 10px 0;
+  margin: 0;
   list-style-type: none;
   position: fixed;
-  background-color: #07070a;
+  background-image: url(https://s28.postimg.org/dp1l6klot/stardust.png);
   width: 100%;
   left: 0;
+  /*
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -111,16 +119,11 @@ ul {
   font-family: 'Quicksand', sans-serif;
   font-weight: 600;
   font-size: 15px;
-  padding: 10px 1vw;
+  padding: 0 1vw;
   background-color: none;
   -webkit-transition: 1s;
   transition: 1s;
   line-height: 30px;
-}
-
-.nav li a:hover {
-  background-color: #F2784B;
-  color: white;
 }
 
 .lander {
@@ -199,8 +202,6 @@ ul {
 }
 
 .body1 {
-  background-color: #262630;
-  background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -258,16 +259,18 @@ p {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #16161e;
+
+  margin-bottom: 100px;
 }
 
 .sectiontitle {
+	width: 100vw;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   letter-spacing: 2px;
   color: white;
   font-size: 50px;
-  font-weight: 500;
+  font-weight: 400;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   padding: 100px 0;
@@ -305,7 +308,21 @@ p {
 }
 
 .subtitle1 {
-  text-align: center;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 70px;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  text-shadow: 1px 1px 10px black;
+  overflow-x: hidden;
+}
+
+.subtitle4 {
+  text-align: right;
   font-family: 'Raleway', sans-serif;
   letter-spacing: 2px;
   color: white;
@@ -319,7 +336,21 @@ p {
 }
 
 .subtitle2 {
-  text-align: center;
+  text-align: right;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 35px;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  width: 30vw;
+  overflow-x: hidden;
+}
+
+.subtitle3 {
+  text-align: left;
   font-family: 'Raleway', sans-serif;
   letter-spacing: 2px;
   color: white;
@@ -335,15 +366,11 @@ p {
 .panel12 {
   height: 50vh;
   width: 50%;
-  background-image: url(https://s15.postimg.org/c8wzr95rf/careerbg.png);
-  background-size: cover;
 }
 
 .panel11 {
   height: 50vh;
   width: 50%;
-  background-image: url(https://s22.postimg.org/k9m0f4gyp/careerbglight.png);
-  background-size: cover;
 }
 
 .panel1 {
@@ -399,6 +426,7 @@ section#timeline {
   margin: 20px auto;
   position: relative;
   font-family: 'Quicksand', sans-serif;
+	margin-bottom: 100px;
 }
 
 section#timeline:before {
@@ -406,12 +434,17 @@ section#timeline:before {
   display: block;
   position: absolute;
   left: 50%;
-  top: 300px;
+  top: 50px;
   margin: 0 0 -1px;
   width: 2px;
   bottom: 0;
   background: rgba(255, 255, 255, 0.2);
   padding: 0 0 -50px 0;
+}
+
+section#timeline h3 {
+	margin: 0;
+	text-align: center;
 }
 
 section#timeline article {
@@ -430,7 +463,6 @@ section#timeline article div.inner {
   width: 40%;
   float: left;
   margin: 5px 0 0 0;
-  box-shadow: 2px 2px 10px black;
 }
 
 section#timeline article div.inner span.date {
@@ -446,9 +478,10 @@ section#timeline article div.inner span.date {
   font-size: 12px;
   font-weight: 900;
   text-transform: uppercase;
-  background: #262630;
+  background: none;
   color: rgba(255, 255, 255, 0.8);
   border: 2px solid rgba(255, 255, 255, 0.8);
+  background-color: #212025;
 }
 
 section#timeline article div.inner span.date span {
@@ -509,14 +542,14 @@ section#timeline article div.inner h2 p b {
   font-weight: 900;
   border-bottom-width: 2px;
   border-bottom-style: solid;
-  border-bottom-color: #F2784B;
+  border-bottom-color: #262630;
 }
 
-section#timeline article:nth-child(2n+2) div.inner {
+section#timeline article:nth-child(2n+1) div.inner {
   float: right;
 }
 
-section#timeline article:nth-child(2n+2) div.inner h2:after {
+section#timeline article:nth-child(2n+1) div.inner h2:after {
   left: -5px;
 }
 
@@ -526,4 +559,75 @@ section#timeline article div.inner h2 {
 
 section#timeline article div.inner h2:after {
   background: #d7d9e0;
+}
+
+section#transportation {
+}
+
+section#transportation div {
+	display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: top;
+  -ms-flex-align: top;
+  align-items: top;
+}
+
+section#transportation div h2 {
+	text-align: center;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 35px;
+  font-weight: 500;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  padding: 0 0 0 1px;
+	width: 50%;
+}
+
+section#transportation div p {
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	color: white;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 35px;
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	overflow-x: hidden;
+	width: 50%;
+	padding: 0 10% 100px 10%;
+
+}
+
+section#prosandcons {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+section#prosandcons h2 {
+	font-size: 35px;
+	letter-spacing: 5px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-weight: 400;
+}
+
+section#prosandcons p {
+	font-family: 'Raleway', sans-serif;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 60%;
+	margin: 0 20vw 0 20vw;
+	line-height: 30px;
 }
