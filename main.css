@@ -60,7 +60,8 @@ body {
 
   -webkit-user-select: none;
   -moz-user-select: none;
-  user-select: none;
+  -ms-user-select: none;
+      user-select: none;
 }
 
 .pace-inactive {
@@ -485,9 +486,14 @@ section#timeline article div.inner span.date {
 }
 
 section#timeline article div.inner span.date span {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-content: center;
-  justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 section#timeline article div.inner span.date span.day {
