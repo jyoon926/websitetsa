@@ -627,6 +627,8 @@ section#prosandcons h2 {
 	padding-top: 50px;
 	padding-bottom: 50px;
 	font-weight: 400;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
 }
 
 section#prosandcons p {
@@ -636,4 +638,6 @@ section#prosandcons p {
 	width: 60%;
 	margin: 0 20vw 0 20vw;
 	line-height: 30px;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
 }
