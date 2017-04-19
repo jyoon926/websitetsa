@@ -370,12 +370,12 @@ p {
 }
 
 .panel12 {
-  height: 50vh;
+  height: 80vh;
   width: 50%;
 }
 
 .panel11 {
-  height: 50vh;
+  height: 80vh;
   width: 50%;
 }
 
@@ -383,7 +383,7 @@ p {
   background-image: url(https://s15.postimg.org/xnj3sa0wr/image1.png);
   background-position: center;
   background-size: cover;
-  height: 50vh;
+  height: 80vh;
   width: 50%;
 }
 
@@ -391,12 +391,12 @@ p {
   background-image: url(https://s15.postimg.org/6ecbrip7f/image2.png);
   background-size: cover;
   background-position: center;
-  height: 50vh;
+  height: 80vh;
   width: 50%;
 }
 
 .panel3 {
-  height: 50vh;
+  height: 80vh;
   width: 50%;
   background-image: url(https://s15.postimg.org/uw4fferrv/image3.png);
   background-position: center;
@@ -404,7 +404,7 @@ p {
 }
 
 .panel4 {
-  height: 50vh;
+  height: 80vh;
   width: 50%;
   background-image: url(https://s15.postimg.org/x1yq9wv8b/image4.png);
   background-position: center;
@@ -412,7 +412,7 @@ p {
 }
 
 .panel5 {
-  height: 50vh;
+  height: 80vh;
   width: 50%;
   background-image: url(https://s15.postimg.org/6uxjdycyj/image5.png);
   background-position: center;
@@ -420,7 +420,7 @@ p {
 }
 
 .panel6 {
-  height: 50vh;
+  height: 80vh;
   width: 50%;
   background-image: url(https://s15.postimg.org/7yhnpwxln/image6.png);
   background-position: center;
@@ -675,4 +675,8 @@ section#prosandcons section div p{
 }
 
 section#prosandcons section div h2 {
+}
+
+html {
+	overflow-x: hidden;
 }
