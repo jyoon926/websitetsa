@@ -4,6 +4,8 @@ html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-family: 'geometria-light';
+  font-weight: 100;
 }
 
 * {
@@ -26,7 +28,7 @@ body {
 }
 
 @font-face {
-	font-family: 'aliceregular';
+  font-family: 'geometria-light';
 }
 
 ::-webkit-selection {
@@ -575,7 +577,6 @@ section#transportation div {
 
 section#transportation div h2 {
   text-align: center;
-  font-family: 'geometria-light';
   letter-spacing: 2px;
   color: white;
   font-size: 35px;
@@ -602,7 +603,6 @@ section#transportation div p {
 
 section#prosandcons {
   color: white;
-  font-family: 'geometria-light';
 }
 
 section#prosandcons p {
@@ -664,6 +664,4 @@ section#prosandcons section div h2 {}
 
 html {
   overflow-x: hidden;
-	font-family: 'geometria-light';
-	font-weight: 100;
 }
