@@ -32,6 +32,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-family: 'Cinzel', serif;
   font-family: 'Open Sans', sans-serif;
+  font-family: 'geometria-light';
 }
 
 ::-webkit-selection {
@@ -118,7 +119,7 @@ ul {
   color: white;
   letter-spacing: 2px;
   text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'geometria-light';
   font-weight: 100;
   font-size: 15px;
   padding: 0 1vw;
@@ -150,7 +151,7 @@ ul {
 
 .landertext {
   color: #F2784B;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'geometria-light';
   font-weight: 1100;
   font-size: 80px;
   margin-bottom: 20px;
@@ -225,7 +226,7 @@ ul {
 .body1 h3,
 p {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'geometria-light';
   letter-spacing: 2px;
 }
 
@@ -270,7 +271,7 @@ p {
 .sectiontitle {
   width: 100vw;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'geometria-light';
   letter-spacing: 2px;
   color: white;
   font-size: 50px;
@@ -313,7 +314,7 @@ p {
 
 .subtitle1 {
   text-align: left;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'geometria-light';
   letter-spacing: 2px;
   color: white;
   font-size: 25px;
@@ -327,7 +328,7 @@ p {
 
 .subtitle4 {
   text-align: right;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'geometria-light';
   letter-spacing: 2px;
   color: white;
   font-size: 25px;
@@ -341,7 +342,7 @@ p {
 
 .subtitle2 {
   text-align: right;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'geometria-light';
   letter-spacing: 2px;
   color: white;
   font-size: 15px;
@@ -355,7 +356,7 @@ p {
 
 .subtitle3 {
   text-align: left;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'geometria-light';
   letter-spacing: 2px;
   color: white;
   font-size: 15px;
@@ -429,7 +430,7 @@ section#timeline {
   width: 80%;
   margin: 20px auto;
   position: relative;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'geometria-light';
   margin-bottom: 100px;
 }
 
@@ -590,7 +591,7 @@ section#transportation div {
 
 section#transportation div h2 {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'geometria-light';
   letter-spacing: 2px;
   color: white;
   font-size: 35px;
@@ -603,7 +604,7 @@ section#transportation div h2 {
 
 section#transportation div p {
   text-align: left;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'geometria-light';
   letter-spacing: 2px;
   color: white;
   font-size: 15px;
@@ -618,7 +619,7 @@ section#transportation div p {
 
 section#prosandcons {
   color: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'geometria-light';
 }
 
 section#prosandcons p {
@@ -635,7 +636,7 @@ section#prosandcons p {
 
 section#prosandcons h2 {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'geometria-light';
   letter-spacing: 2px;
   color: white;
   font-size: 35px;
