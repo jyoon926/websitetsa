@@ -153,6 +153,7 @@ ul {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   letter-spacing: 5px;
+  font-style: italic;
 }
 
 .lander h3 {
@@ -307,33 +308,35 @@ p {
   text-align: left;
   letter-spacing: 2px;
   color: white;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 100;
   line-height: 70px;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   text-shadow: 1px 1px 10px black;
   overflow-x: hidden;
+  text-transform: capitalize;
 }
 
 .subtitle4 {
   text-align: right;
   letter-spacing: 2px;
   color: white;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 100;
   line-height: 70px;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   text-shadow: 1px 1px 10px black;
   overflow-x: hidden;
+  text-transform: capitalize;
 }
 
 .subtitle2 {
   text-align: right;
   letter-spacing: 2px;
   color: white;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 100;
   line-height: 25px;
   -webkit-animation-duration: 2s;
@@ -346,7 +349,7 @@ p {
   text-align: left;
   letter-spacing: 2px;
   color: white;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 100;
   line-height: 25px;
   -webkit-animation-duration: 2s;
@@ -356,12 +359,12 @@ p {
 }
 
 .panel12 {
-  height: 80vh;
+  height: 50vh;
   width: 50%;
 }
 
 .panel11 {
-  height: 80vh;
+  height: 50vh;
   width: 50%;
 }
 
@@ -369,7 +372,7 @@ p {
   background-image: url(https://s15.postimg.org/xnj3sa0wr/image1.png);
   background-position: center;
   background-size: cover;
-  height: 80vh;
+  height: 50vh;
   width: 50%;
 }
 
@@ -377,12 +380,12 @@ p {
   background-image: url(https://s15.postimg.org/6ecbrip7f/image2.png);
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: 50vh;
   width: 50%;
 }
 
 .panel3 {
-  height: 80vh;
+  height: 50vh;
   width: 50%;
   background-image: url(https://s15.postimg.org/uw4fferrv/image3.png);
   background-position: center;
@@ -390,7 +393,7 @@ p {
 }
 
 .panel4 {
-  height: 80vh;
+  height: 50vh;
   width: 50%;
   background-image: url(https://s15.postimg.org/x1yq9wv8b/image4.png);
   background-position: center;
@@ -398,7 +401,7 @@ p {
 }
 
 .panel5 {
-  height: 80vh;
+  height: 50vh;
   width: 50%;
   background-image: url(https://s15.postimg.org/6uxjdycyj/image5.png);
   background-position: center;
@@ -406,7 +409,7 @@ p {
 }
 
 .panel6 {
-  height: 80vh;
+  height: 50vh;
   width: 50%;
   background-image: url(https://s15.postimg.org/7yhnpwxln/image6.png);
   background-position: center;
@@ -603,6 +606,7 @@ section#transportation div p {
 
 section#prosandcons {
   color: white;
+  padding-bottom: 100px;
 }
 
 section#prosandcons p {
@@ -661,6 +665,86 @@ section#prosandcons section div p {
 }
 
 section#prosandcons section div h2 {}
+
+section#interviews {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: : row;
+    flex-wrap: wrap;
+    color: white;
+}
+
+section#interviews h2 {
+    width: 25vw;
+    text-align: center;
+    padding-bottom: 100px;
+    font-size: 35px;
+    font-weight: 100;
+    animation-duration: 2s;
+}
+
+section#interviews p {
+    width: 25vw;
+    padding-bottom: 100px;
+    text-align: left;
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-size: 16px;
+    color: rgba(255,255,255,0.65);
+    animation-duration: 2s;
+}
+
+section#interviews p b {
+    font-size: 22px;
+    color: rgba(255,255,255,1);
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(https://s21.postimg.org/idfdusp53/stardust.png);
+    background-attachment: fixed;
+    z-index: 9999;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 4px solid rgba(255,255,255,0.75);
+    border-top: 4px solid rgba(255,255,255,0.75);
+}
+
+footer img {
+    transition-duration: 0.5s;
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 100%;
+    margin: 100px 0;
+}
+
+footer img:hover{
+    background-color: rgba(255,255,255,1);
+    padding: 12px;
+    height: 180px;
+    width: 180px;
+    margin: 85px 0;
+}
+
+footer h1 {
+    text-align: left;
+    width: 25vw;
+    font-size: 30px;
+    font-weight: 100;
+    color: rgba(255,255,255,0.6);
+}
+
+footer h2 {
+    text-align: right;
+    width: 25vw;
+    font-size: 30px;
+    font-weight: 100;
+    color: rgba(255,255,255,0.6);
+}
 
 html {
   overflow-x: hidden;
