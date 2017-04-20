@@ -18,24 +18,13 @@
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
      <script>
      $(document).ready(function(){
-     // Add smooth scrolling to all links
      $("a").on('click', function(event) {
-
-     // Make sure this.hash has a value before overriding default behavior
      if (this.hash !== "") {
-     // Prevent default anchor click behavior
      event.preventDefault();
-
-     // Store hash
      var hash = this.hash;
-
-     // Using jQuery's animate() method to add smooth page scroll
-     // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
      $('html, body').animate({
      scrollTop: $(hash).offset().top
      }, 800, function(){
-
-     // Add hash (#) to URL when done scrolling (default click behavior)
      window.location.hash = hash;
      });
      } // End if
@@ -48,7 +37,7 @@
    <nav>
      <ul class="nav animated fadeInDown">
        <li><a class="hvr-shutter-out-horizontal" href="#workcited">Works Cited</a></li>
-       <li><a class="hvr-shutter-out-horizontal" href="#interviews">Interviews</a></li>
+       <li><a class="hvr-shutter-out-horizontal" href="#interview">Interviews</a></li>
        <li><a class="hvr-shutter-out-horizontal" href="#prosandcons">Pros and Cons</a></li>
        <li><a class="hvr-shutter-out-horizontal" href="#transportation">Transportation</a></li>
        <li><a class="hvr-shutter-out-horizontal" href="#timelinesection">Timeline</a></li>
@@ -61,15 +50,15 @@
 <p class="top" id="home">.</p>
 
 <div class="lander">
- 
+
   <h2 class="landertext wow fadeIn">
     The Mission To Mars
   </h2>
-  
+
   <h3 class="landertext wow fadeIn">
     Will We Achieve This Goal?
   </h3>
-  
+
 </div>
 <hr class="wow zoomIn">
 <div class="body1" id="privatizing">
@@ -79,13 +68,13 @@
   <p class="wow fadeInRight">
     There have been and are many ongoing searches for ways to explore our solar system and learn more about the whole universe. On October 4, 1957, the Soviets launched the first ever artificial satellite, Sputnik 1, into space. On July 20, 1969, Astronaut Neil Armstrong took "a giant step for mankind" as he stepped onto the moon. Six Apollo missions were made to explore the moon between 1969 and 1972. On November 13, 1971, the Mariner 9 probe became the first craft to orbit another world, Mars. By the end of the 1970s, the Voyager spacecraft had sent back detailed images of Jupiter and Saturn, their rings, and their moons. Six years later the probe Viking 2 discovered martian frost on the Martian surface. There are many ways to explore the solar system, and these are just a few ways the world has privatized space.
   </p>
-  
+
 </div>
 
 <hr class="wow zoomIn">
 
 <div class="careers" id="careers">
-  <h3 class="sectiontitle wow fadeInDown">Careers</h3>
+  <h3 class="sectiontitle wow fadeInUp">Careers</h3>
 
   <div class="careerspanels">
     <div class="timeline-line"></div>
@@ -163,13 +152,13 @@
     </div>
 
   </div>
-  
+
 </div>
 
 <hr class="wow zoomIn" id="timelinesection">
-<h3 class="sectiontitle wow fadeInDown">A Brief History of Space Exploration</h3>
+<h3 class="sectiontitle wow fadeInUp">A Brief History of Space Exploration</h3>
 <section class="timelinesection" id="timeline">
-  
+
   <article>
     <div class="inner">
       <span class="date wow fadeIn">
@@ -306,15 +295,15 @@ November 26: </b>NASA launched Curiosity, the biggest, best equipped robot ever 
       <p><b>September 7th:</b> NASA launched the unmanned LADEE spacecraft from NASA's Wallops Flight Facility in Virginia. It was the U.S. space agency's third lunar probe in five years. </p><p><b>December 24th:</b> NASA astronauts wrapped up successful repairs at the International Space Station after a rare Christmas Eve spacewalk to fix an equipment cooling system. </p></h2>
     </div>
   </article>
-  
+
 </section>
 <hr class="wow zoomIn">
 <section id="transportation">
 
-  <h3 class="sectiontitle wow fadeInDown">Space Vehicles and Spacecrafts</h3>
-  
+  <h3 class="sectiontitle wow fadeInUp">Space Vehicles and Spacecrafts</h3>
+
   <div>
-    
+
     <h2 class="wow fadeInLeft">
       The Evolution of Space Vehicles
     </h2>
@@ -322,9 +311,9 @@ November 26: </b>NASA launched Curiosity, the biggest, best equipped robot ever 
     <p class="wow fadeInRight">Space vehicles first started with the mathematical demonstration about how to achieve liftoff using liquid fuels. This was eventually achieved when Robert Goddard launched the first liquid-fueled rocket on March 16, 1926. Later on nearing the end of World War II, Germany launched ballistic missiles respectively known as the A4 and the V-2. The space age then started when Satellite Sputnik became the first satellite to be launched into space on October 4, 1957.
     </p>
   </div>
-    
+
   <div>
-    
+
     <h2 class="wow fadeInLeft">
       Manned Spacecrafts
     </h2>
@@ -335,13 +324,13 @@ November 26: </b>NASA launched Curiosity, the biggest, best equipped robot ever 
   </div>
 
   <div>
-    
+
     <h2 class="wow fadeInLeft">
       Unmanned Spacecrafts
     </h2>
 
-    <p class="wow fadeIn">
-      Most of the unmanned spacecrafts are either satellites or space probes, which are used to study and record different information. However, NASA has launched other unmanned vehicles such as the Mars rovers. 
+    <p class="wow fadeInRight">
+      Most of the unmanned spacecrafts are either satellites or space probes, which are used to study and record different information. However, NASA has launched other unmanned vehicles such as the Mars rovers.
     </p>
   </div>
 
@@ -349,33 +338,89 @@ November 26: </b>NASA launched Curiosity, the biggest, best equipped robot ever 
 <hr class="wow zoomIn">
 <section id="prosandcons">
 
-  <h3 class="sectiontitle wow fadeIn">Pros and Cons of Manned Missions to Mars</h3>
-  
+  <h3 class="sectiontitle wow fadeInUp">Pros and Cons of Manned Missions to Mars</h3>
+
   <h2 class="wow fadeInDown">
     Introduction
   </h2>
   <p class="wow fadeInUp">
   	There is a lot of controversy on whether NASA or any other private spaceflight company should invest money and resources on colonizing Mars. There are many advantages, but disadvantages also have to be considered. Should the human race trust our luck and test our skills to embark on a mission of this scale, or should we not risk it, for there are so many things that could go wrong?</p>
-  
+
   <section>
     <div>
     <h2 class="wow fadeInLeft">
   Pros</h2>
-    
+
     <p class="wow fadeInLeft">First of all, on the positive side, there is a chance that we could discover new forms of microscopic life on Mars. Especially since there is a possibility that there is flowing water on Mars, the chances are quite high. Another advantage is that it could be a stepping stone for exploring the galaxy. Finding out that the pinnacle of the human race's capability will stop at Earth's orbit would be sad. Also, being able to colonize Mars would inspire the future generations of engineers.</p>
     </div>
     <div>
     <h2 class="wow fadeInRight">
   Cons
     </h2>
-    <p class="wow fadeInRight">
+    <p class="last wow fadeInRight">
   On the other hand, there are disadvantages that make this decision a lot harder. The biggest reason why we shouldn't invest in another planet, is that there are more significant problems here on Earth. Poverty, global warming, the mass extinction of non-human species, war, gun laws, racism, sexism, a low quality and unequal public educational system, pollution, and destruction of wildlife/habitats are just a fraction of the problems that human race faces. We should be focusing on fixing our home planet rather than invest in another.
   </p>
     </div>
   </section>
-  
+
 </section>
 
-<hr class="wow zoomIn">
+<hr class="wow zoomIn" id="interview">
+
+<h3 class="sectiontitle wow fadeInDown">Interviews</h3>
+
+<section id="interviews">
+
+    <h2 class="wow fadeInDown">Interview Questions</h2>
+    <h2 class="wow fadeInDown">Professor Dmitry Savransky at Cornell University</h2>
+    <h2 class="wow fadeInDown">Professor Daniel Selva at Cornell University</h2>
+
+    <p class="wow fadeIn"><b>Q1:</b> Let's start with a very basic question. What do you do in your field of work?</p>
+    <p class="wow fadeIn"><b>A:</b> I am a mechanical and aerospace engineer.  This field encompasses a huge variety of disciplines, including the study of dynamics and control systems, fluid dynamics, thermodynamics and heat transfer, as well as design and countless application areas.  My particular expertise is in dynamics and control systems - the study of how physical objects move and behave in response to various forces, and how to get them to do whatever it is that you need them to do.  I am particularly interested in the dynamics of stars, planetary systems (like our solar system)---a field called Celestial Mechanics---as well as the dynamics and control of satellites and spacecraft. Along with my colleagues and my students, I work on many different problems in these areas.  Some of these include: helping to plan future space observatories (such as the Hubble Space Telescope, but which are currently being designed); studying how to best figure out how to make multiple spacecraft carry out coordinated tasks (this is referred to as formation flying); and building optical systems (like digital cameras, but slightly more complicated) than can automatically reconfigure and realign themselves to perform different tasks.
+    </p>
+    <p class="wow fadeIn"><b>A:</b> As you probably know, I'm a professor of aerospace engineering and systems engineering at Cornell. As a professor, there are three aspects of my work: research, teaching, and service. My research is at the intersection of space systems and artificial intelligence. In a nutshell, I develop software tools to help organizations like NASA design better space missions faster. I also participate in actual flight missions. For example, I am on the constellation and instrument science team for the NASA TROPICS mission. In terms of teaching, I teach a class on spacecraft technologies and architectures, and another one on system architecture. Finally, in terms of service, I help professional organizations like IEEE and AIAA organize aerospace conferences. I also serve as the faculty advisor for the Cornell Rocketry Team.
+    </p>
+
+    <p class="wow fadeIn"><b>Q2:</b> What made you want to be an aeronautical space engineer?</p>
+    <p class="wow fadeIn"><b>A:</b> I have always been fascinated by space travel and astronomy. I had the opportunity to study these subjects a little bit in school, and then in much more depth in college, and continued to look for opportunities to learn more and get involved in various projects related to the science and technology of space exploration.
+    </p>
+    <p class="wow fadeIn"><b>A:</b> I'm not sure -- I've wanted to be an aerospace engineer for as long as I can remember. I think it's probably a mix of factors: the coolness of participating in space exploration, and the challenge of being able to do "rocket science".
+    </p>
+
+    <p class="wow fadeIn"><b>Q3:</b> What are some tools that you use for your work?</p>
+    <p class="wow fadeIn"><b>A:</b> Much of my work begins with just paper and pencil (or a whiteboard).  I create models of the systems I wish to study on paper---these are mathematical models and so math and physics are the fundamental tools with which I work.  Very quickly, these models become too difficult to solve by hand, and so we turn to computers to help us out.  A lot of my time is spent writing programs to solve the particular problems I happen to be working on.  Once I am satisfied that I understand how my model of a system works and can be solved in simulation, the final step is to build a physical prototype and test it in the lab.  Here, there are many different tools that can be brought to bear.  Since a lot of our work has to do with optical systems, I frequently use lasers and other interesting optical devices.  One of the coolest things I've ever had a chance to work with is called a deformable mirror.  This is a small mirror (the one I used was less than an inch across, although they come in various sizes), that can actually change its shape very quickly.  These devices have many uses, but the one I work with is actually used as part of a very complex camera attached to a giant telescope.  The deformable mirror is programmed to make shapes that account for the moving atmosphere (like wind blowing over the top of the telescope), which allows us to take much, much clearer images of stars and to even take images of planets orbiting other stars.
+    </p>
+    <p class="wow fadeIn"><b>A:</b> In order to develop my own optimization, machine learning, and visual analytics tools, I use Matlab, Java, Python, and a few special programming languages such as JESS. I also use astrodynamics tools such as Systems Toolkit.
+    </p>
+
+    <p class="wow fadeIn"><b>Q4:</b> Do you design any kinds of aircrafts or spacecrafts?</p>
+    <p class="wow fadeIn"><b>A:</b> I do not design aircraft.  I do take part in the process to design spacecraft - in particular, astronomical space telescopes.  As I previously mentioned, aerospace engineering covers an amazing range of disciplines, and all of these are needed to build a spacecraft.  It takes a large team of many people with many different specializations and unique skills in order to produce a successful space mission.</p>
+    <p class="wow fadeIn"><b>A:</b> I design primarily spacecraft, although many years ago I did my Masters thesis in the aerodynamics of jet engines. </p>
+
+    <p class="wow fadeIn"><b>Q5:</b> What are the main tasks or responsibilities that are required at work?</p>
+    <p class="wow fadeIn"><b>A:</b> I am currently an assistant professor (this is the lowest rank of professor at a US university - I started 3 years ago).  My job is split fairly evenly between teaching and research.  I typically teach two different courses every year (one per semester), and also advise undergraduate and graduate students.  For research, I get to propose projects I would like to work on to various government and other agencies.  I then work together with my research group (which includes both graduate and undergraduate students) to figure out exactly how to make our proposed ideas into reality.</p>
+    <p class="wow fadeIn"><b>A:</b> In an academic position, the main tasks are aligned with the roles I mentioned earlier: researcher, teacher, advisor/mentor. Tasks related to research include reading,  writing and reviewing grant proposals and scientific papers, developing and testing models and algorithms, running human and computational experiments, and analyzing the data. Tasks related to teaching include preparing and giving lectures, preparing and grading homework and exams, and answering students' questions by email or in office hours. Tasks related to service include serving on various committees, advising students, and others.</p>
+
+    <p class="wow fadeIn"><b>Q6:</b> What kind of assignments are given to you for work?</p>
+    <p class="wow fadeIn"><b>A:</b> One of the wonderful things about this job is that nobody is really giving you assignments (other than which courses you should teach).  You have to come up with ideas for interesting things you would like to do, and then convince people who fund research activities that these are worthwhile projects that you and your team are best suited to carry out.</p>
+    <p class="wow fadeIn"><b>A:</b> In research, the cool thing is that to a certain extent I can define my own assignments. I write proposals in which I propose funding agencies to do a specific thing, such as designing a mission, or creating a new tool or algorithm. If they like it and decide to fund it, then that becomes my assignment. In teaching, typical assignments include teaching a new or existing class or part of it. In service, assignments include organizing meetings and conferences, taking notes and writing reports.</p>
+
+    <p class="wow fadeIn"><b>Q7:</b> What do you currently think about eventually being able to successfully living on Mars through the work of aerospace?</p>
+    <p class="wow fadeIn"><b>A:</b> I think we're still fairly far off from being able to live on Mars, although I wouldn't be surprised if the first manned missions to Mars happened in the next twenty years.  In order to create a human colony on Mars, we'll need lots of different professions, not just aerospace engineers, working together.  We'll need all kinds of different engineers, biologists, ecologists, and many many others in order to solve all of the problems that'll arise from trying to live on a whole different planet.</p>
+    <p class="wow fadeIn"><b>A:</b> First of all, I think that being able to live on some other planetary body, probably Mars, is going to be a necessity for humankind to survive as a species. I also see that as an exciting adventure. As to when that will be possible technology, it's hard to predict as it depends on a number of interdependent issues and incentives like technology, NASA budget, climate change, population growth, political cycles and so forth. I think astronauts will land on Mars in the next 15 years, but colonizing Mars will take hundreds of billions of dollars of investments and probably also a change in people's perceptions of the urgency of leaving Earth.</p>
+
+    <p class="wow fadeIn"><b>Q8:</b> What school would be best if someone wanted to become an aerospace engineer?</p>
+    <p class="wow fadeIn"><b>A:</b> There are a lot of great schools out there where you can learn aerospace engineering, and it's nearly impossible to say that one is 'the best'.  I'm certainly a big fan of Cornell, and I think that it can easily be called one of the best places to go if you're interested in this field.  However, what you really want to consider is what else a school has to offer, and who are the people on the faculty that is doing the things you think are the most exciting.  A really great engineer is one who has many varied skills and interests, and the best way to learn what the next big thing will be is to work alongside the people who are trying to create it.</p>
+    <p class="wow fadeIn"><b>A:</b> There are many options, but perhaps some of the best ones are MIT, Stanford, Caltech, Georgia Tech, Michigan, Purdue, CU Boulder, and of course Cornell.</p>
+
+</section>
+
+<footer class="wow fadeIn">
+
+    <h1 class="wow fadeInLeft">2017 National TSA Conference</h1>
+    <a href="http://www.tsaweb.org/" target="_blank"><img class="wow zoomIn" src="https://s14.postimg.org/4qiozsvch/icon.png"></a>
+    <h2 class="wow fadeInRight">Level 1 Website Design Entry</h2>
+
+</footer>
 
 </html>
