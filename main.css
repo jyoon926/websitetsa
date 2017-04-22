@@ -710,10 +710,11 @@ footer {
     margin-bottom: 0;
     border-bottom: 4px solid rgba(255,255,255,0.75);
     border-top: 4px solid rgba(255,255,255,0.75);
+    margin-top: 100px;
 }
 
 footer img {
-    transition-duration: 0.5s;
+    transition-duration: 1s;
     padding: 10px;
     height: 150px;
     width: 150px;
@@ -748,4 +749,106 @@ footer h2 {
 
 html {
   overflow-x: hidden;
+}
+
+section#workscited h2 {
+    padding-top: 150px;
+    animation-delay: 0s;
+    animation-duration: 2s;
+    padding-bottom: 50px;
+}
+
+section#workscited h3 {
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+    line-height: 100px;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    text-shadow: 1px 1px 10px black;
+    overflow-x: hidden;
+    text-transform: capitalize;
+    padding: 50px 0;
+    animation-duration: 3s;
+}
+
+section#workscited p {
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 25px;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    overflow-x: hidden;
+    width: 80vw;
+    padding-left: 20vw;
+    animation-duration: 3s;
+}
+
+div#lander {
+  background-image: url(https://s2.postimg.org/txckww4x5/helloquence-51716.png);
+  height: 60vh;
+  background-size: cover;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+div#lander h2 {
+  color: white;
+  font-weight: 1100;
+  font-size: 80px;
+  margin-bottom: 20px;
+  text-align: center;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  letter-spacing: 5px;
+  font-style: italic;
+}
+
+div#lander1 {
+  background-image: url(https://s13.postimg.org/toff9869z/mikhail-pavstyuk-8436.png);
+  height: 60vh;
+  background-size: cover;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+div#lander1 h2 {
+  color: white;
+  font-weight: 1100;
+  font-size: 80px;
+  margin-bottom: 20px;
+  text-align: center;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  letter-spacing: 5px;
+  font-style: italic;
 }
