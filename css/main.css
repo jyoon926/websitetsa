@@ -852,3 +852,8 @@ div#lander1 h2 {
   letter-spacing: 5px;
   font-style: italic;
 }
+
+.homeicon {
+    height: 30px;
+    margin-right: 20px;
+}
