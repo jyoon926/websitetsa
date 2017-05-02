@@ -68,7 +68,7 @@ body {
 .pace .pace-progress {
   background: #F2784B;
   position: fixed;
-  z-index: 2000;
+  z-index: 900;
   top: 0;
   right: 100%;
   width: 100%;
@@ -122,6 +122,9 @@ ul {
   -webkit-transition: 1s;
   transition: 1s;
   line-height: 30px;
+  -mox-animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 .lander {
@@ -148,11 +151,14 @@ ul {
   color: #F2784B;
   font-weight: 100;
   font-size: 80px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   text-align: center;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   letter-spacing: 15px;
+  -mox-animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 .lander div {
