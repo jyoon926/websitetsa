@@ -119,12 +119,13 @@ ul {
   font-size: 15px;
   padding: 0 1vw;
   background-color: none;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -moz-transition: 2s;
+  -webkit-transition: 2s;
+  transition: 2s;
   line-height: 30px;
-  -mox-animation-delay: 0.3s;
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s;
+  -moz-transition-delay: 0.5s;
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
 }
 
 .lander {
