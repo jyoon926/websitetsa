@@ -68,7 +68,7 @@ body {
 .pace .pace-progress {
   background: #F2784B;
   position: fixed;
-  z-index: 2000;
+  z-index: 900;
   top: 0;
   right: 100%;
   width: 100%;
@@ -85,43 +85,80 @@ hr {
   z-index: 200;
 }
 
-ul {
-  padding: 10px 0;
-  margin: 0;
-  list-style-type: none;
-  position: fixed;
-  background-image: url(https://s28.postimg.org/dp1l6klot/stardust.png);
-  width: 100%;
-  left: 0;
-  /*
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  z-index: 100;
+.header {
+    width: 100vw;
+    position: fixed;
+    z-index: 999;
+    background-image: url(https://s21.postimg.org/idfdusp53/stardust.png);
+    display: flex;
+    justify-content: center;
 }
 
-.nav li a {
-  color: white;
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'geometria-light';
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-image: url(https://s21.postimg.org/idfdusp53/stardust.png);
+    min-width: 200px;
+    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.5);
+    z-index: 999;
+    text-align: center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    display: block;
+    transition-duration: 1s;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.link {
+    color: white;
   letter-spacing: 2px;
   text-decoration: none;
-  font-weight: 100;
+  font-weight: 900;
   font-size: 15px;
-  padding: 0 1vw;
   background-color: none;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -moz-transition: 2s;
+  -webkit-transition: 2s;
+  transition: 2s;
   line-height: 30px;
+  -moz-transition-delay: 0.5s;
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  min-width: 200px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div a img {
+    height: 15px;
+    padding-left: 30px;
 }
 
 .lander {
@@ -145,22 +182,19 @@ ul {
 }
 
 .landertext {
-  color: #F2784B;
-  font-weight: 1100;
-  font-size: 80px;
-  margin-bottom: 20px;
+  color: white;
+  font-weight: 100;
+  font-size: 60px;
+  margin-bottom: 0;
+  margin-top: 50px;
   text-align: center;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
-  letter-spacing: 5px;
-  font-style: italic;
-}
-
-.lander h3 {
-  color: white;
-  font-size: 40px;
-  font-weight: 400;
-  font-style: normal;
+  letter-spacing: 15px;
+  -mox-animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  text-shadow: 0px 0px 100px white;
 }
 
 .lander div {
@@ -858,9 +892,4 @@ div#lander1 h2 {
   animation-duration: 2s;
   letter-spacing: 5px;
   font-style: italic;
-}
-
-.homeicon {
-    height: 30px;
-    margin-right: 20px;
 }
