@@ -2246,7 +2246,7 @@
 }
 
 /* Underline From Left */
-.hvr-underline-from-left {
+.cfrom-left {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -2480,15 +2480,15 @@
   bottom: 0;
   background: white;
   height: 6px;
-  -webkit-transform: translateY(4px);
-  transform: translateY(4px);
+  -webkit-transform: translateY(6px);
+  transform: translateY(6px);
   -webkit-transition-property: transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
   transition-property: transform;
   transition-property: transform, -webkit-transform;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.6s;
+  transition-duration: 0.6s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
