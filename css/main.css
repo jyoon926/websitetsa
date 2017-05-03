@@ -14,14 +14,6 @@ html {
   box-sizing: border-box
 }
 
-
-/*
-@font-face {
-	font-family: futuristfixed;
-	src:url('C:\\users\\yoon\\documents\\jacob\\tsa\\2016-17\\nationals\\website\\futurist_fixed\\FUTRFW.TTF');
-}
-*/
-
 body {
   background-image: url(https://s28.postimg.org/dp1l6klot/stardust.png);
   background-attachment: fixed;
@@ -86,13 +78,18 @@ hr {
 }
 
 .header {
-    width: 100vw;
-    position: fixed;
-    z-index: 999;
-    background-image: url(https://s21.postimg.org/idfdusp53/stardust.png);
-    display: flex;
-    justify-content: center;
+  width: 100vw;
+  position: fixed;
+  z-index: 999;
+  background-image: url(https://s21.postimg.org/idfdusp53/stardust.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 ul {
   padding: 10px 0;
   margin: 0;
@@ -120,58 +117,65 @@ ul {
 }
 
 .dropbtn {
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    font-family: 'geometria-light';
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: 'geometria-light';
 }
+
 
 /* The container <div> - needed to position the dropdown content */
+
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
+
 
 /* Dropdown Content (Hidden by Default) */
+
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-image: url(https://s21.postimg.org/idfdusp53/stardust.png);
-    min-width: 200px;
-    box-shadow: 0px 8px 26px 0px rgba(0,0,0,0.5);
-    z-index: 999;
-    text-align: center;
+  display: none;
+  position: absolute;
+  background-image: url(https://s21.postimg.org/idfdusp53/stardust.png);
+  min-width: 200px;
+  box-shadow: 0px 8px 26px 0px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  text-align: center;
 }
+
 
 /* Links inside the dropdown */
+
 .dropdown-content a {
-    color: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-decoration: none;
-    display: block;
-    transition-duration: 1s;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-decoration: none;
+  display: block;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
+
 /* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 .link {
-    color: white;
+  color: white;
   letter-spacing: 2px;
   text-decoration: none;
   font-weight: 900;
   font-size: 15px;
   background-color: none;
-  -moz-transition: 2s;
   -webkit-transition: 2s;
   transition: 2s;
   line-height: 30px;
-  -moz-transition-delay: 0.5s;
   -webkit-transition-delay: 0.5s;
   transition-delay: 0.5s;
   padding-top: 30px;
@@ -182,8 +186,8 @@ ul {
 }
 
 div a img {
-    height: 15px;
-    padding-left: 30px;
+  height: 15px;
+  padding-left: 30px;
 }
 
 .lander {
@@ -726,91 +730,106 @@ section#prosandcons section div p {
 section#prosandcons section div h2 {}
 
 section#interviews {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: : row;
-    flex-wrap: wrap;
-    color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: white;
 }
 
 section#interviews h2 {
-    width: 25vw;
-    text-align: center;
-    margin-bottom: 100px;
-    font-size: 35px;
-    font-weight: 100;
-    animation-duration: 2s;
-    text-decoration: none;
+  width: 25vw;
+  text-align: center;
+  margin-bottom: 100px;
+  font-size: 35px;
+  font-weight: 100;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  text-decoration: none;
 }
 
 section#interviews h2 a img {
-    height: 20px;
-    padding-left: 20px;
-    padding-bottom: 5px;
+  height: 20px;
+  padding-left: 20px;
+  padding-bottom: 5px;
 }
 
 section#interviews p {
-    width: 25vw;
-    padding-bottom: 100px;
-    text-align: left;
-    letter-spacing: 2px;
-    line-height: 25px;
-    font-size: 16px;
-    color: rgba(255,255,255,0.65);
-    animation-duration: 2s;
+  width: 25vw;
+  padding-bottom: 100px;
+  text-align: left;
+  letter-spacing: 2px;
+  line-height: 25px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.65);
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
 }
 
 section#interviews p b {
-    font-size: 22px;
-    color: rgba(255,255,255,1);
+  font-size: 22px;
+  color: rgba(255, 255, 255, 1);
 }
 
 footer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-image: url(https://s21.postimg.org/idfdusp53/stardust.png);
-    background-attachment: fixed;
-    z-index: 9999;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    border-bottom: 4px solid rgba(255,255,255,0.75);
-    border-top: 4px solid rgba(255,255,255,0.75);
-    margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(https://s21.postimg.org/idfdusp53/stardust.png);
+  background-attachment: fixed;
+  z-index: 9999;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.75);
+  border-top: 4px solid rgba(255, 255, 255, 0.75);
+  margin-top: 100px;
 }
 
 footer img {
-    transition-duration: 1s;
-    padding: 10px;
-    height: 150px;
-    width: 150px;
-    background-color: rgba(255,255,255,0.5);
-    border-radius: 100%;
-    margin: 100px 0;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+  margin: 100px 0;
 }
 
-footer img:hover{
-    background-color: rgba(255,255,255,1);
-    padding: 12px;
-    height: 180px;
-    width: 180px;
-    margin: 85px 0;
+footer img:hover {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 12px;
+  height: 180px;
+  width: 180px;
+  margin: 85px 0;
 }
 
 footer h1 {
-    text-align: left;
-    width: 25vw;
-    font-size: 30px;
-    font-weight: 100;
-    color: rgba(255,255,255,0.6);
+  text-align: left;
+  width: 25vw;
+  font-size: 30px;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 footer h2 {
-    text-align: right;
-    width: 25vw;
-    font-size: 30px;
-    font-weight: 100;
-    color: rgba(255,255,255,0.6);
+  text-align: right;
+  width: 25vw;
+  font-size: 30px;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 html {
@@ -818,41 +837,45 @@ html {
 }
 
 section#workscited h2 {
-    padding-top: 150px;
-    animation-delay: 0s;
-    animation-duration: 2s;
-    padding-bottom: 50px;
+  padding-top: 150px;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  padding-bottom: 50px;
 }
 
 section#workscited h3 {
-    text-align: center;
-    letter-spacing: 2px;
-    color: white;
-    font-size: 35px;
-    font-weight: 100;
-    line-height: 100px;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    text-shadow: 1px 1px 10px black;
-    overflow-x: hidden;
-    text-transform: capitalize;
-    padding: 50px 0;
-    animation-duration: 3s;
+  text-align: center;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 35px;
+  font-weight: 100;
+  line-height: 100px;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  text-shadow: 1px 1px 10px black;
+  overflow-x: hidden;
+  text-transform: capitalize;
+  padding: 50px 0;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
 }
 
 section#workscited p {
-    text-align: center;
-    letter-spacing: 2px;
-    color: white;
-    font-size: 16px;
-    font-weight: 100;
-    line-height: 25px;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    overflow-x: hidden;
-    width: 80vw;
-    padding-left: 20vw;
-    animation-duration: 3s;
+  text-align: center;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 25px;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  overflow-x: hidden;
+  width: 80vw;
+  padding-left: 20vw;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
 }
 
 div#lander {
