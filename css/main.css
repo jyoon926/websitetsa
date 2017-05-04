@@ -838,13 +838,13 @@ html {
   overflow-x: hidden;
 }
 
-section#workscited h2 {
-  padding-top: 150px;
-  -webkit-animation-delay: 0s;
-          animation-delay: 0s;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  padding-bottom: 50px;
+section#workscited {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    padding-bottom: 100px;
+    background-color: rgb(20,20,26);
 }
 
 section#workscited h3 {
@@ -904,7 +904,7 @@ div#lander h2 {
   color: white;
   font-weight: 1100;
   font-size: 80px;
-  margin-bottom: 20px;
+  margin-top: 50px;
   text-align: center;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
@@ -933,13 +933,13 @@ div#lander1 {
 }
 
 div#lander1 h2 {
-  color: white;
-  font-weight: 1100;
-  font-size: 80px;
-  margin-bottom: 20px;
-  text-align: center;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  letter-spacing: 5px;
-  font-style: italic;
+    color: white;
+    font-weight: 1100;
+    font-size: 80px;
+    margin-top: 50px;
+    text-align: center;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    letter-spacing: 5px;
+    font-style: italic;
 }
