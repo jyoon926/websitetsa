@@ -131,9 +131,6 @@ ul {
 .dropdown {
   position: relative;
   display: inline-block;
-  -mox-animation-delay: 1s;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
 }
 
 
