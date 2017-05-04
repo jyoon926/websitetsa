@@ -80,13 +80,8 @@ hr {
 .header {
   width: 100vw;
   position: fixed;
-<<<<<<< HEAD
   z-index: 100;
   background-color: rgb(16,16,20);
-=======
-  z-index: 999;
-  background-image: url(https://s21.postimg.org/idfdusp53/stardust.png);
->>>>>>> origin/gh-pages
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -141,14 +136,8 @@ ul {
 .dropdown-content {
   display: none;
   position: absolute;
-<<<<<<< HEAD
-    background-color: rgb(21,21,28);
+    background-color: rgb(20,20,26);
   min-width: 200px;
-=======
-  background-image: url(https://s21.postimg.org/idfdusp53/stardust.png);
-  min-width: 200px;
-  box-shadow: 0px 8px 26px 0px rgba(0, 0, 0, 0.5);
->>>>>>> origin/gh-pages
   z-index: 999;
   text-align: center;
 }
@@ -158,21 +147,12 @@ ul {
 
 .dropdown-content a {
   color: white;
-<<<<<<< HEAD
   padding-top: 30px;
   padding-bottom: 30px;
   text-decoration: none;
   display: block;
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
-=======
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-decoration: none;
-  display: block;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
->>>>>>> origin/gh-pages
 }
 
 
@@ -194,8 +174,8 @@ ul {
   line-height: 20px;
   -webkit-transition-delay: 0.5s;
   transition-delay: 0.5s;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   min-width: 200px;
   text-align: center;
   text-transform: uppercase;
@@ -811,20 +791,12 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-<<<<<<< HEAD
-=======
-  background-image: url(https://s21.postimg.org/idfdusp53/stardust.png);
->>>>>>> origin/gh-pages
   background-attachment: fixed;
   z-index: 9999;
   padding-bottom: 0;
   margin-bottom: 0;
   border-bottom: 4px solid rgba(255, 255, 255, 0.75);
   border-top: 4px solid rgba(255, 255, 255, 0.75);
-<<<<<<< HEAD
-=======
-  margin-top: 100px;
->>>>>>> origin/gh-pages
 }
 
 footer img {
