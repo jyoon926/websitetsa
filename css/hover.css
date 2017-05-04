@@ -2491,8 +2491,6 @@
   transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-  -webkit-transition-duration: 0.6s;
-  transition-duration: 0.6s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
