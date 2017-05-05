@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-color: rgb(16, 16, 20);
+  background-color: rgb(16,16,20);
   background-attachment: fixed;
 }
 
@@ -81,16 +81,13 @@ hr {
   width: 100vw;
   position: fixed;
   z-index: 100;
-  background-color: rgb(16, 16, 20);
+  background-color: rgb(16,16,20);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -mox-animation-delay: 1s;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 ul {
@@ -98,7 +95,7 @@ ul {
   margin: 0;
   list-style-type: none;
   position: fixed;
-  background-color: rgb(16, 16, 20);
+  background-color: rgb(16,16,20);
   width: 100%;
   left: 0;
   display: -webkit-box;
@@ -139,7 +136,7 @@ ul {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: rgb(20, 20, 26);
+    background-color: rgb(20,20,26);
   min-width: 200px;
   z-index: 999;
   text-align: center;
@@ -219,9 +216,9 @@ div a img {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   letter-spacing: 15px;
-  -mox-animation-delay: 1s;
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+  -mox-animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
   text-shadow: 0px 0px 25px black;
 }
 
@@ -277,6 +274,7 @@ div a img {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .body1 h3,
@@ -321,7 +319,8 @@ p {
   -ms-flex-align: center;
   align-items: center;
   padding-bottom: 100px;
-  background-color: rgb(20, 20, 26);
+  background-color: rgb(20,20,26);
+  overflow-x: hidden;
 }
 
 .sectiontitle {
@@ -484,6 +483,7 @@ section#timeline {
   margin: 20px auto;
   position: relative;
   margin-bottom: 100px;
+  overflow-x: hidden;
 }
 
 section#timeline:before {
@@ -624,7 +624,8 @@ section#timeline article div.inner h2:after {
 }
 
 section#transportation {
-  background-color: rgb(20, 20, 26);
+background-color: rgb(20,20,26);
+overflow-x: hidden;
 }
 
 section#transportation div {
@@ -672,6 +673,7 @@ section#transportation div p {
 section#prosandcons {
   color: white;
   padding-bottom: 100px;
+  overflow-x: hidden;
 }
 
 section#prosandcons p {
@@ -732,8 +734,8 @@ section#prosandcons section div p {
 section#prosandcons section div h2 {}
 
 .k {
-  background-color: rgb(20, 20, 26);
-  padding-bottom: 100px;
+background-color: rgb(20,20,26);
+    padding-bottom: 100px;
 }
 
 section#interviews {
@@ -741,13 +743,13 @@ section#interviews {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   color: white;
 }
 
@@ -758,7 +760,7 @@ section#interviews h2 {
   font-size: 35px;
   font-weight: 100;
   -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+          animation-duration: 2s;
   text-decoration: none;
 }
 
@@ -777,7 +779,7 @@ section#interviews p {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.65);
   -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+          animation-duration: 2s;
 }
 
 section#interviews p b {
@@ -790,21 +792,22 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-attachment: fixed;
   z-index: 9999;
   padding-bottom: 0;
   margin-bottom: 0;
   border-bottom: 4px solid rgba(255, 255, 255, 0.75);
   border-top: 4px solid rgba(255, 255, 255, 0.75);
+  overflow-x: hidden;
 }
 
 footer img {
   -webkit-transition-duration: 1s;
-  transition-duration: 1s;
+          transition-duration: 1s;
   padding: 10px;
   height: 150px;
   width: 150px;
@@ -842,12 +845,12 @@ html {
 }
 
 section#workscited {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  padding-bottom: 100px;
-  background-color: rgb(20, 20, 26);
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    padding-bottom: 100px;
+    background-color: rgb(20,20,26);
 }
 
 section#workscited h3 {
@@ -864,7 +867,7 @@ section#workscited h3 {
   text-transform: capitalize;
   padding: 50px 0;
   -webkit-animation-duration: 3s;
-  animation-duration: 3s;
+          animation-duration: 3s;
 }
 
 section#workscited p {
@@ -880,7 +883,7 @@ section#workscited p {
   width: 80vw;
   padding-left: 20vw;
   -webkit-animation-duration: 3s;
-  animation-duration: 3s;
+          animation-duration: 3s;
 }
 
 div#lander {
@@ -936,13 +939,13 @@ div#lander1 {
 }
 
 div#lander1 h2 {
-  color: white;
-  font-weight: 1100;
-  font-size: 80px;
-  margin-top: 50px;
-  text-align: center;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  letter-spacing: 5px;
-  font-style: italic;
+    color: white;
+    font-weight: 1100;
+    font-size: 80px;
+    margin-top: 50px;
+    text-align: center;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    letter-spacing: 5px;
+    font-style: italic;
 }
