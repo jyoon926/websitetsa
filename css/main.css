@@ -497,7 +497,6 @@ section#timeline {
   margin: 20px auto;
   position: relative;
   margin-bottom: 100px;
-  overflow-x: hidden;
 }
 
 section#timeline:before {
