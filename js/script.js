@@ -191,3 +191,13 @@ wow = new WOW(
   }
 );
 wow.init();
+
+$("#body").scroll( function() {
+    var value = $(this).scrollTop();
+    if ( value > 80 )
+        $("#header").css("padding-top", "50px");
+        $("#header").css("padding-bottom", "50px");
+    else
+        $("#header").css("padding-top", "30px");
+        $("#header").css("padding-bottom", "30px");
+});
