@@ -204,6 +204,8 @@ div a img {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  white-space: nowrap;
+  overflow-x: hidden;
 }
 
 .landertext {
@@ -223,6 +225,8 @@ div a img {
   opacity: 0;
   animation: in 2s cubic-bezier(.53,.01,.48,.99) forwards 1;
   animation-delay: .3s;
+  white-space: nowrap;
+  overflow-x: hidden;
 }
 
 @keyframes in{
