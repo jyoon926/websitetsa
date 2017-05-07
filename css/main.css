@@ -233,10 +233,12 @@ div a img {
   0%{
     letter-spacing: 50px;
     opacity: 0;
+    white-space: nowrap;
   }
   100%{
     letter-spacing: 15px;
     opacity: 1;
+    white-space: normal;
   }
 }
 
