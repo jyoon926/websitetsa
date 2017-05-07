@@ -169,11 +169,9 @@ ul {
   font-weight: 900;
   font-size: 15px;
   background-color: none;
-  -webkit-transition: 2s;
-  transition: 2s;
+  -webkit-transition: 1s;
+  transition: 1s;
   line-height: 20px;
-  -webkit-transition-delay: 0.5s;
-  transition-delay: 0.5s;
   padding-top: 30px;
   padding-bottom: 30px;
   min-width: 200px;
