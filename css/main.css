@@ -81,13 +81,15 @@ hr {
   width: 100vw;
   position: fixed;
   z-index: 100;
-  background-color: rgb(16,16,20);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+          transition-duration: 1s;
+          text-shadow: 0px 0px 20px black;
+          animation-duration: 1s;
 }
 
 ul {
@@ -95,7 +97,6 @@ ul {
   margin: 0;
   list-style-type: none;
   position: fixed;
-  background-color: rgb(16,16,20);
   width: 100%;
   left: 0;
   display: -webkit-box;
@@ -128,6 +129,7 @@ ul {
 .dropdown {
   position: relative;
   display: inline-block;
+
 }
 
 
@@ -136,10 +138,12 @@ ul {
 .dropdown-content {
   display: none;
   position: absolute;
-    background-color: rgb(20,20,26);
+    background-color: rgb(21, 22, 28);
   min-width: 200px;
   z-index: 999;
   text-align: center;
+  box-shadow: 0 3px 50px rgba(0,0,0,0);
+  transition-duration: 0.5s;
 }
 
 
@@ -167,16 +171,15 @@ ul {
   letter-spacing: 2px;
   text-decoration: none;
   font-weight: 900;
-  font-size: 15px;
+  font-size: 17px;
   background-color: none;
-  -webkit-transition: 1s;
-  transition: 1s;
   line-height: 20px;
   padding-top: 30px;
   padding-bottom: 30px;
   min-width: 200px;
   text-align: center;
   text-transform: uppercase;
+  animation-duration: 1.5s;
 }
 
 div a img {
@@ -207,14 +210,13 @@ div a img {
 }
 
 .landertext {
-  color: white;
+  color: rgba(255,255,255,1);
   font-weight: 100;
   font-size: 60px;
   margin-bottom: 0;
-  margin-top: 50px;
   text-align: center;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
   letter-spacing: 15px;
   -mox-animation-delay: 0.3s;
   -webkit-animation-delay: 0.3s;
@@ -224,7 +226,6 @@ div a img {
   animation: in 2s cubic-bezier(.53,.01,.48,.99) forwards 1;
   animation-delay: .3s;
   white-space: nowrap;
-  overflow-x: hidden;
 }
 
 @keyframes in{
@@ -293,6 +294,7 @@ div a img {
   -ms-flex-align: center;
   align-items: center;
   overflow-x: hidden;
+  z-index: 90;
 }
 
 .body1 h3,
@@ -337,7 +339,7 @@ p {
   -ms-flex-align: center;
   align-items: center;
   padding-bottom: 100px;
-  background-color: rgb(20,20,26);
+  background-color: rgb(21, 22, 28);
   overflow-x: hidden;
 }
 
@@ -641,7 +643,7 @@ section#timeline article div.inner h2:after {
 }
 
 section#transportation {
-background-color: rgb(20,20,26);
+background-color: rgb(21, 22, 28);
 overflow-x: hidden;
 }
 
@@ -751,7 +753,7 @@ section#prosandcons section div p {
 section#prosandcons section div h2 {}
 
 .k {
-background-color: rgb(20,20,26);
+background-color: rgb(21, 22, 28);
     padding-bottom: 100px;
 }
 
@@ -867,7 +869,7 @@ section#workscited {
     -webkit-animation-duration: 2s;
             animation-duration: 2s;
     padding-bottom: 100px;
-    background-color: rgb(20,20,26);
+    background-color: rgb(21, 22, 28);
 }
 
 section#workscited h3 {
@@ -904,7 +906,7 @@ section#workscited p {
 }
 
 div#lander {
-  background-image: url(https://s2.postimg.org/txckww4x5/helloquence-51716.png);
+  background-image: url(https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;s=1922cbce15cec57ee83a2a94b0b759c9);
   height: 60vh;
   background-size: cover;
   background-attachment: fixed;
@@ -921,22 +923,30 @@ div#lander {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  background-position: center;
 }
 
 div#lander h2 {
-  color: white;
-  font-weight: 1100;
-  font-size: 80px;
-  margin-top: 50px;
-  text-align: center;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  letter-spacing: 5px;
-  font-style: italic;
+    color: white;
+    font-weight: 100;
+    font-size: 60px;
+    text-align: center;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    letter-spacing: 15px;
+    -mox-animation-delay: 0.3s;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    text-shadow: 0px 0px 25px black;
+    opacity: 0;
+    animation: in 2s cubic-bezier(.53,.01,.48,.99) forwards 1;
+    animation-delay: .3s;
+    white-space: nowrap;
+    overflow-x: hidden;
 }
 
 div#lander1 {
-  background-image: url(https://s13.postimg.org/toff9869z/mikhail-pavstyuk-8436.png);
+  background-image: url(https://images.unsplash.com/photo-1423592707957-3b212afa6733?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;s=68d368c10b1ce861c14750362f79a8d1);
   height: 60vh;
   background-size: cover;
   background-attachment: fixed;
@@ -953,16 +963,24 @@ div#lander1 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  background-position: center;
 }
 
 div#lander1 h2 {
     color: white;
-    font-weight: 1100;
-    font-size: 80px;
-    margin-top: 50px;
+    font-weight: 100;
+    font-size: 60px;
     text-align: center;
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
-    letter-spacing: 5px;
-    font-style: italic;
+    letter-spacing: 15px;
+    -mox-animation-delay: 0.3s;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    text-shadow: 0px 0px 25px black;
+    opacity: 0;
+    animation: in 2s cubic-bezier(.53,.01,.48,.99) forwards 1;
+    animation-delay: .3s;
+    white-space: nowrap;
+    overflow-x: hidden;
 }
