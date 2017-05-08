@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-color: rgb(16,16,20);
+  background-color: rgb(16, 16, 20);
   background-attachment: fixed;
 }
 
@@ -85,10 +85,12 @@ hr {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition-duration: 1s;
           transition-duration: 1s;
-          text-shadow: 0px 0px 20px black;
+  text-shadow: 0px 0px 20px black;
+  -webkit-animation-duration: 1s;
           animation-duration: 1s;
 }
 
@@ -129,7 +131,6 @@ ul {
 .dropdown {
   position: relative;
   display: inline-block;
-
 }
 
 
@@ -138,12 +139,13 @@ ul {
 .dropdown-content {
   display: none;
   position: absolute;
-    background-color: rgb(21, 22, 28);
+  background-color: rgb(21, 22, 28);
   min-width: 200px;
   z-index: 999;
   text-align: center;
-  box-shadow: 0 3px 50px rgba(0,0,0,0);
-  transition-duration: 0.5s;
+  box-shadow: 0 3px 50px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
 }
 
 
@@ -179,7 +181,8 @@ ul {
   min-width: 200px;
   text-align: center;
   text-transform: uppercase;
-  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
 }
 
 div a img {
@@ -210,7 +213,7 @@ div a img {
 }
 
 .landertext {
-  color: rgba(255,255,255,1);
+  color: rgba(255, 255, 255, 1);
   font-weight: 100;
   font-size: 60px;
   margin-bottom: 0;
@@ -223,18 +226,33 @@ div a img {
   animation-delay: 0.3s;
   text-shadow: 0px 0px 25px black;
   opacity: 0;
-  animation: in 2s cubic-bezier(.53,.01,.48,.99) forwards 1;
-  animation-delay: .3s;
+  -webkit-animation: in 2s cubic-bezier(.53, .01, .48, .99) forwards 1;
+          animation: in 2s cubic-bezier(.53, .01, .48, .99) forwards 1;
+  -webkit-animation-delay: .3s;
+          animation-delay: .3s;
   white-space: nowrap;
 }
 
-@keyframes in{
-  0%{
+@-webkit-keyframes in {
+  0% {
     letter-spacing: 50px;
     opacity: 0;
     white-space: nowrap;
   }
-  100%{
+  100% {
+    letter-spacing: 15px;
+    opacity: 1;
+    white-space: normal;
+  }
+}
+
+@keyframes in {
+  0% {
+    letter-spacing: 50px;
+    opacity: 0;
+    white-space: nowrap;
+  }
+  100% {
     letter-spacing: 15px;
     opacity: 1;
     white-space: normal;
@@ -643,8 +661,8 @@ section#timeline article div.inner h2:after {
 }
 
 section#transportation {
-background-color: rgb(21, 22, 28);
-overflow-x: hidden;
+  background-color: rgb(21, 22, 28);
+  overflow-x: hidden;
 }
 
 section#transportation div {
@@ -753,8 +771,8 @@ section#prosandcons section div p {
 section#prosandcons section div h2 {}
 
 .k {
-background-color: rgb(21, 22, 28);
-    padding-bottom: 100px;
+  background-color: rgb(21, 22, 28);
+  padding-bottom: 100px;
 }
 
 section#interviews {
@@ -762,13 +780,13 @@ section#interviews {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   color: white;
 }
 
@@ -779,7 +797,7 @@ section#interviews h2 {
   font-size: 35px;
   font-weight: 100;
   -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  animation-duration: 2s;
   text-decoration: none;
 }
 
@@ -798,7 +816,7 @@ section#interviews p {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.65);
   -webkit-animation-duration: 2s;
-          animation-duration: 2s;
+  animation-duration: 2s;
 }
 
 section#interviews p b {
@@ -811,10 +829,10 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background-attachment: fixed;
   z-index: 9999;
   padding-bottom: 0;
@@ -826,7 +844,7 @@ footer {
 
 footer img {
   -webkit-transition-duration: 1s;
-          transition-duration: 1s;
+  transition-duration: 1s;
   padding: 10px;
   height: 150px;
   width: 150px;
@@ -864,12 +882,12 @@ html {
 }
 
 section#workscited {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
-    -webkit-animation-duration: 2s;
-            animation-duration: 2s;
-    padding-bottom: 100px;
-    background-color: rgb(21, 22, 28);
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  padding-bottom: 100px;
+  background-color: rgb(21, 22, 28);
 }
 
 section#workscited h3 {
@@ -886,7 +904,7 @@ section#workscited h3 {
   text-transform: capitalize;
   padding: 50px 0;
   -webkit-animation-duration: 3s;
-          animation-duration: 3s;
+  animation-duration: 3s;
 }
 
 section#workscited p {
@@ -902,7 +920,7 @@ section#workscited p {
   width: 80vw;
   padding-left: 20vw;
   -webkit-animation-duration: 3s;
-          animation-duration: 3s;
+  animation-duration: 3s;
 }
 
 div#lander {
@@ -927,22 +945,24 @@ div#lander {
 }
 
 div#lander h2 {
-    color: white;
-    font-weight: 100;
-    font-size: 60px;
-    text-align: center;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    letter-spacing: 15px;
-    -mox-animation-delay: 0.3s;
-    -webkit-animation-delay: 0.3s;
-    animation-delay: 0.3s;
-    text-shadow: 0px 0px 25px black;
-    opacity: 0;
-    animation: in 2s cubic-bezier(.53,.01,.48,.99) forwards 1;
-    animation-delay: .3s;
-    white-space: nowrap;
-    overflow-x: hidden;
+  color: white;
+  font-weight: 100;
+  font-size: 60px;
+  text-align: center;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  letter-spacing: 15px;
+  -mox-animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  text-shadow: 0px 0px 25px black;
+  opacity: 0;
+  -webkit-animation: in 2s cubic-bezier(.53, .01, .48, .99) forwards 1;
+          animation: in 2s cubic-bezier(.53, .01, .48, .99) forwards 1;
+  -webkit-animation-delay: .3s;
+          animation-delay: .3s;
+  white-space: nowrap;
+  overflow-x: hidden;
 }
 
 div#lander1 {
@@ -967,20 +987,22 @@ div#lander1 {
 }
 
 div#lander1 h2 {
-    color: white;
-    font-weight: 100;
-    font-size: 60px;
-    text-align: center;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    letter-spacing: 15px;
-    -mox-animation-delay: 0.3s;
-    -webkit-animation-delay: 0.3s;
-    animation-delay: 0.3s;
-    text-shadow: 0px 0px 25px black;
-    opacity: 0;
-    animation: in 2s cubic-bezier(.53,.01,.48,.99) forwards 1;
-    animation-delay: .3s;
-    white-space: nowrap;
-    overflow-x: hidden;
+  color: white;
+  font-weight: 100;
+  font-size: 60px;
+  text-align: center;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  letter-spacing: 15px;
+  -mox-animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  text-shadow: 0px 0px 25px black;
+  opacity: 0;
+  -webkit-animation: in 2s cubic-bezier(.53, .01, .48, .99) forwards 1;
+          animation: in 2s cubic-bezier(.53, .01, .48, .99) forwards 1;
+  -webkit-animation-delay: .3s;
+          animation-delay: .3s;
+  white-space: nowrap;
+  overflow-x: hidden;
 }
