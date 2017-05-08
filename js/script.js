@@ -1,6 +1,10 @@
 (function() {
   var Util,
-    __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
+    __bind = function(fn, me) {
+      return function() {
+        return fn.apply(me, arguments);
+      };
+    };
 
   Util = (function() {
     function Util() {}
@@ -17,17 +21,18 @@
     };
 
     Util.prototype.isMobile = function(agent) {
-      return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(agent);
+      return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        agent
+      );
     };
 
     return Util;
-
   })();
 
   this.WOW = (function() {
     WOW.prototype.defaults = {
-      boxClass: 'wow',
-      animateClass: 'animated',
+      boxClass: "wow",
+      animateClass: "animated",
       offset: 0,
       mobile: true
     };
@@ -46,10 +51,13 @@
     WOW.prototype.init = function() {
       var _ref;
       this.element = window.document.documentElement;
-      if ((_ref = document.readyState) === "interactive" || _ref === "complete") {
+      if (
+        (_ref = document.readyState) === "interactive" ||
+        _ref === "complete"
+      ) {
         return this.start();
       } else {
-        return document.addEventListener('DOMContentLoaded', this.start);
+        return document.addEventListener("DOMContentLoaded", this.start);
       }
     };
 
@@ -61,20 +69,20 @@
           return this.resetStyle();
         } else {
           _ref = this.boxes;
-          for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+          for ((_i = 0), (_len = _ref.length); _i < _len; _i++) {
             box = _ref[_i];
             this.applyStyle(box, true);
           }
-          window.addEventListener('scroll', this.scrollHandler, false);
-          window.addEventListener('resize', this.scrollHandler, false);
-          return this.interval = setInterval(this.scrollCallback, 50);
+          window.addEventListener("scroll", this.scrollHandler, false);
+          window.addEventListener("resize", this.scrollHandler, false);
+          return (this.interval = setInterval(this.scrollCallback, 50));
         }
       }
     };
 
     WOW.prototype.stop = function() {
-      window.removeEventListener('scroll', this.scrollHandler, false);
-      window.removeEventListener('resize', this.scrollHandler, false);
+      window.removeEventListener("scroll", this.scrollHandler, false);
+      window.removeEventListener("resize", this.scrollHandler, false);
       if (this.interval != null) {
         return clearInterval(this.interval);
       }
@@ -82,58 +90,85 @@
 
     WOW.prototype.show = function(box) {
       this.applyStyle(box);
-      return box.className = "" + box.className + " " + this.config.animateClass;
+      return (box.className =
+        "" + box.className + " " + this.config.animateClass);
     };
 
     WOW.prototype.applyStyle = function(box, hidden) {
       var delay, duration, iteration;
-      duration = box.getAttribute('data-wow-duration');
-      delay = box.getAttribute('data-wow-delay');
-      iteration = box.getAttribute('data-wow-iteration');
-      return box.setAttribute('style', this.customStyle(hidden, duration, delay, iteration));
+      duration = box.getAttribute("data-wow-duration");
+      delay = box.getAttribute("data-wow-delay");
+      iteration = box.getAttribute("data-wow-iteration");
+      return box.setAttribute(
+        "style",
+        this.customStyle(hidden, duration, delay, iteration)
+      );
     };
 
     WOW.prototype.resetStyle = function() {
       var box, _i, _len, _ref, _results;
       _ref = this.boxes;
       _results = [];
-      for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+      for ((_i = 0), (_len = _ref.length); _i < _len; _i++) {
         box = _ref[_i];
-        _results.push(box.setAttribute('style', 'visibility: visible;'));
+        _results.push(box.setAttribute("style", "visibility: visible;"));
       }
       return _results;
     };
 
     WOW.prototype.customStyle = function(hidden, duration, delay, iteration) {
       var style;
-      style = hidden ? "visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;" : "visibility: visible;";
+      style = hidden
+        ? "visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;"
+        : "visibility: visible;";
       if (duration) {
-        style += "-webkit-animation-duration: " + duration + "; -moz-animation-duration: " + duration + "; animation-duration: " + duration + ";";
+        style +=
+          "-webkit-animation-duration: " +
+          duration +
+          "; -moz-animation-duration: " +
+          duration +
+          "; animation-duration: " +
+          duration +
+          ";";
       }
       if (delay) {
-        style += "-webkit-animation-delay: " + delay + "; -moz-animation-delay: " + delay + "; animation-delay: " + delay + ";";
+        style +=
+          "-webkit-animation-delay: " +
+          delay +
+          "; -moz-animation-delay: " +
+          delay +
+          "; animation-delay: " +
+          delay +
+          ";";
       }
       if (iteration) {
-        style += "-webkit-animation-iteration-count: " + iteration + "; -moz-animation-iteration-count: " + iteration + "; animation-iteration-count: " + iteration + ";";
+        style +=
+          "-webkit-animation-iteration-count: " +
+          iteration +
+          "; -moz-animation-iteration-count: " +
+          iteration +
+          "; animation-iteration-count: " +
+          iteration +
+          ";";
       }
       return style;
     };
 
     WOW.prototype.scrollHandler = function() {
-      return this.scrolled = true;
+      return (this.scrolled = true);
     };
 
     WOW.prototype.scrollCallback = function() {
       var box;
       if (this.scrolled) {
         this.scrolled = false;
-        this.boxes = (function() {
+        this.boxes = function() {
           var _i, _len, _ref, _results;
           _ref = this.boxes;
           _results = [];
-          for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+          for ((_i = 0), (_len = _ref.length); _i < _len; _i++) {
             box = _ref[_i];
-            if (!(box)) {
+            if (!box) {
               continue;
             }
             if (this.isVisible(box)) {
@@ -143,7 +178,7 @@
             _results.push(box);
           }
           return _results;
-        }).call(this);
+        }.call(this);
         if (!this.boxes.length) {
           return this.stop();
         }
@@ -153,7 +188,7 @@
     WOW.prototype.offsetTop = function(element) {
       var top;
       top = element.offsetTop;
-      while (element = element.offsetParent) {
+      while ((element = element.offsetParent)) {
         top += element.offsetTop;
       }
       return top;
@@ -161,7 +196,7 @@
 
     WOW.prototype.isVisible = function(box) {
       var bottom, offset, top, viewBottom, viewTop;
-      offset = box.getAttribute('data-wow-offset') || this.config.offset;
+      offset = box.getAttribute("data-wow-offset") || this.config.offset;
       viewTop = window.pageYOffset;
       viewBottom = viewTop + this.element.clientHeight - offset;
       top = this.offsetTop(box);
@@ -178,42 +213,32 @@
     };
 
     return WOW;
-
   })();
+}.call(this));
 
-}).call(this);
-
-
-wow = new WOW(
-  {
-    animateClass: 'animated',
-    offset: 100
-  }
-);
+wow = new WOW({
+  animateClass: "animated",
+  offset: 100
+});
 wow.init();
 
-$("#body").scroll( function() {
-    var top = $(this).scrollTop();
-    if ( top > 147 )
-        document.getElementById("header").style.paddingTop = "50px";
-    else
-        document.getElementById("header").style.paddingTop = "30px";
+$("#body").scroll(function() {
+  var top = $(this).scrollTop();
+  if (top > 147) document.getElementById("header").style.paddingTop = "50px";
+  else document.getElementById("header").style.paddingTop = "30px";
 });
 
+$(window).scroll(function() {
+  var value = $(this).scrollTop();
 
- $(window).scroll( function() {
-     var value = $(this).scrollTop();
-
-     if ( value > 10 ) {
-     $(".header").css("background","rgb(16,16,20)");
-     $(".header").css("box-shadow", "0 3px 50px rgba(0,0,0,1)");
-     $(".dropdown-content").css("box-shadow", "0 3px 50px rgba(0,0,0,0.5)");
+  if (value > 10) {
+    $(".header").css("background", "rgb(16,16,20)");
+    $(".header").css("box-shadow", "0 3px 50px rgba(0,0,0,1)");
+    $(".dropdown-content").css("box-shadow", "0 3px 50px rgba(0,0,0,0.5)");
   }
-  if ( value < 10 ) {
-     $(".header").css("background","none");
-     $(".header").css("box-shadow", "0 3px 50px rgba(0,0,0,0)");
-     $(".dropdown-content").css("box-shadow", "0 3px 50px rgba(0,0,0,0)");
+  if (value < 10) {
+    $(".header").css("background", "none");
+    $(".header").css("box-shadow", "0 3px 50px rgba(0,0,0,0)");
+    $(".dropdown-content").css("box-shadow", "0 3px 50px rgba(0,0,0,0)");
   }
-
-
- });
+});
