@@ -85,19 +85,16 @@ hr {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-<<<<<<< HEAD
       -ms-flex-pack: center;
           justify-content: center;
           transition-duration: 1s;
           text-shadow: 0px 0px 20px black;
-=======
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
   text-shadow: 0px 0px 20px black;
   -webkit-animation-duration: 1s;
->>>>>>> origin/gh-pages
           animation-duration: 1s;
 }
 
@@ -147,14 +144,14 @@ ul {
 .dropdown-content {
   display: none;
   position: absolute;
-<<<<<<< HEAD
+
     background-color: rgb(21, 22, 28);
   min-width: 200px;
   z-index: 999;
   text-align: center;
   box-shadow: 0 3px 50px rgba(0,0,0,0);
   transition-duration: 0.5s;
-=======
+
   background-color: rgb(21, 22, 28);
   min-width: 200px;
   z-index: 999;
@@ -162,7 +159,6 @@ ul {
   box-shadow: 0 3px 50px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s;
->>>>>>> origin/gh-pages
 }
 
 
@@ -198,12 +194,9 @@ ul {
   min-width: 200px;
   text-align: center;
   text-transform: uppercase;
-<<<<<<< HEAD
   animation-duration: 1.5s;
-=======
   -webkit-animation-duration: 1.5s;
           animation-duration: 1.5s;
->>>>>>> origin/gh-pages
 }
 
 div a img {
@@ -234,11 +227,8 @@ div a img {
 }
 
 .landertext {
-<<<<<<< HEAD
   color: rgba(255,255,255,1);
-=======
   color: rgba(255, 255, 255, 1);
->>>>>>> origin/gh-pages
   font-weight: 100;
   font-size: 60px;
   margin-bottom: 0;
@@ -251,7 +241,6 @@ div a img {
   animation-delay: 0.3s;
   text-shadow: 0px 0px 25px black;
   opacity: 0;
-<<<<<<< HEAD
   animation: in 2s cubic-bezier(.53,.01,.48,.99) forwards 1;
   animation-delay: .3s;
   white-space: nowrap;
@@ -259,7 +248,6 @@ div a img {
 
 @keyframes in{
   0%{
-=======
   -webkit-animation: in 2s cubic-bezier(.53, .01, .48, .99) forwards 1;
           animation: in 2s cubic-bezier(.53, .01, .48, .99) forwards 1;
   -webkit-animation-delay: .3s;
@@ -269,14 +257,11 @@ div a img {
 
 @-webkit-keyframes in {
   0% {
->>>>>>> origin/gh-pages
     letter-spacing: 50px;
     opacity: 0;
     white-space: nowrap;
   }
-<<<<<<< HEAD
   100%{
-=======
   100% {
     letter-spacing: 15px;
     opacity: 1;
@@ -291,7 +276,6 @@ div a img {
     white-space: nowrap;
   }
   100% {
->>>>>>> origin/gh-pages
     letter-spacing: 15px;
     opacity: 1;
     white-space: normal;
@@ -700,13 +684,10 @@ section#timeline article div.inner h2:after {
 }
 
 section#transportation {
-<<<<<<< HEAD
 background-color: rgb(21, 22, 28);
 overflow-x: hidden;
-=======
   background-color: rgb(21, 22, 28);
   overflow-x: hidden;
->>>>>>> origin/gh-pages
 }
 
 section#transportation div {
@@ -815,13 +796,10 @@ section#prosandcons section div p {
 section#prosandcons section div h2 {}
 
 .k {
-<<<<<<< HEAD
 background-color: rgb(21, 22, 28);
     padding-bottom: 100px;
-=======
   background-color: rgb(21, 22, 28);
   padding-bottom: 100px;
->>>>>>> origin/gh-pages
 }
 
 section#interviews {
@@ -931,21 +909,18 @@ html {
 }
 
 section#workscited {
-<<<<<<< HEAD
     -webkit-animation-delay: 0s;
             animation-delay: 0s;
     -webkit-animation-duration: 2s;
             animation-duration: 2s;
     padding-bottom: 100px;
     background-color: rgb(21, 22, 28);
-=======
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   padding-bottom: 100px;
   background-color: rgb(21, 22, 28);
->>>>>>> origin/gh-pages
 }
 
 section#workscited h3 {
@@ -1003,7 +978,6 @@ div#lander {
 }
 
 div#lander h2 {
-<<<<<<< HEAD
     color: white;
     font-weight: 100;
     font-size: 60px;
@@ -1020,7 +994,6 @@ div#lander h2 {
     animation-delay: .3s;
     white-space: nowrap;
     overflow-x: hidden;
-=======
   color: white;
   font-weight: 100;
   font-size: 60px;
@@ -1039,7 +1012,6 @@ div#lander h2 {
           animation-delay: .3s;
   white-space: nowrap;
   overflow-x: hidden;
->>>>>>> origin/gh-pages
 }
 
 div#lander1 {
@@ -1064,7 +1036,6 @@ div#lander1 {
 }
 
 div#lander1 h2 {
-<<<<<<< HEAD
     color: white;
     font-weight: 100;
     font-size: 60px;
@@ -1081,7 +1052,6 @@ div#lander1 h2 {
     animation-delay: .3s;
     white-space: nowrap;
     overflow-x: hidden;
-=======
   color: white;
   font-weight: 100;
   font-size: 60px;
@@ -1100,5 +1070,4 @@ div#lander1 h2 {
           animation-delay: .3s;
   white-space: nowrap;
   overflow-x: hidden;
->>>>>>> origin/gh-pages
 }
