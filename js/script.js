@@ -237,6 +237,7 @@ $(window).scroll(function() {
     $(".dropdown-content").css("box-shadow", "0 3px 50px rgba(0,0,0,0.5)");
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 );
 wow.init();
 
@@ -266,10 +267,15 @@ $("#body").scroll( function() {
 
  });
 =======
+=======
+>>>>>>> origin/gh-pages
   if (value < 10) {
     $(".header").css("background", "none");
     $(".header").css("box-shadow", "0 3px 50px rgba(0,0,0,0)");
     $(".dropdown-content").css("box-shadow", "0 3px 50px rgba(0,0,0,0)");
   }
 });
+<<<<<<< HEAD
+>>>>>>> origin/gh-pages
+=======
 >>>>>>> origin/gh-pages
