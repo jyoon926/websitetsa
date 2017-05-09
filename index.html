@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="css/stylesheet.css"></link>
      <link rel="icon" type="logo" href="img/icon.png"></link>
      <script src="js/wow.min.js"></script>
+     <script src="js/jquery-3.2.1.min.js"></script>
      <script>
      new WOW().init();
      </script>
@@ -33,8 +34,8 @@
   </head>
 
   <div class="header animated fadeInDown">
-  <div class="dropdown animated fadeInDown">
-      <a href="#home" class="dropbtn link hvr-underline-from-center">Home<img class="dropdownicon" src="img/dropdownicon.png"></a>
+  <div class="dropdown">
+      <a href="#home" class="dropbtn link hvr-underline-from-center animated fadeInDown">Home<img class="dropdownicon" src="img/dropdownicon.png"></a>
    <div class="dropdown-content">
      <a class="hvr-shutter-out-horizontal" href="#careers">Careers</a>
      <a class="hvr-shutter-out-horizontal" href="#timelinesection">Timeline</a>
@@ -46,12 +47,11 @@
    <a class="link hvr-underline-from-center animated fadeInDown" href="workscited.html">Works Cited</a>
    <a class="link hvr-underline-from-center animated fadeInDown" href="worklog.html">Work Log</a>
  </div>
- </div>
 <p class="top" id="home">.</p>
 
 <div class="lander">
 
-  <h2 class="landertext wow fadeIn">
+  <h2 class="wow landertext">
     The Mission To Mars
   </h2>
 
@@ -148,8 +148,8 @@
 
 </div>
 
-<h3 class="sectiontitle wow fadeInUp">A Brief History of Space Exploration</h3>
-<section class="timelinesection" id="timeline">
+<h3 id="timelinesection" class="sectiontitle wow fadeInUp">A Brief History of Space Exploration</h3>
+<section id="timeline">
 
   <article>
     <div class="inner">
@@ -358,7 +358,7 @@ November 26: </b>NASA launched Curiosity, the biggest, best equipped robot ever 
 
 <div class="k">
 
-<h3 class="sectiontitle wow fadeInDown">Interviews</h3>
+<h3 id="interview" class="sectiontitle wow fadeInDown">Interviews</h3>
 
 <section id="interviews">
 

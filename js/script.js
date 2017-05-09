@@ -191,3 +191,29 @@ wow = new WOW(
   }
 );
 wow.init();
+
+$("#body").scroll( function() {
+    var top = $(this).scrollTop();
+    if ( top > 147 )
+        document.getElementById("header").style.paddingTop = "50px";
+    else
+        document.getElementById("header").style.paddingTop = "30px";
+});
+
+
+ $(window).scroll( function() {
+     var value = $(this).scrollTop();
+
+     if ( value > 10 ) {
+     $(".header").css("background","rgb(16,16,20)");
+     $(".header").css("box-shadow", "0 3px 50px rgba(0,0,0,1)");
+     $(".dropdown-content").css("box-shadow", "0 3px 50px rgba(0,0,0,0.5)");
+  }
+  if ( value < 10 ) {
+     $(".header").css("background","none");
+     $(".header").css("box-shadow", "0 3px 50px rgba(0,0,0,0)");
+     $(".dropdown-content").css("box-shadow", "0 3px 50px rgba(0,0,0,0)");
+  }
+
+
+ });
