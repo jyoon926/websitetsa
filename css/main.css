@@ -78,7 +78,7 @@ hr {
 }
 
 .header {
-  width: 100vw;
+    width: 100vw;
   position: fixed;
   z-index: 100;
   display: -webkit-box;
@@ -89,12 +89,6 @@ hr {
           justify-content: center;
           transition-duration: 1s;
           text-shadow: 0px 0px 20px black;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
-  text-shadow: 0px 0px 20px black;
-  -webkit-animation-duration: 1s;
           animation-duration: 1s;
 }
 
@@ -189,14 +183,15 @@ ul {
   font-size: 17px;
   background-color: none;
   line-height: 20px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   min-width: 200px;
   text-align: center;
   text-transform: uppercase;
   animation-duration: 1.5s;
   -webkit-animation-duration: 1.5s;
           animation-duration: 1.5s;
+          transition-duration: 1s;
 }
 
 div a img {
@@ -246,22 +241,12 @@ div a img {
   white-space: nowrap;
 }
 
-@keyframes in{
-  0%{
-  -webkit-animation: in 2s cubic-bezier(.53, .01, .48, .99) forwards 1;
-          animation: in 2s cubic-bezier(.53, .01, .48, .99) forwards 1;
-  -webkit-animation-delay: .3s;
-          animation-delay: .3s;
-  white-space: nowrap;
-}
-
 @-webkit-keyframes in {
   0% {
     letter-spacing: 50px;
     opacity: 0;
     white-space: nowrap;
   }
-  100%{
   100% {
     letter-spacing: 15px;
     opacity: 1;
