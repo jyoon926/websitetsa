@@ -4,18 +4,18 @@
   <head>
      <link rel="stylesheet" href="css/animate.css">
      <title>Mission to Mars</title>
-     <link rel="stylesheet" href="css/main.css"></link>
-     <link rel="stylesheet" href="css/hover.css"></link>
-<link rel="stylesheet" href="css/stylesheet.css"></link>
-     <link rel="icon" type="logo" href="img/icon.png"></link>
-     <script src="js/wow.min.js"></script>
-     <script src="js/jquery-3.2.1.min.js"></script>
-     <script>
-     new WOW().init();
-     </script>
+     <link rel="stylesheet" href="css/main.css">
+     <link rel="stylesheet" href="css/hover.css">
+<link rel="stylesheet" href="css/stylesheet.css">
+     <link rel="icon" type="logo" href="img/icon.png">
      <script src="js/script.js"></script>
+     <script src="js/jquery-3.2.1.js"></script>
+     <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
      <script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
      <script>
      $(document).ready(function(){
      $("a").on('click', function(event) {
@@ -31,12 +31,26 @@
      });
      });
      </script>
+     <script>
+     $(window).on("scroll", function () {
+         if ($(this).scrollTop() > 10) {
+             $(".header").css("background-color", "rgba(16,16,20,1)");
+             $(".link").css("padding-top", "30px");
+             $(".link").css("padding-bottom", "30px");
+         }
+         else {
+             $(".header").css("background-color", "rgba(0,0,0,0)");
+             $(".link").css("padding-top", "50px");
+             $(".link").css("padding-bottom", "50px");
+         }
+     });
+     </script>
   </head>
 
-  <div class="header animated fadeInDown">
+  <div id="header" class="header animated fadeInDown">
   <div class="dropdown">
       <a href="#home" class="dropbtn link hvr-underline-from-center animated fadeInDown">Home<img class="dropdownicon" src="img/dropdownicon.png"></a>
-   <div class="dropdown-content">
+   <div class="dropdown-content" id="dropdown-content">
      <a class="hvr-shutter-out-horizontal" href="#careers">Careers</a>
      <a class="hvr-shutter-out-horizontal" href="#timelinesection">Timeline</a>
      <a class="hvr-shutter-out-horizontal" href="#transportation">Transportation</a>
@@ -51,7 +65,7 @@
 
 <div class="lander">
 
-  <h2 class="wow landertext">
+  <h2 class="landertext">
     The Mission To Mars
   </h2>
 
