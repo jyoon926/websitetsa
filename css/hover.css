@@ -1,5 +1,14 @@
-.hover
+/*!
+ * Hover.css (http://ianlunn.github.io/Hover/)
+ * Version: 2.2.0
+ * Author: Ian Lunn @IanLunn
+ * Author URL: http://ianlunn.co.uk/
+ * Github: https://github.com/IanLunn/Hover
 
+ * Hover.css Copyright Ian Lunn 2017. Generated with Sass.
+ */
+/* 2D TRANSITIONS */
+/* Grow */
 .hvr-grow {
   display: inline-block;
   vertical-align: middle;
@@ -9,10 +18,7 @@
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
 }
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.1);
@@ -29,10 +35,7 @@
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
 }
 .hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
   -webkit-transform: scale(0.9);
@@ -252,20 +255,17 @@
 .hvr-rotate {
   display: inline-block;
   vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(50);
-  transform: perspective(1px) translateZ(50);
-  box-shadow: 0 0 6px transparent;
-  -webkit-transition-duration: 1s;
-  transition-duration: 1s;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
 }
 .hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {
-  -webkit-transform: rotate(2deg);
-  transform: rotate(2deg);
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg);
 }
 
 /* Grow Rotate */
@@ -278,10 +278,7 @@
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
 }
 .hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
   -webkit-transform: scale(1.1) rotate(4deg);
@@ -298,10 +295,7 @@
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
@@ -320,10 +314,7 @@
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
@@ -379,8 +370,6 @@
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
-  display: block;
-  margin: auto;
 }
 .hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
   -webkit-animation-name: hvr-bob-float, hvr-bob;
@@ -397,8 +386,6 @@
   animation-fill-mode: forwards;
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
-  display: block;
-  margin: auto;
 }
 
 /* Hang */
@@ -406,40 +393,28 @@
   0% {
     -webkit-transform: translateY(8px);
     transform: translateY(8px);
-    display: block;
-    margin: auto;
   }
   50% {
     -webkit-transform: translateY(4px);
     transform: translateY(4px);
-    display: block;
-    margin: auto;
   }
   100% {
     -webkit-transform: translateY(8px);
     transform: translateY(8px);
-    display: block;
-    margin: auto;
   }
 }
 @keyframes hvr-hang {
   0% {
     -webkit-transform: translateY(8px);
     transform: translateY(8px);
-    display: block;
-    margin: auto;
   }
   50% {
     -webkit-transform: translateY(4px);
     transform: translateY(4px);
-    display: block;
-    margin: auto;
   }
   100% {
     -webkit-transform: translateY(8px);
     transform: translateY(8px);
-    display: block;
-    margin: auto;
   }
 }
 @-webkit-keyframes hvr-hang-sink {
@@ -460,8 +435,6 @@
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
-  display: block;
-  margin: auto;
 }
 .hvr-hang:hover, .hvr-hang:focus, .hvr-hang:active {
   -webkit-animation-name: hvr-hang-sink, hvr-hang;
@@ -478,8 +451,6 @@
   animation-fill-mode: forwards;
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
-  display: block;
-  margin: auto;
 }
 
 /* Skew */
@@ -492,10 +463,7 @@
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
 }
 .hvr-skew:hover, .hvr-skew:focus, .hvr-skew:active {
   -webkit-transform: skew(-10deg);
@@ -512,10 +480,7 @@
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transform-origin: 0 100%;
   transform-origin: 0 100%;
 }
@@ -534,10 +499,7 @@
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transform-origin: 0 100%;
   transform-origin: 0 100%;
 }
@@ -1199,10 +1161,7 @@
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
 }
 .hvr-forward:hover, .hvr-forward:focus, .hvr-forward:active {
   -webkit-transform: translateX(8px);
@@ -1219,10 +1178,7 @@
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
 }
 .hvr-backward:hover, .hvr-backward:focus, .hvr-backward:active {
   -webkit-transform: translateX(-8px);
@@ -1242,12 +1198,9 @@
   transition-duration: 0.3s;
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
-  color: white;
-  text-decoration: none;
-  padding: 10px 15px;
 }
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
-  background-color: #CDB380;
+  background-color: #2098D1;
   color: white;
 }
 
@@ -1317,10 +1270,7 @@
   -webkit-transform-origin: 0 50%;
   transform-origin: 0 50%;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
@@ -1361,10 +1311,7 @@
   -webkit-transform-origin: 100% 50%;
   transform-origin: 100% 50%;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
@@ -1405,10 +1352,7 @@
   -webkit-transform-origin: 50% 0;
   transform-origin: 50% 0;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
@@ -1449,10 +1393,7 @@
   -webkit-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
@@ -1493,10 +1434,7 @@
   -webkit-transform-origin: 0 50%;
   transform-origin: 0 50%;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
   -webkit-transition-timing-function: ease-out;
@@ -1539,10 +1477,7 @@
   -webkit-transform-origin: 100% 50%;
   transform-origin: 100% 50%;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
   -webkit-transition-timing-function: ease-out;
@@ -1585,10 +1520,7 @@
   -webkit-transform-origin: 50% 0;
   transform-origin: 50% 0;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
   -webkit-transition-timing-function: ease-out;
@@ -1631,10 +1563,7 @@
   -webkit-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
   -webkit-transition-timing-function: ease-out;
@@ -1659,15 +1588,11 @@
   box-shadow: 0 0 1px transparent;
   position: relative;
   overflow: hidden;
-  background: rgba(255,255,255,0.75);
+  background: #e1e1e1;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  text-decoration: none;
-  padding: 0;
-  font-size: 13px;
-  font-weight: bolder;
 }
 .hvr-radial-out:before {
   content: "";
@@ -1677,24 +1602,19 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(255,255,255,1);
+  background: #2098D1;
   border-radius: 100%;
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
-  font-size: 13px;
-  font-weight: bolder;
 }
 .hvr-radial-out:hover, .hvr-radial-out:focus, .hvr-radial-out:active {
-  color:  black;
+  color: white;
 }
 .hvr-radial-out:hover:before, .hvr-radial-out:focus:before, .hvr-radial-out:active:before {
   -webkit-transform: scale(2);
@@ -1729,10 +1649,7 @@
   -webkit-transform: scale(2);
   transform: scale(2);
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
@@ -1772,10 +1689,7 @@
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
@@ -1815,10 +1729,7 @@
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
@@ -1854,26 +1765,20 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #0b3f72;
-  border-radius: 100%;
+  background: #e1e1e1;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
   -webkit-transform-origin: 50%;
   transform-origin: 50%;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
-
 }
 .hvr-shutter-in-horizontal:hover, .hvr-shutter-in-horizontal:focus, .hvr-shutter-in-horizontal:active {
   color: white;
-  background: #ea6619;
 }
 .hvr-shutter-in-horizontal:hover:before, .hvr-shutter-in-horizontal:focus:before, .hvr-shutter-in-horizontal:active:before {
   -webkit-transform: scaleX(0);
@@ -1886,6 +1791,7 @@
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
   position: relative;
   background: none;
   -webkit-transition-property: color;
@@ -1901,24 +1807,17 @@
   bottom: 0;
   left: 0;
   right: 0;
-    background-color:
-rgb(29, 30, 38)
-;
+  background: rgb(29, 30, 38);
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 50%;
   transform-origin: 50%;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
-  color: white;
-  background-size: cover;
 }
 .hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
   color: white;
@@ -1956,10 +1855,7 @@ rgb(29, 30, 38)
   -webkit-transform-origin: 50%;
   transform-origin: 50%;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
@@ -2001,10 +1897,7 @@ rgb(29, 30, 38)
   -webkit-transform-origin: 50%;
   transform-origin: 50%;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
@@ -2030,11 +1923,11 @@ rgb(29, 30, 38)
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
-  box-shadow: inset 0 0 0 4px #212025, 0 0 1px transparent;
+  box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px transparent;
   /* Hack to improve aliasing on mobile/tablet devices */
 }
 .hvr-border-fade:hover, .hvr-border-fade:focus, .hvr-border-fade:active {
-  box-shadow: inset 0 0 0 3px white, 0 0 1px transparent;
+  box-shadow: inset 0 0 0 4px #2098D1, 0 0 1px transparent;
   /* Hack to improve aliasing on mobile/tablet devices */
 }
 
@@ -2248,7 +2141,7 @@ rgb(29, 30, 38)
 }
 
 /* Underline From Left */
-.cfrom-left {
+.hvr-underline-from-left {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -2469,6 +2362,7 @@ rgb(29, 30, 38)
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
   position: relative;
   overflow: hidden;
 }
@@ -2483,18 +2377,10 @@ rgb(29, 30, 38)
   height: 4px;
   -webkit-transform: translateY(4px);
   transform: translateY(4px);
-  height: 6px;
-  -webkit-transform: translateY(6px);
-  transform: translateY(6px);
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  -webkit-transition-duration: 0.6s;
-  transition-duration: 0.6s;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
@@ -2525,10 +2411,7 @@ rgb(29, 30, 38)
   -webkit-transform: translateY(-4px);
   transform: translateY(-4px);
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-timing-function: ease-out;
@@ -2582,10 +2465,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow, transform;
-  -webkit-transition-property: box-shadow, -webkit-transform;
-  transition-property: box-shadow, -webkit-transform;
   transition-property: box-shadow, transform;
-  transition-property: box-shadow, transform, -webkit-transform;
 }
 .hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
   box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
@@ -2639,10 +2519,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
 }
 .hvr-float-shadow:before {
   pointer-events: none;
@@ -2655,16 +2532,12 @@ rgb(29, 30, 38)
   width: 90%;
   opacity: 0;
   background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
-  background: -webkit-radial-gradient(center ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
   /* W3C */
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform, opacity;
-  -webkit-transition-property: opacity, -webkit-transform;
-  transition-property: opacity, -webkit-transform;
   transition-property: transform, opacity;
-  transition-property: transform, opacity, -webkit-transform;
 }
 .hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
   -webkit-transform: translateY(-5px);
@@ -2686,7 +2559,6 @@ rgb(29, 30, 38)
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
   position: relative;
-  color: black;
 }
 .hvr-shadow-radial:before, .hvr-shadow-radial:after {
   pointer-events: none;
@@ -2702,25 +2574,19 @@ rgb(29, 30, 38)
   transition-duration: 0.3s;
   -webkit-transition-property: opacity;
   transition-property: opacity;
-  color: white;
 }
 .hvr-shadow-radial:before {
-  color: white;
   bottom: 100%;
   background: -webkit-radial-gradient(50% 150%, ellipse, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
-  background: -webkit-radial-gradient(50% 150% ellipse, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
   background: radial-gradient(ellipse at 50% 150%, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
 }
 .hvr-shadow-radial:after {
-  color: white;
   top: 100%;
   background: -webkit-radial-gradient(50% -50%, ellipse, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
-  background: -webkit-radial-gradient(50% -50% ellipse, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
   background: radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
 }
 .hvr-shadow-radial:hover:before, .hvr-shadow-radial:focus:before, .hvr-shadow-radial:active:before, .hvr-shadow-radial:hover:after, .hvr-shadow-radial:focus:after, .hvr-shadow-radial:active:after {
   opacity: 1;
-  color: white;
 }
 
 /* SPEECH BUBBLES */
@@ -2742,10 +2608,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   left: calc(50% - 10px);
   top: 0;
   border-width: 0 10px 10px 10px;
@@ -2774,10 +2637,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   top: calc(50% - 10px);
   right: 0;
   border-width: 10px 0 10px 10px;
@@ -2806,10 +2666,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   left: calc(50% - 10px);
   bottom: 0;
   border-width: 10px 10px 0 10px;
@@ -2838,10 +2695,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   top: calc(50% - 10px);
   left: 0;
   border-width: 10px 10px 10px 0;
@@ -2863,10 +2717,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
 }
 .hvr-bubble-float-top:before {
   position: absolute;
@@ -2880,10 +2731,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
 }
 .hvr-bubble-float-top:hover, .hvr-bubble-float-top:focus, .hvr-bubble-float-top:active {
   -webkit-transform: translateY(10px);
@@ -2905,10 +2753,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
 }
 .hvr-bubble-float-right:before {
   position: absolute;
@@ -2922,10 +2767,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
 }
 .hvr-bubble-float-right:hover, .hvr-bubble-float-right:focus, .hvr-bubble-float-right:active {
   -webkit-transform: translateX(-10px);
@@ -2947,10 +2789,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
 }
 .hvr-bubble-float-bottom:before {
   position: absolute;
@@ -2964,10 +2803,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
 }
 .hvr-bubble-float-bottom:hover, .hvr-bubble-float-bottom:focus, .hvr-bubble-float-bottom:active {
   -webkit-transform: translateY(-10px);
@@ -2989,10 +2825,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
 }
 .hvr-bubble-float-left:before {
   position: absolute;
@@ -3006,10 +2839,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
 }
 .hvr-bubble-float-left:hover, .hvr-bubble-float-left:focus, .hvr-bubble-float-left:active {
   -webkit-transform: translateX(10px);
@@ -3044,10 +2874,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.1s;
   transition-duration: 0.1s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
@@ -3079,10 +2906,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.1s;
   transition-duration: 0.1s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
@@ -3094,26 +2918,26 @@ rgb(29, 30, 38)
 /* Icon Down */
 @-webkit-keyframes hvr-icon-down {
   0%,
-  50%,
-  100% {
+	50%,
+	100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
   25%,
-  75% {
+	75% {
     -webkit-transform: translateY(6px);
     transform: translateY(6px);
   }
 }
 @keyframes hvr-icon-down {
   0%,
-  50%,
-  100% {
+	50%,
+	100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
   25%,
-  75% {
+	75% {
     -webkit-transform: translateY(6px);
     transform: translateY(6px);
   }
@@ -3149,26 +2973,26 @@ rgb(29, 30, 38)
 /* Icon Up */
 @-webkit-keyframes hvr-icon-up {
   0%,
-  50%,
-  100% {
+	50%,
+	100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
   25%,
-  75% {
+	75% {
     -webkit-transform: translateY(-6px);
     transform: translateY(-6px);
   }
 }
 @keyframes hvr-icon-up {
   0%,
-  50%,
-  100% {
+	50%,
+	100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
   25%,
-  75% {
+	75% {
     -webkit-transform: translateY(-6px);
     transform: translateY(-6px);
   }
@@ -3220,10 +3044,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
@@ -3243,7 +3064,7 @@ rgb(29, 30, 38)
     transform: translateY(-100%);
   }
   51%,
-  100% {
+	100% {
     opacity: 1;
   }
 }
@@ -3257,7 +3078,7 @@ rgb(29, 30, 38)
     transform: translateY(-100%);
   }
   51%,
-  100% {
+	100% {
     opacity: 1;
   }
 }
@@ -3455,10 +3276,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
@@ -3490,10 +3308,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
@@ -3681,10 +3496,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
@@ -3734,10 +3546,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
@@ -3775,10 +3584,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
@@ -3812,10 +3618,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
@@ -3847,10 +3650,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
@@ -3882,10 +3682,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
@@ -3917,10 +3714,7 @@ rgb(29, 30, 38)
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
@@ -4441,7 +4235,6 @@ rgb(29, 30, 38)
   left: 0;
   background: white;
   /* IE9 */
-  background: -webkit-linear-gradient(315deg, white 45%, #aaa 50%, #ccc 56%, white 80%);
   background: linear-gradient(135deg, white 45%, #aaa 50%, #ccc 56%, white 80%);
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#000000');
   /*For IE7-8-9*/
@@ -4476,7 +4269,6 @@ rgb(29, 30, 38)
   right: 0;
   background: white;
   /* IE9 */
-  background: -webkit-linear-gradient(225deg, white 45%, #aaa 50%, #ccc 56%, white 80%);
   background: linear-gradient(225deg, white 45%, #aaa 50%, #ccc 56%, white 80%);
   box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.4);
   -webkit-transition-duration: 0.3s;
@@ -4508,7 +4300,6 @@ rgb(29, 30, 38)
   right: 0;
   background: white;
   /* IE9 */
-  background: -webkit-linear-gradient(135deg, white 45%, #aaa 50%, #ccc 56%, white 80%);
   background: linear-gradient(315deg, white 45%, #aaa 50%, #ccc 56%, white 80%);
   box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);
   -webkit-transition-duration: 0.3s;
@@ -4540,7 +4331,6 @@ rgb(29, 30, 38)
   left: 0;
   background: white;
   /* IE9 */
-  background: -webkit-linear-gradient(45deg, white 45%, #aaa 50%, #ccc 56%, white 80%);
   background: linear-gradient(45deg, white 45%, #aaa 50%, #ccc 56%, white 80%);
   box-shadow: 1px -1px 1px rgba(0, 0, 0, 0.4);
   -webkit-transition-duration: 0.3s;
@@ -4552,3 +4342,5 @@ rgb(29, 30, 38)
   width: 25px;
   height: 25px;
 }
+
+/*# sourceMappingURL=hover.css.map */
