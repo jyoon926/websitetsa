@@ -44,8 +44,23 @@
              $(".link").css("padding-bottom", "50px");
          }
      });
+     //Parallax
+function simpleParallax() {
+    //This variable is storing the distance scrolled
+    var scrolled = $(window).scrollTop() + 1;
+
+    //Every element with the class "scroll" will have parallax background
+    //Change the "0.3" for adjusting scroll speed.
+    $('.scroll').css('background-position', '0' + -(scrolled * 0.2) + 'px');
+}
+//Everytime we scroll, it will fire the function
+$(window).scroll(function (e) {
+    simpleParallax();
+});
      </script>
   </head>
+
+  <body>
 
   <div id="header" class="header animated fadeInDown">
   <div class="dropdown">
@@ -63,6 +78,10 @@
  </div>
 <p class="top" id="home">.</p>
 
+<div class="scroll">
+     <h1 class="landertext">The Mission to Mars</h1>
+</div>
+<!--
 <div class="lander">
 
   <h2 class="landertext">
@@ -70,6 +89,8 @@
   </h2>
 
 </div>
+-->
+
 <div class="body1" id="privatizing">
 
   <h3 class="wow fadeIn">Exploration of Space</h3>
@@ -429,5 +450,7 @@ November 26: </b>NASA launched Curiosity, the biggest, best equipped robot ever 
     <h2 class="wow fadeInRight">Level 1 Website Design Entry</h2>
 
 </footer>
+
+</body>
 
 </html>
