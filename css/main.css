@@ -85,11 +85,12 @@ hr {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-          transition-duration: 1s;
-          text-shadow: 0px 0px 20px black;
-          animation-duration: 1s;
+  -ms-flex-pack: center;
+  justify-content: center;
+  transition-duration: 1s;
+  text-shadow: 0px 0px 20px black;
+  animation-duration: 1s;
+  box-shadow: 0 3px 50px rgba(0, 0, 0, 0);
 }
 
 ul {
@@ -139,18 +140,18 @@ ul {
   display: none;
   position: absolute;
 
-    background-color: rgb(21, 22, 28);
+  background-color: rgb(29, 29, 38);
   min-width: 200px;
   z-index: 999;
   text-align: center;
-  box-shadow: 0 3px 50px rgba(0,0,0,0);
+  box-shadow: 0 3px 50px rgba(0,0,0,1);
   transition-duration: 0.5s;
 
-  background-color: rgb(21, 22, 28);
+  background-color: rgb(29, 29, 38);``
   min-width: 200px;
   z-index: 999;
   text-align: center;
-  box-shadow: 0 3px 50px rgba(0, 0, 0, 0);
+  box-shadow: 0 3px 50px rgba(0, 0, 0, 0.5);
   -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s;
 }
@@ -207,11 +208,10 @@ div a img {
     width:100vw;
     height:100vh;
     background-size: cover;
-    line-height:100vh;
     margin:0 auto;
-    text-align:center;
     color:#fff;
     font-family:'Open Sans' sans-serif;
+    padding-top: 45vh;
 }
 
 .scroll2 {
@@ -273,11 +273,10 @@ div a img {
   color: rgba(255, 255, 255, 1);
   font-weight: 100;
   font-size: 60px;
-  margin-bottom: 0;
-  text-align: center;
+  margin-left: 10%;
+  text-align: left;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  letter-spacing: 15px;
   text-shadow: 0px 0px 25px black;
   opacity: 0;
   animation: in 1s cubic-bezier(.53,.01,.48,.99) forwards 1;
@@ -293,7 +292,7 @@ div a img {
     overflow-y: hidden;
   }
   100% {
-    letter-spacing: 15px;
+    letter-spacing: 10px;
     opacity: 1;
     white-space: normal;
     overflow-y: auto;
@@ -308,7 +307,52 @@ div a img {
     overflow-y: hidden;
   }
   100% {
-    letter-spacing: 15px;
+    letter-spacing: 10px;
+    opacity: 1;
+    white-space: normal;
+    overflow-y: auto;
+  }
+}
+
+.landertext1 {
+  color: white;
+  font-weight: 900;
+  font-size: 60px;
+  margin-left: 10%;
+  text-align: left;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  text-shadow: 0px 0px 25px black;
+  opacity: 0;
+  animation: in 1s cubic-bezier(.53,.01,.48,.99) forwards 1;
+  animation-delay: .3s;
+  white-space: nowrap;
+}
+
+@-webkit-keyframes in {
+  0% {
+    letter-spacing: 20px;
+    opacity: 0;
+    white-space: nowrap;
+    overflow-y: hidden;
+  }
+  100% {
+    letter-spacing: 10px;
+    opacity: 1;
+    white-space: normal;
+    overflow-y: auto;
+  }
+}
+
+@keyframes in {
+  0% {
+    letter-spacing: 20px;
+    opacity: 0;
+    white-space: nowrap;
+    overflow-y: hidden;
+  }
+  100% {
+    letter-spacing: 10px;
     opacity: 1;
     white-space: normal;
     overflow-y: auto;
@@ -416,7 +460,7 @@ p {
   -ms-flex-align: center;
   align-items: center;
   padding-bottom: 100px;
-  background-color: rgb(21, 22, 28);
+  background-color: rgb(29, 29, 38);
   overflow-x: hidden;
 }
 
@@ -720,9 +764,9 @@ section#timeline article div.inner h2:after {
 }
 
 section#transportation {
-background-color: rgb(21, 22, 28);
+background-color: rgb(29, 29, 38);
 overflow-x: hidden;
-  background-color: rgb(21, 22, 28);
+background-color: rgb(29, 29, 38);
   overflow-x: hidden;
 }
 
@@ -832,10 +876,8 @@ section#prosandcons section div p {
 section#prosandcons section div h2 {}
 
 .k {
-background-color: rgb(21, 22, 28);
+background-color: rgb(29, 29, 38);
     padding-bottom: 100px;
-  background-color: rgb(21, 22, 28);
-  padding-bottom: 100px;
 }
 
 section#interviews {
@@ -950,13 +992,12 @@ section#workscited {
     -webkit-animation-duration: 2s;
             animation-duration: 2s;
     padding-bottom: 100px;
-    background-color: rgb(21, 22, 28);
   -webkit-animation-delay: 0s;
   animation-delay: 0s;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   padding-bottom: 100px;
-  background-color: rgb(21, 22, 28);
+  background-color: rgb(29, 29, 38);
 }
 
 section#workscited h3 {
