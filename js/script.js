@@ -518,7 +518,7 @@ window.onmousewheel = document.onmousewheel = wheel;
 
 function wheel(event) {
     var delta = 0;
-    if (event.wheelDelta) delta = event.wheelDelta / 50;
+    if (event.wheelDelta) delta = event.wheelDelta / 30;
     else if (event.detail) delta = -event.detail / 3;
 
     handle(delta);
@@ -531,8 +531,8 @@ var end = null;
 var interval = null;
 
 function handle(delta) {
-	var animationInterval = 15; //lower is faster
-  var scrollSpeed = 25; //lower is faster
+	var animationInterval = 10; //lower is faster
+  var scrollSpeed = 10; //lower is faster
 
 	if (end == null) {
   	end = $(window).scrollTop();
