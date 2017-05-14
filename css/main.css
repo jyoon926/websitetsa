@@ -201,7 +201,7 @@ div a img {
 
 .scroll {
      /*Set a css background */
-    background:url(https://s12.postimg.org/es1tf1efx/mars.png) fixed;
+    background:url(https://s12.postimg.org/es1tf1efx/mars.png) fixed ;
 
     /*Dont mind the rest*/
     width:100vw;
@@ -278,19 +278,16 @@ div a img {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   letter-spacing: 15px;
-  -mox-animation-delay: 0.3s;
-  -webkit-animation-delay: 0.3s;
-  animation-delay: 0.3s;
   text-shadow: 0px 0px 25px black;
   opacity: 0;
-  animation: in 2s cubic-bezier(.53,.01,.48,.99) forwards 1;
+  animation: in 1s cubic-bezier(.53,.01,.48,.99) forwards 1;
   animation-delay: .3s;
   white-space: nowrap;
 }
 
 @-webkit-keyframes in {
   0% {
-    letter-spacing: 50px;
+    letter-spacing: 20px;
     opacity: 0;
     white-space: nowrap;
     overflow-y: hidden;
@@ -305,7 +302,7 @@ div a img {
 
 @keyframes in {
   0% {
-    letter-spacing: 50px;
+    letter-spacing: 20px;
     opacity: 0;
     white-space: nowrap;
     overflow-y: hidden;
