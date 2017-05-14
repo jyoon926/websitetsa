@@ -1,7 +1,4 @@
 @import "compass/css3";
-::-webkit-scrollbar {
-   display: none;
-}
 html {
   box-sizing: border-box;
   margin: 0;
@@ -202,6 +199,51 @@ div a img {
   padding-left: 30px;
 }
 
+.scroll {
+     /*Set a css background */
+    background:url(https://s12.postimg.org/es1tf1efx/mars.png) fixed;
+
+    /*Dont mind the rest*/
+    width:100vw;
+    height:100vh;
+    background-size: cover;
+    line-height:100vh;
+    margin:0 auto;
+    text-align:center;
+    color:#fff;
+    font-family:'Open Sans' sans-serif;
+}
+
+.scroll2 {
+     /*Set a css background */
+    background:url(https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;s=1922cbce15cec57ee83a2a94b0b759c9) fixed;
+
+    /*Dont mind the rest*/
+    width:100vw;
+    height:75vh;
+    background-size: cover;
+    line-height:75vh;
+    margin:0 auto;
+    text-align:center;
+    color:#fff;
+    font-family:'Open Sans' sans-serif;
+}
+
+.scroll3 {
+     /*Set a css background */
+    background:url(https://images.unsplash.com/photo-1423592707957-3b212afa6733?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;s=68d368c10b1ce861c14750362f79a8d1) fixed;
+
+    /*Dont mind the rest*/
+    width:100vw;
+    height:75vh;
+    background-size: cover;
+    line-height:75vh;
+    margin:0 auto;
+    text-align:center;
+    color:#fff;
+    font-family:'Open Sans' sans-serif;
+}
+
 .lander {
   background-image: url(https://s12.postimg.org/es1tf1efx/mars.png);
   height: 100vh;
@@ -330,6 +372,7 @@ div a img {
   align-items: center;
   overflow-x: hidden;
   z-index: 90;
+  top: 100vh;
 }
 
 .body1 h3,
