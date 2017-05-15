@@ -443,18 +443,19 @@ p {
   color: white;
   font-size: 50px;
   font-weight: 100;
-  margin: 100px 5% 100px 0;
+  margin: 100px 5% 100px 5%;
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
   width: 50vw;
   text-align: right;
+  
 }
 
 .body1 p {
   color: #ccc;
   font-size: 15px;
   font-weight: 400;
-  margin: 100px 0 100px 5%;
+  margin: 100px 5% 100px 5%;
   line-height: 30px;
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
