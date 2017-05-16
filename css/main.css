@@ -376,6 +376,57 @@ div a img {
   }
 }
 
+.landertext2 {
+  color: white;
+  font-weight: 100;
+  font-size: 60px;
+  text-align: center;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  text-shadow: 0px 0px 25px black;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -webkit-animation: in 1s cubic-bezier(.53,.01,.48,.99) forwards 1;
+          animation: in 1s cubic-bezier(.53,.01,.48,.99) forwards 1;
+  -webkit-animation-delay: .3s;
+          animation-delay: .3s;
+  white-space: nowrap;
+}
+
+@-webkit-keyframes in {
+  0% {
+    letter-spacing: 20px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    white-space: nowrap;
+    overflow-y: hidden;
+  }
+  100% {
+    letter-spacing: 10px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    white-space: normal;
+    overflow-y: auto;
+  }
+}
+
+@keyframes in {
+  0% {
+    letter-spacing: 20px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    white-space: nowrap;
+    overflow-y: hidden;
+  }
+  100% {
+    letter-spacing: 10px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    white-space: normal;
+    overflow-y: auto;
+  }
+}
+
 .lander div {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -443,19 +494,18 @@ p {
   color: white;
   font-size: 50px;
   font-weight: 100;
-  margin: 100px 5% 100px 5%;
+  margin: 100px 5% 100px 0;
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
   width: 50vw;
   text-align: right;
-  
 }
 
 .body1 p {
   color: #ccc;
   font-size: 15px;
   font-weight: 400;
-  margin: 100px 5% 100px 5%;
+  margin: 100px 0 100px 5%;
   line-height: 30px;
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
@@ -1171,4 +1221,25 @@ div#lander1 h2 {
           animation-delay: .3s;
   white-space: nowrap;
   overflow-x: hidden;
+}
+
+.worklogimages {
+    width: 50%;
+    margin-left: 25vw;
+    margin-bottom: 50px;
+    box-shadow: 0 0 50px black;
+}
+
+.worklogimg {
+    padding-top: 100px;
+    padding-bottom: 90px;
+
+    background-color: rgb(29, 29, 38);
+}
+
+.copyrightchecklist {
+    width: 50%;
+    margin-left: 25vw;
+    margin-bottom: 50px;
+    box-shadow: 0 0 50px black;
 }
